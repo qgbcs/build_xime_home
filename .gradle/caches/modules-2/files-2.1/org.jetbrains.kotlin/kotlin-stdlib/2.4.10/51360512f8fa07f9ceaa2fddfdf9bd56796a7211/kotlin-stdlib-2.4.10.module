@@ -1,0 +1,372 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.jetbrains.kotlin",
+    "module": "kotlin-stdlib",
+    "version": "2.4.10",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "13.0"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "2.4.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlin-stdlib-2.4.10.jar",
+          "url": "kotlin-stdlib-2.4.10.jar",
+          "size": 1841933,
+          "sha512": "2214a0acb80919a40f3d45416e9c22f7fd32a6c63b70d3b7435a66d9f729dd5e77c40081b549ce570cea4c2c87b261069b575e515376033b35cb969b2faa3d3d",
+          "sha256": "4ec0293bc3751423b203f1d8493251c57c42e73eb6377a6b8560d0974ff0a6df",
+          "sha1": "8943c84ddc6d5cc00a10dbc3736c397066eeaab5",
+          "md5": "5b757154baf259203dc5a025571bec14"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "13.0"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "2.4.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlin-stdlib-2.4.10.jar",
+          "url": "kotlin-stdlib-2.4.10.jar",
+          "size": 1841933,
+          "sha512": "2214a0acb80919a40f3d45416e9c22f7fd32a6c63b70d3b7435a66d9f729dd5e77c40081b549ce570cea4c2c87b261069b575e515376033b35cb969b2faa3d3d",
+          "sha256": "4ec0293bc3751423b203f1d8493251c57c42e73eb6377a6b8560d0974ff0a6df",
+          "sha1": "8943c84ddc6d5cc00a10dbc3736c397066eeaab5",
+          "md5": "5b757154baf259203dc5a025571bec14"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kotlin-stdlib-2.4.10-sources.jar",
+          "url": "kotlin-stdlib-2.4.10-sources.jar",
+          "size": 757671,
+          "sha512": "5fede4384df1ffa94c58cbf4e9a13e09e0b5f1fbbb1fe94c01810929da0c839ec8ac61f0bacc7db0160a412a1e8cd11535790353c1d2c325a8de3fa70b0373fe",
+          "sha256": "5c4fa84ec945a63453e64bc0141c222ece806a2026c2961fe76b0be483896323",
+          "sha1": "52f5e97c76ad95737dd21d37f3814117ae76495c",
+          "md5": "6a7367b030c734d82479675f66fb3c7b"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "2.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlin-stdlib-2.4.10-all.jar",
+          "url": "kotlin-stdlib-2.4.10-all.jar",
+          "size": 215697,
+          "sha512": "fe9f409fc8729397856e15d6ff74b5e3fd2390c27d3402b1fda14b6b196d0d010cf5164e8c4b71f801903b149b0823e694bd3227c859df1626c93ff0d925339d",
+          "sha256": "d0e49d626d43c6677c9ddb9396e88b48afee4b21b4082b0fb71d894b2fa06c0f",
+          "sha1": "c166927c41888648fd0203ad43260690fa9ef0ed",
+          "md5": "4b8e4650a4b31024007d821edbd96ee3"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "kotlin-stdlib-2.4.10-common-sources.jar",
+          "url": "kotlin-stdlib-2.4.10-common-sources.jar",
+          "size": 478011,
+          "sha512": "61ebf2e8f24cfe241d31dc0dff7d6ccf3c19987f946ba408467afa00a3ace33facf34f5ebf17825b3cb8a2f7ce3756a1d0ab8c2e073a84535179e117d789976b",
+          "sha256": "15c56063751b7c9171a60798859956e95790a38ef726ea27cb2ee2fb1afc7649",
+          "sha1": "9888df88a3096c8fae5bdca61f64555754b3d04e",
+          "md5": "a5c04c74c8cb54f2b081a3fb20086979"
+        }
+      ]
+    },
+    {
+      "name": "nativeApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "2.4.10"
+          }
+        }
+      ]
+    },
+    {
+      "name": "jsApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.klib.packaging": "packed",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../kotlin-stdlib-js/2.4.10/kotlin-stdlib-js-2.4.10.module",
+        "group": "org.jetbrains.kotlin",
+        "module": "kotlin-stdlib-js",
+        "version": "2.4.10"
+      }
+    },
+    {
+      "name": "jsRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.klib.packaging": "packed",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../kotlin-stdlib-js/2.4.10/kotlin-stdlib-js-2.4.10.module",
+        "group": "org.jetbrains.kotlin",
+        "module": "kotlin-stdlib-js",
+        "version": "2.4.10"
+      }
+    },
+    {
+      "name": "jsSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../kotlin-stdlib-js/2.4.10/kotlin-stdlib-js-2.4.10.module",
+        "group": "org.jetbrains.kotlin",
+        "module": "kotlin-stdlib-js",
+        "version": "2.4.10"
+      }
+    },
+    {
+      "name": "wasmJsApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.klib.packaging": "packed",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../kotlin-stdlib-wasm-js/2.4.10/kotlin-stdlib-wasm-js-2.4.10.module",
+        "group": "org.jetbrains.kotlin",
+        "module": "kotlin-stdlib-wasm-js",
+        "version": "2.4.10"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.klib.packaging": "packed",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../kotlin-stdlib-wasm-js/2.4.10/kotlin-stdlib-wasm-js-2.4.10.module",
+        "group": "org.jetbrains.kotlin",
+        "module": "kotlin-stdlib-wasm-js",
+        "version": "2.4.10"
+      }
+    },
+    {
+      "name": "wasmJsSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../kotlin-stdlib-wasm-js/2.4.10/kotlin-stdlib-wasm-js-2.4.10.module",
+        "group": "org.jetbrains.kotlin",
+        "module": "kotlin-stdlib-wasm-js",
+        "version": "2.4.10"
+      }
+    },
+    {
+      "name": "wasmWasiApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.klib.packaging": "packed",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "wasi"
+      },
+      "available-at": {
+        "url": "../../kotlin-stdlib-wasm-wasi/2.4.10/kotlin-stdlib-wasm-wasi-2.4.10.module",
+        "group": "org.jetbrains.kotlin",
+        "module": "kotlin-stdlib-wasm-wasi",
+        "version": "2.4.10"
+      }
+    },
+    {
+      "name": "wasmWasiRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.klib.packaging": "packed",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "wasi"
+      },
+      "available-at": {
+        "url": "../../kotlin-stdlib-wasm-wasi/2.4.10/kotlin-stdlib-wasm-wasi-2.4.10.module",
+        "group": "org.jetbrains.kotlin",
+        "module": "kotlin-stdlib-wasm-wasi",
+        "version": "2.4.10"
+      }
+    },
+    {
+      "name": "wasmWasiSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "wasi"
+      },
+      "available-at": {
+        "url": "../../kotlin-stdlib-wasm-wasi/2.4.10/kotlin-stdlib-wasm-wasi-2.4.10.module",
+        "group": "org.jetbrains.kotlin",
+        "module": "kotlin-stdlib-wasm-wasi",
+        "version": "2.4.10"
+      }
+    }
+  ]
+}

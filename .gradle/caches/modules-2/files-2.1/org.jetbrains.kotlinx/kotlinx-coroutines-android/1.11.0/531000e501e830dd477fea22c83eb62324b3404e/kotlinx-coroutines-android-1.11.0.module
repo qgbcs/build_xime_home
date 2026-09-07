@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.jetbrains.kotlinx",
+    "module": "kotlinx-coroutines-android",
+    "version": "1.11.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-bom",
+          "version": {
+            "requires": "1.11.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-coroutines-android-1.11.0.jar",
+          "url": "kotlinx-coroutines-android-1.11.0.jar",
+          "size": 17819,
+          "sha512": "7be2e95d31232799ec84d76c389a308a4c870f88a716687e372e4931e4359cc1f97a15111795f889fa19268e381fcd58ee82b45655f7f617f9aef4c9d3f91635",
+          "sha256": "c2cb206d27017c7d1bf5ff179787397543d13748dbabb0d7237e1585e0b29044",
+          "sha1": "51ffb50a6478872fbbac6cbd48f09553bf4e9e7d",
+          "md5": "0e217cca1ac4b28362c569d1a87045b1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-bom",
+          "version": {
+            "requires": "1.11.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-coroutines-android-1.11.0.jar",
+          "url": "kotlinx-coroutines-android-1.11.0.jar",
+          "size": 17819,
+          "sha512": "7be2e95d31232799ec84d76c389a308a4c870f88a716687e372e4931e4359cc1f97a15111795f889fa19268e381fcd58ee82b45655f7f617f9aef4c9d3f91635",
+          "sha256": "c2cb206d27017c7d1bf5ff179787397543d13748dbabb0d7237e1585e0b29044",
+          "sha1": "51ffb50a6478872fbbac6cbd48f09553bf4e9e7d",
+          "md5": "0e217cca1ac4b28362c569d1a87045b1"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kotlinx-coroutines-android-1.11.0-sources.jar",
+          "url": "kotlinx-coroutines-android-1.11.0-sources.jar",
+          "size": 7779,
+          "sha512": "793bd6ad9cddb3ef88b29dda97f4d0a6e2de6b73572e7d82dc2f7bac2c3467090de2b6791880e8aa9db6a8d4db40b63f06e17e4003f91d524adf23b532675697",
+          "sha256": "d2760d65fc99c28d140b345163560926975cfe6ca36386c8964041f86eb2f4b6",
+          "sha1": "5909882998cc04147e3a500d9bd95dc995ae3745",
+          "md5": "16e3f70780f4f3b9e1868596aec24de0"
+        }
+      ]
+    }
+  ]
+}

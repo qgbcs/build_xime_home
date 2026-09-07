@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.rosemoe",
+    "module": "language-textmate",
+    "version": "0.24.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "language-textmate-0.24.6.aar",
+          "url": "language-textmate-0.24.6.aar",
+          "size": 270615,
+          "sha512": "f8649f49fae02d4ba87322bd0c6f43e4b5b4a9c6e7a5d38faaa388ab933484820d543e6657799dd81d20cebed94640eda53cc45159c98d03f5603d3e12370165",
+          "sha256": "9c5c8ffbd2c710040cf4314cbfdd50251bcfe8771dde96a7b0d735a85ec8916b",
+          "sha1": "c846c7c8f7a333bbb05cea5d91e38321860aabfe",
+          "md5": "37ba9caf755bcd2c756d8956e4064bc8"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.13.2"
+          }
+        },
+        {
+          "group": "org.jruby.jcodings",
+          "module": "jcodings",
+          "version": {
+            "requires": "1.0.64"
+          }
+        },
+        {
+          "group": "org.jruby.joni",
+          "module": "joni",
+          "version": {
+            "requires": "2.2.7"
+          }
+        },
+        {
+          "group": "org.snakeyaml",
+          "module": "snakeyaml-engine",
+          "version": {
+            "requires": "3.0.1"
+          }
+        },
+        {
+          "group": "org.eclipse.jdt",
+          "module": "org.eclipse.jdt.annotation",
+          "version": {
+            "requires": "2.4.100"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "language-textmate-0.24.6.aar",
+          "url": "language-textmate-0.24.6.aar",
+          "size": 270615,
+          "sha512": "f8649f49fae02d4ba87322bd0c6f43e4b5b4a9c6e7a5d38faaa388ab933484820d543e6657799dd81d20cebed94640eda53cc45159c98d03f5603d3e12370165",
+          "sha256": "9c5c8ffbd2c710040cf4314cbfdd50251bcfe8771dde96a7b0d735a85ec8916b",
+          "sha1": "c846c7c8f7a333bbb05cea5d91e38321860aabfe",
+          "md5": "37ba9caf755bcd2c756d8956e4064bc8"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "language-textmate-0.24.6-sources.jar",
+          "url": "language-textmate-0.24.6-sources.jar",
+          "size": 205502,
+          "sha512": "816512f1ca0814ebb6163955824fc9fa726ec6534588e42b8801c0637daada6306f99caddcc6873fa8c9a7590bc77907331b602828ab5313c16896837f384c67",
+          "sha256": "c179e730f76d1756fe8f9762e06e298ffe6933ed168b3d56348b1545697d0b46",
+          "sha1": "a59011034eabc0a150a7cff034ed3197a645c0fc",
+          "md5": "d3afd18a3074969cdf5aca108bf3890e"
+        }
+      ]
+    }
+  ]
+}

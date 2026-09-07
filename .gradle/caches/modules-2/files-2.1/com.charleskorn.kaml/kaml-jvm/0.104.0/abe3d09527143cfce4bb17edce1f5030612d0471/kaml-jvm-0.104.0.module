@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kaml/0.104.0/kaml-0.104.0.module",
+    "group": "com.charleskorn.kaml",
+    "module": "kaml",
+    "version": "0.104.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kaml-jvm-0.104.0.jar",
+          "url": "kaml-jvm-0.104.0.jar",
+          "size": 198093,
+          "sha512": "0e4f7694983743ea990e137609b07e6f74e3868b920b2d73a422111899d72dcd8ef0fafa10f9d7727a9f75e6fa64bf2af5b73098afe59fd05eb76bae13f884fe",
+          "sha256": "639dd0503c24debbf0b6c3a4f98315c7109c13cf6ab2d9e1cda8f783030f0216",
+          "sha1": "5bf02e2d698119f24fb1b88854b8888594526ceb",
+          "md5": "86459f934bdd283f09935bb0da5fb177"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        },
+        {
+          "group": "it.krzeminski",
+          "module": "snakeyaml-engine-kmp",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "com.squareup.okio",
+          "module": "okio",
+          "version": {
+            "requires": "3.16.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kaml-jvm-0.104.0.jar",
+          "url": "kaml-jvm-0.104.0.jar",
+          "size": 198093,
+          "sha512": "0e4f7694983743ea990e137609b07e6f74e3868b920b2d73a422111899d72dcd8ef0fafa10f9d7727a9f75e6fa64bf2af5b73098afe59fd05eb76bae13f884fe",
+          "sha256": "639dd0503c24debbf0b6c3a4f98315c7109c13cf6ab2d9e1cda8f783030f0216",
+          "sha1": "5bf02e2d698119f24fb1b88854b8888594526ceb",
+          "md5": "86459f934bdd283f09935bb0da5fb177"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kaml-jvm-0.104.0-sources.jar",
+          "url": "kaml-jvm-0.104.0-sources.jar",
+          "size": 40050,
+          "sha512": "81288290366c72c7ddf29b2ded076c19c4ef39680eb05e47a034bceabc1dfd1ec06b06bdcf12ef9310ce264206bdb3d02ddb565f89317b9ba9d95b9cfe54855a",
+          "sha256": "9dffa7c0fb6dfe8c2c37ea52a118707fadb57d3ef0fd0af605b65ceea0a1eed7",
+          "sha1": "672c23ae1ff43f29c58465bfd3d2340fe1ca3ccd",
+          "md5": "836fe9891694d3bf9e2000ba8137f73f"
+        }
+      ]
+    }
+  ]
+}

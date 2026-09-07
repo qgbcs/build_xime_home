@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.google.devtools.ksp",
+    "module": "symbol-processing-common-deps",
+    "version": "2.3.11",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "symbol-processing-common-deps-2.3.11.jar",
+          "url": "symbol-processing-common-deps-2.3.11.jar",
+          "size": 124281,
+          "sha512": "a434678420fc84e89e921b76498589c06af8ecaf40ea18c9dcc00b3aa214a2a2a5522c6521d55284b29e582f1a99a6c13447b7f9318029e7c657ed313b7dd69f",
+          "sha256": "30510a4364e02880ce2fbf0c4f0ef564dead3818eef4fc0500cbcee23fc362af",
+          "sha1": "f0bb28d7b911d8bd53e480c4678badbdede9507b",
+          "md5": "7d8e0028e9dbb002803b4d0dca825577"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "symbol-processing-common-deps-2.3.11.jar",
+          "url": "symbol-processing-common-deps-2.3.11.jar",
+          "size": 124281,
+          "sha512": "a434678420fc84e89e921b76498589c06af8ecaf40ea18c9dcc00b3aa214a2a2a5522c6521d55284b29e582f1a99a6c13447b7f9318029e7c657ed313b7dd69f",
+          "sha256": "30510a4364e02880ce2fbf0c4f0ef564dead3818eef4fc0500cbcee23fc362af",
+          "sha1": "f0bb28d7b911d8bd53e480c4678badbdede9507b",
+          "md5": "7d8e0028e9dbb002803b4d0dca825577"
+        }
+      ]
+    }
+  ]
+}

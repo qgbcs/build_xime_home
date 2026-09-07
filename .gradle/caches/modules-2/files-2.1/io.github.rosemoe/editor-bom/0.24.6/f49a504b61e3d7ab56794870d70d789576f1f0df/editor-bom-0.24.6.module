@@ -1,0 +1,148 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.rosemoe",
+    "module": "editor-bom",
+    "version": "0.24.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.github.rosemoe",
+          "module": "app",
+          "version": {
+            "requires": "0.24.6"
+          }
+        },
+        {
+          "group": "io.github.rosemoe",
+          "module": "editor",
+          "version": {
+            "requires": "0.24.6"
+          }
+        },
+        {
+          "group": "io.github.rosemoe",
+          "module": "editor-lsp",
+          "version": {
+            "requires": "0.24.6"
+          }
+        },
+        {
+          "group": "io.github.rosemoe",
+          "module": "language-java",
+          "version": {
+            "requires": "0.24.6"
+          }
+        },
+        {
+          "group": "io.github.rosemoe",
+          "module": "language-monarch",
+          "version": {
+            "requires": "0.24.6"
+          }
+        },
+        {
+          "group": "io.github.rosemoe",
+          "module": "language-textmate",
+          "version": {
+            "requires": "0.24.6"
+          }
+        },
+        {
+          "group": "io.github.rosemoe",
+          "module": "language-treesitter",
+          "version": {
+            "requires": "0.24.6"
+          }
+        },
+        {
+          "group": "io.github.rosemoe",
+          "module": "oniguruma-native",
+          "version": {
+            "requires": "0.24.6"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.github.rosemoe",
+          "module": "app",
+          "version": {
+            "requires": "0.24.6"
+          }
+        },
+        {
+          "group": "io.github.rosemoe",
+          "module": "editor",
+          "version": {
+            "requires": "0.24.6"
+          }
+        },
+        {
+          "group": "io.github.rosemoe",
+          "module": "editor-lsp",
+          "version": {
+            "requires": "0.24.6"
+          }
+        },
+        {
+          "group": "io.github.rosemoe",
+          "module": "language-java",
+          "version": {
+            "requires": "0.24.6"
+          }
+        },
+        {
+          "group": "io.github.rosemoe",
+          "module": "language-monarch",
+          "version": {
+            "requires": "0.24.6"
+          }
+        },
+        {
+          "group": "io.github.rosemoe",
+          "module": "language-textmate",
+          "version": {
+            "requires": "0.24.6"
+          }
+        },
+        {
+          "group": "io.github.rosemoe",
+          "module": "language-treesitter",
+          "version": {
+            "requires": "0.24.6"
+          }
+        },
+        {
+          "group": "io.github.rosemoe",
+          "module": "oniguruma-native",
+          "version": {
+            "requires": "0.24.6"
+          }
+        }
+      ]
+    }
+  ]
+}

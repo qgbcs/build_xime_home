@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-events/3.5.2/ktor-events-3.5.2.module",
+    "group": "io.ktor",
+    "module": "ktor-events",
+    "version": "3.5.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.18"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-utils",
+          "version": {
+            "requires": "3.5.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-events-jvm-3.5.2.jar",
+          "url": "ktor-events-jvm-3.5.2.jar",
+          "size": 6402,
+          "sha512": "c820207119fe47e0e40e205de330070e98e13ce1e9db614e0e3d06d7a0ba15729bc1aa5d1b59b4c525fe8bdbdb87ee110062743da8bd9250b377c8e90ba4b3ec",
+          "sha256": "7712ed1d51716180a9666fe88da5c5ef0e49123483ae2cd14ae3e9252ee71148",
+          "sha1": "5e64959ec6f91dff8ea281cfa102ae73bce000f7",
+          "md5": "bac2610676d934e3d5dc436bcaf82a8f"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.18"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-utils",
+          "version": {
+            "requires": "3.5.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-events-jvm-3.5.2.jar",
+          "url": "ktor-events-jvm-3.5.2.jar",
+          "size": 6402,
+          "sha512": "c820207119fe47e0e40e205de330070e98e13ce1e9db614e0e3d06d7a0ba15729bc1aa5d1b59b4c525fe8bdbdb87ee110062743da8bd9250b377c8e90ba4b3ec",
+          "sha256": "7712ed1d51716180a9666fe88da5c5ef0e49123483ae2cd14ae3e9252ee71148",
+          "sha1": "5e64959ec6f91dff8ea281cfa102ae73bce000f7",
+          "md5": "bac2610676d934e3d5dc436bcaf82a8f"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "ktor-events-jvm-3.5.2-sources.jar",
+          "url": "ktor-events-jvm-3.5.2-sources.jar",
+          "size": 2148,
+          "sha512": "7daa847643accbec0d0ff76b1e315cbc1ba8ec279cf92e877b3f1861bc404fb80a8d13e760e1ab8147140475b64fb2be0713189f306fa92873ac9263fea93226",
+          "sha256": "25a4d89461d074f84b3f77d8bfe875832adfe744c83aee283f4586f37acdffc3",
+          "sha1": "40750b1d65bf1bb0e2740bc83fc54f83b5333808",
+          "md5": "97598efdaf9dcc0f013164ec1cce5b35"
+        }
+      ]
+    }
+  ]
+}
