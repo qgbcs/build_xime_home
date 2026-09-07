@@ -1,0 +1,4 @@
+int id compose_prefetch_scheduler 0x0
+int string androidx_compose_foundation_autofill 0x0
+int string tooltip_description 0x0
+int string tooltip_label 0x0

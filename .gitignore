@@ -1,0 +1,50 @@
+# =========================
+# Editor and container state
+# =========================
+.vscode-remote/
+.devcontainer/.cache/
+
+# =========================
+# Local logs and temporary files
+# =========================
+*.log
+*.tmp
+*.swp
+.cache/
+
+# =========================
+# Kivy user-interface cache; unrelated to Xime_rpc
+# =========================
+.kivy/logs/
+.kivy/icon/
+
+# =========================
+# Gradle Volatile Caches & States
+# =========================
+.gradle/daemon/
+.gradle/native/
+.gradle/notifications/
+.gradle/.tmp/
+.gradle/kotlin-profile/
+
+# 拦截所有 Gradle 运行时产生的文件锁 (极其重要，防止冲突)
+*.lock
+
+# 拦截 Gradle 增量编译的二进制状态缓存 (如 classAnalysis.bin)
+*.bin
+
+# 拦截 Kotlin 编译器的性能分析和遥测文件
+*.profile
+*.kotlin-profile
+*.finish-profile
+
+# 拦截文件系统监听的日志目录
+journal-1/
+journal-*/
+
+# =========================
+# Build Outputs (推荐取消注释)
+# =========================
+# 如果你不需要将最终生成的 apk 提交到源码中，建议忽略：
+# bin/
+# build/

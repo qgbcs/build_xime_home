@@ -1,0 +1,6 @@
+.buildozer/android/platform/android-sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/clang-21 filter=lfs diff=lfs merge=lfs -text
+.buildozer/android/platform/android-sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/libclang-cpp.so filter=lfs diff=lfs merge=lfs -text
+.buildozer/android/platform/android-sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/libclang.so filter=lfs diff=lfs merge=lfs -text
+.buildozer/android/platform/android-sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/lib/liblldb.so filter=lfs diff=lfs merge=lfs -text
+.gradle/caches/9.5.0/generated-gradle-jars/gradle-api-9.5.0.jar filter=lfs diff=lfs merge=lfs -text
+.gradle/wrapper/dists/gradle-8.14.3-all/h9bud5ffjflfoe91ghcb596uv/gradle-8.14.3-all.zip filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,13 @@
+androidx.graphics.path.ConicConverter
+androidx.graphics.path.PathIterator
+androidx.graphics.path.PathIterator$ConicEvaluation
+androidx.graphics.path.PathIteratorApi34Impl
+androidx.graphics.path.PathIteratorImpl
+androidx.graphics.path.PathIteratorImpl$Companion
+androidx.graphics.path.PathIteratorImpl$WhenMappings
+androidx.graphics.path.PathIteratorImplKt
+androidx.graphics.path.PathIteratorPreApi34Impl
+androidx.graphics.path.PathSegment
+androidx.graphics.path.PathSegment$Type
+androidx.graphics.path.PathSegmentUtilities
+androidx.graphics.path.PathUtilities

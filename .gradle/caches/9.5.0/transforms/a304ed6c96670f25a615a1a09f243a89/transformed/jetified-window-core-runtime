@@ -1,0 +1,8 @@
+androidx.window.core.ExperimentalWindowCoreApi
+androidx.window.core.layout.WindowHeightSizeClass
+androidx.window.core.layout.WindowHeightSizeClass$Companion
+androidx.window.core.layout.WindowSizeClass
+androidx.window.core.layout.WindowSizeClass$Companion
+androidx.window.core.layout.WindowSizeClassSelectors
+androidx.window.core.layout.WindowWidthSizeClass
+androidx.window.core.layout.WindowWidthSizeClass$Companion

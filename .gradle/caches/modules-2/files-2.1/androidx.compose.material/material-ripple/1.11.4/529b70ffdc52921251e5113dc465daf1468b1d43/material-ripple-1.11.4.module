@@ -1,0 +1,257 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.compose.material",
+    "module": "material-ripple",
+    "version": "1.11.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.0",
+      "buildId:": "15700434"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.11.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "material-ripple-metadata-1.11.4.jar",
+          "url": "material-ripple-1.11.4.jar",
+          "size": 14582,
+          "sha512": "ec0b475288d86f263d94b160e0c97633b2661f30b7f84da3a45b2c81fb0077efc2176478790708a951f74b3f7e3c71b50bb593843f61aba98d274e1acd7b378d",
+          "sha256": "040127ee4b80c1331ecaaef819c7079a18ef0f81fd6e76d98d42fb57d284e00d",
+          "sha1": "8fd984b9eca1f60e2dadbcdfa81a9f691ed9c35a",
+          "md5": "df645dfd6a33804ac52af4dc272cf481"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "material-ripple-kotlin-1.11.4-sources.jar",
+          "url": "material-ripple-1.11.4-sources.jar",
+          "size": 20384,
+          "sha512": "963374037aa18d938cfa226e3b65d180c480a9fe7fb085b81b9c2ab9a1d31ca426a7ea959c3ad3001b1bb56ae1504d4e0675be938c31b1bcf9e66e268751e10d",
+          "sha256": "69cb3dca99f6460d50adb7ef911998341cfcd88b3f063f157e370d3c242d6cf8",
+          "sha1": "83a5b4687716a39e91cc7aa0ce7cf604c4f14423",
+          "md5": "5537dc876aba7b6e45085f0c507b559d"
+        }
+      ]
+    },
+    {
+      "name": "androidxSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "androidx-multiplatform-docs"
+      },
+      "files": [
+        {
+          "name": "material-ripple-1.11.4-multiplatform-sources.jar",
+          "url": "material-ripple-1.11.4-multiplatform-sources.jar",
+          "size": 30745,
+          "sha512": "5173707f2ce2de2d8feeba99b2ad520cdfd4bd87afdfe471f064d19e49176010d6d3b692b243b31f0e21dff9850ccf0e725ea2b62a466e12581d38f3dbc8fd77",
+          "sha256": "b63ae0a5e27b8d7fd8a866a9901079928c36ed5b76a2675092ba19aa2229fb7e",
+          "sha1": "792f7e257cd8438406f7439ea608903059e17713",
+          "md5": "ebd70376088684755db1f9e1c69ad74c"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "files": [
+        {
+          "name": "apiLevels.json",
+          "url": "material-ripple-1.11.4-versionMetadata.json",
+          "size": 3166,
+          "sha512": "28a27526d19a8fd13fb31d959c97c634d1c445418ef77cf86662bac507d63bac5d4854d1edef1a853d745d0d3e89751c67bd00bb8b98bee1ea6486d200e43a53",
+          "sha256": "aff58f588e24a6a2181acce7cf14903f1a639f0261a3321e3a5f358f87a8810f",
+          "sha1": "d47a61abc49b3adeeb3920f41b30739d3dbdcf98",
+          "md5": "f9c5d8c9f5394701b8ca275d4f7014db"
+        }
+      ]
+    },
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../material-ripple-android/1.11.4/material-ripple-android-1.11.4.module",
+        "group": "androidx.compose.material",
+        "module": "material-ripple-android",
+        "version": "1.11.4"
+      }
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../material-ripple-android/1.11.4/material-ripple-android-1.11.4.module",
+        "group": "androidx.compose.material",
+        "module": "material-ripple-android",
+        "version": "1.11.4"
+      }
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../material-ripple-android/1.11.4/material-ripple-android-1.11.4.module",
+        "group": "androidx.compose.material",
+        "module": "material-ripple-android",
+        "version": "1.11.4"
+      }
+    },
+    {
+      "name": "jvmStubsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../material-ripple-jvmstubs/1.11.4/material-ripple-jvmstubs-1.11.4.module",
+        "group": "androidx.compose.material",
+        "module": "material-ripple-jvmstubs",
+        "version": "1.11.4"
+      }
+    },
+    {
+      "name": "jvmStubsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../material-ripple-jvmstubs/1.11.4/material-ripple-jvmstubs-1.11.4.module",
+        "group": "androidx.compose.material",
+        "module": "material-ripple-jvmstubs",
+        "version": "1.11.4"
+      }
+    },
+    {
+      "name": "jvmStubsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../material-ripple-jvmstubs/1.11.4/material-ripple-jvmstubs-1.11.4.module",
+        "group": "androidx.compose.material",
+        "module": "material-ripple-jvmstubs",
+        "version": "1.11.4"
+      }
+    },
+    {
+      "name": "linuxx64StubsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../material-ripple-linuxx64stubs/1.11.4/material-ripple-linuxx64stubs-1.11.4.module",
+        "group": "androidx.compose.material",
+        "module": "material-ripple-linuxx64stubs",
+        "version": "1.11.4"
+      }
+    },
+    {
+      "name": "linuxx64StubsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../material-ripple-linuxx64stubs/1.11.4/material-ripple-linuxx64stubs-1.11.4.module",
+        "group": "androidx.compose.material",
+        "module": "material-ripple-linuxx64stubs",
+        "version": "1.11.4"
+      }
+    }
+  ]
+}

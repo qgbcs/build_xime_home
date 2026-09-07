@@ -1,0 +1,567 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.room3",
+    "module": "room3-compiler-processing",
+    "version": "3.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0",
+      "buildId:": "15714316"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "symbol-processing-api",
+          "version": {
+            "requires": "2.0.10-1.0.24"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "javapoet",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet-javapoet",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jspecify",
+          "module": "jspecify",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.room3",
+          "module": "room3-common",
+          "version": {
+            "requires": "3.0.0"
+          },
+          "reason": "room3-compiler-processing is in atomic group androidx.room3"
+        },
+        {
+          "group": "androidx.room3",
+          "module": "room3-compiler",
+          "version": {
+            "requires": "3.0.0"
+          },
+          "reason": "room3-compiler-processing is in atomic group androidx.room3"
+        },
+        {
+          "group": "androidx.room3",
+          "module": "room3-compiler-processing-testing",
+          "version": {
+            "requires": "3.0.0"
+          },
+          "reason": "room3-compiler-processing is in atomic group androidx.room3"
+        },
+        {
+          "group": "androidx.room3",
+          "module": "room3-external-antlr",
+          "version": {
+            "requires": "3.0.0"
+          },
+          "reason": "room3-compiler-processing is in atomic group androidx.room3"
+        },
+        {
+          "group": "androidx.room3",
+          "module": "room3-guava",
+          "version": {
+            "requires": "3.0.0"
+          },
+          "reason": "room3-compiler-processing is in atomic group androidx.room3"
+        },
+        {
+          "group": "androidx.room3",
+          "module": "room3-livedata",
+          "version": {
+            "requires": "3.0.0"
+          },
+          "reason": "room3-compiler-processing is in atomic group androidx.room3"
+        },
+        {
+          "group": "androidx.room3",
+          "module": "room3-gradle-plugin",
+          "version": {
+            "requires": "3.0.0"
+          },
+          "reason": "room3-compiler-processing is in atomic group androidx.room3"
+        },
+        {
+          "group": "androidx.room3",
+          "module": "room3-migration",
+          "version": {
+            "requires": "3.0.0"
+          },
+          "reason": "room3-compiler-processing is in atomic group androidx.room3"
+        },
+        {
+          "group": "androidx.room3",
+          "module": "room3-paging",
+          "version": {
+            "requires": "3.0.0"
+          },
+          "reason": "room3-compiler-processing is in atomic group androidx.room3"
+        },
+        {
+          "group": "androidx.room3",
+          "module": "room3-paging-guava",
+          "version": {
+            "requires": "3.0.0"
+          },
+          "reason": "room3-compiler-processing is in atomic group androidx.room3"
+        },
+        {
+          "group": "androidx.room3",
+          "module": "room3-paging-rxjava3",
+          "version": {
+            "requires": "3.0.0"
+          },
+          "reason": "room3-compiler-processing is in atomic group androidx.room3"
+        },
+        {
+          "group": "androidx.room3",
+          "module": "room3-runtime",
+          "version": {
+            "requires": "3.0.0"
+          },
+          "reason": "room3-compiler-processing is in atomic group androidx.room3"
+        },
+        {
+          "group": "androidx.room3",
+          "module": "room3-rxjava3",
+          "version": {
+            "requires": "3.0.0"
+          },
+          "reason": "room3-compiler-processing is in atomic group androidx.room3"
+        },
+        {
+          "group": "androidx.room3",
+          "module": "room3-sqlite-wrapper",
+          "version": {
+            "requires": "3.0.0"
+          },
+          "reason": "room3-compiler-processing is in atomic group androidx.room3"
+        },
+        {
+          "group": "androidx.room3",
+          "module": "room3-testing",
+          "version": {
+            "requires": "3.0.0"
+          },
+          "reason": "room3-compiler-processing is in atomic group androidx.room3"
+        }
+      ],
+      "files": [
+        {
+          "name": "room3-compiler-processing-3.0.0.jar",
+          "url": "room3-compiler-processing-3.0.0.jar",
+          "size": 952014,
+          "sha512": "32cbab1df8e8a3fb7179105e88fa848ede4f2a449ca3e78af2075c616e7f4da90fab053a2dbd8579e89a514d1f17f35348760f20fa8628554779257a5a45c5ca",
+          "sha256": "e2b9688f5159c19d8f2cae76d9e4f613cacd67cfa6aed678b02ea34256ae5ff0",
+          "sha1": "32f28c2528e8008d4364f68cb5d34eb9bcf7b11a",
+          "md5": "5e7e5fad0898206e9409c341e10af365"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.auto",
+          "module": "auto-common",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "com.google.auto.value",
+          "module": "auto-value-annotations",
+          "version": {
+            "requires": "1.6.3"
+          }
+        },
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "symbol-processing-api",
+          "version": {
+            "requires": "2.0.10-1.0.24"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "33.2.1-jre"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "javapoet",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet-javapoet",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-metadata-jvm",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jspecify",
+          "module": "jspecify",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.room3",
+          "module": "room3-common",
+          "version": {
+            "requires": "3.0.0"
+          },
+          "reason": "room3-compiler-processing is in atomic group androidx.room3"
+        },
+        {
+          "group": "androidx.room3",
+          "module": "room3-compiler",
+          "version": {
+            "requires": "3.0.0"
+          },
+          "reason": "room3-compiler-processing is in atomic group androidx.room3"
+        },
+        {
+          "group": "androidx.room3",
+          "module": "room3-compiler-processing-testing",
+          "version": {
+            "requires": "3.0.0"
+          },
+          "reason": "room3-compiler-processing is in atomic group androidx.room3"
+        },
+        {
+          "group": "androidx.room3",
+          "module": "room3-external-antlr",
+          "version": {
+            "requires": "3.0.0"
+          },
+          "reason": "room3-compiler-processing is in atomic group androidx.room3"
+        },
+        {
+          "group": "androidx.room3",
+          "module": "room3-guava",
+          "version": {
+            "requires": "3.0.0"
+          },
+          "reason": "room3-compiler-processing is in atomic group androidx.room3"
+        },
+        {
+          "group": "androidx.room3",
+          "module": "room3-livedata",
+          "version": {
+            "requires": "3.0.0"
+          },
+          "reason": "room3-compiler-processing is in atomic group androidx.room3"
+        },
+        {
+          "group": "androidx.room3",
+          "module": "room3-gradle-plugin",
+          "version": {
+            "requires": "3.0.0"
+          },
+          "reason": "room3-compiler-processing is in atomic group androidx.room3"
+        },
+        {
+          "group": "androidx.room3",
+          "module": "room3-migration",
+          "version": {
+            "requires": "3.0.0"
+          },
+          "reason": "room3-compiler-processing is in atomic group androidx.room3"
+        },
+        {
+          "group": "androidx.room3",
+          "module": "room3-paging",
+          "version": {
+            "requires": "3.0.0"
+          },
+          "reason": "room3-compiler-processing is in atomic group androidx.room3"
+        },
+        {
+          "group": "androidx.room3",
+          "module": "room3-paging-guava",
+          "version": {
+            "requires": "3.0.0"
+          },
+          "reason": "room3-compiler-processing is in atomic group androidx.room3"
+        },
+        {
+          "group": "androidx.room3",
+          "module": "room3-paging-rxjava3",
+          "version": {
+            "requires": "3.0.0"
+          },
+          "reason": "room3-compiler-processing is in atomic group androidx.room3"
+        },
+        {
+          "group": "androidx.room3",
+          "module": "room3-runtime",
+          "version": {
+            "requires": "3.0.0"
+          },
+          "reason": "room3-compiler-processing is in atomic group androidx.room3"
+        },
+        {
+          "group": "androidx.room3",
+          "module": "room3-rxjava3",
+          "version": {
+            "requires": "3.0.0"
+          },
+          "reason": "room3-compiler-processing is in atomic group androidx.room3"
+        },
+        {
+          "group": "androidx.room3",
+          "module": "room3-sqlite-wrapper",
+          "version": {
+            "requires": "3.0.0"
+          },
+          "reason": "room3-compiler-processing is in atomic group androidx.room3"
+        },
+        {
+          "group": "androidx.room3",
+          "module": "room3-testing",
+          "version": {
+            "requires": "3.0.0"
+          },
+          "reason": "room3-compiler-processing is in atomic group androidx.room3"
+        }
+      ],
+      "files": [
+        {
+          "name": "room3-compiler-processing-3.0.0.jar",
+          "url": "room3-compiler-processing-3.0.0.jar",
+          "size": 952014,
+          "sha512": "32cbab1df8e8a3fb7179105e88fa848ede4f2a449ca3e78af2075c616e7f4da90fab053a2dbd8579e89a514d1f17f35348760f20fa8628554779257a5a45c5ca",
+          "sha256": "e2b9688f5159c19d8f2cae76d9e4f613cacd67cfa6aed678b02ea34256ae5ff0",
+          "sha1": "32f28c2528e8008d4364f68cb5d34eb9bcf7b11a",
+          "md5": "5e7e5fad0898206e9409c341e10af365"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.room3",
+          "module": "room3-common",
+          "version": {
+            "requires": "3.0.0"
+          },
+          "reason": "room3-compiler-processing is in atomic group androidx.room3"
+        },
+        {
+          "group": "androidx.room3",
+          "module": "room3-compiler",
+          "version": {
+            "requires": "3.0.0"
+          },
+          "reason": "room3-compiler-processing is in atomic group androidx.room3"
+        },
+        {
+          "group": "androidx.room3",
+          "module": "room3-compiler-processing-testing",
+          "version": {
+            "requires": "3.0.0"
+          },
+          "reason": "room3-compiler-processing is in atomic group androidx.room3"
+        },
+        {
+          "group": "androidx.room3",
+          "module": "room3-external-antlr",
+          "version": {
+            "requires": "3.0.0"
+          },
+          "reason": "room3-compiler-processing is in atomic group androidx.room3"
+        },
+        {
+          "group": "androidx.room3",
+          "module": "room3-guava",
+          "version": {
+            "requires": "3.0.0"
+          },
+          "reason": "room3-compiler-processing is in atomic group androidx.room3"
+        },
+        {
+          "group": "androidx.room3",
+          "module": "room3-livedata",
+          "version": {
+            "requires": "3.0.0"
+          },
+          "reason": "room3-compiler-processing is in atomic group androidx.room3"
+        },
+        {
+          "group": "androidx.room3",
+          "module": "room3-gradle-plugin",
+          "version": {
+            "requires": "3.0.0"
+          },
+          "reason": "room3-compiler-processing is in atomic group androidx.room3"
+        },
+        {
+          "group": "androidx.room3",
+          "module": "room3-migration",
+          "version": {
+            "requires": "3.0.0"
+          },
+          "reason": "room3-compiler-processing is in atomic group androidx.room3"
+        },
+        {
+          "group": "androidx.room3",
+          "module": "room3-paging",
+          "version": {
+            "requires": "3.0.0"
+          },
+          "reason": "room3-compiler-processing is in atomic group androidx.room3"
+        },
+        {
+          "group": "androidx.room3",
+          "module": "room3-paging-guava",
+          "version": {
+            "requires": "3.0.0"
+          },
+          "reason": "room3-compiler-processing is in atomic group androidx.room3"
+        },
+        {
+          "group": "androidx.room3",
+          "module": "room3-paging-rxjava3",
+          "version": {
+            "requires": "3.0.0"
+          },
+          "reason": "room3-compiler-processing is in atomic group androidx.room3"
+        },
+        {
+          "group": "androidx.room3",
+          "module": "room3-runtime",
+          "version": {
+            "requires": "3.0.0"
+          },
+          "reason": "room3-compiler-processing is in atomic group androidx.room3"
+        },
+        {
+          "group": "androidx.room3",
+          "module": "room3-rxjava3",
+          "version": {
+            "requires": "3.0.0"
+          },
+          "reason": "room3-compiler-processing is in atomic group androidx.room3"
+        },
+        {
+          "group": "androidx.room3",
+          "module": "room3-sqlite-wrapper",
+          "version": {
+            "requires": "3.0.0"
+          },
+          "reason": "room3-compiler-processing is in atomic group androidx.room3"
+        },
+        {
+          "group": "androidx.room3",
+          "module": "room3-testing",
+          "version": {
+            "requires": "3.0.0"
+          },
+          "reason": "room3-compiler-processing is in atomic group androidx.room3"
+        }
+      ],
+      "files": [
+        {
+          "name": "room3-compiler-processing-3.0.0-sources.jar",
+          "url": "room3-compiler-processing-3.0.0-sources.jar",
+          "size": 284949,
+          "sha512": "e689ceac7d50bd9e266851f1485e28e78b696cfe7a35d0d87e0009789ad413e057653ee81e13299ae8e2bcdb7dc6691a43b7ccba36b1f94541a5d69fa6787297",
+          "sha256": "3115250c594cc98c67448b12606fa1a13fa52b9b94efdfe03a96ac3e80320734",
+          "sha1": "ea9b22439502170447863832f136a039e1ff75fb",
+          "md5": "1e61e8497bd2444ce971d1866d2117a6"
+        }
+      ]
+    }
+  ]
+}
