@@ -1,0 +1,10 @@
+androidx.lifecycle.viewmodel.compose.LocalViewModelStoreOwner
+androidx.lifecycle.viewmodel.compose.LocalViewModelStoreOwner_androidKt
+androidx.lifecycle.viewmodel.compose.SavedStateHandleSaveableApi
+androidx.lifecycle.viewmodel.compose.SavedStateHandleSaverKt
+androidx.lifecycle.viewmodel.compose.SavedStateHandleSaverKt$mutableStateSaver$1$2
+androidx.lifecycle.viewmodel.compose.SavedStateHandleSaverKt$saveable$1$1$1
+androidx.lifecycle.viewmodel.compose.SavedStateHandleSaverKt$saveable$3$1
+androidx.lifecycle.viewmodel.compose.ViewModelKt
+androidx.lifecycle.viewmodel.compose.ViewModelKt__ViewModelKt
+androidx.lifecycle.viewmodel.compose.ViewModelKt__ViewModel_androidKt

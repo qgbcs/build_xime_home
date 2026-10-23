@@ -1,0 +1,6 @@
+androidx.compose.runtime.Immutable
+androidx.compose.runtime.Stable
+androidx.compose.runtime.StableMarker
+androidx.compose.runtime.annotation.DoNotRetain
+androidx.compose.runtime.annotation.FrequentlyChangingValue
+androidx.compose.runtime.annotation.RememberInComposition

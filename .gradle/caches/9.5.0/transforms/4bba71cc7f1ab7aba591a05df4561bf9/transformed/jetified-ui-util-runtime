@@ -1,0 +1,9 @@
+androidx.compose.ui.ExperimentalComposeUiApi
+androidx.compose.ui.ExperimentalIndirectPointerApi
+androidx.compose.ui.ExperimentalMediaQueryApi
+androidx.compose.ui.InternalComposeUiApi
+androidx.compose.ui.util.AndroidTrace_androidKt
+androidx.compose.ui.util.InlineClassHelperKt
+androidx.compose.ui.util.InlineClassHelper_jvmKt
+androidx.compose.ui.util.ListUtilsKt
+androidx.compose.ui.util.MathHelpersKt

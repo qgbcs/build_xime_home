@@ -1,0 +1,8 @@
+org.eclipse.jdt.annotation.Checks
+org.eclipse.jdt.annotation.DefaultLocation
+org.eclipse.jdt.annotation.NonNull
+org.eclipse.jdt.annotation.NonNullByDefault
+org.eclipse.jdt.annotation.NotOwning
+org.eclipse.jdt.annotation.Nullable
+org.eclipse.jdt.annotation.Owning
+org.eclipse.jdt.annotation.package-info
