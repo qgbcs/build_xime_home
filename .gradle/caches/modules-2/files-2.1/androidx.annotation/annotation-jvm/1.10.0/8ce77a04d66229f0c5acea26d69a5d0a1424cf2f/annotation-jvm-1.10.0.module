@@ -1,0 +1,113 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../annotation/1.10.0/annotation-1.10.0.module",
+    "group": "androidx.annotation",
+    "module": "annotation",
+    "version": "1.10.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.0",
+      "buildId:": "15082520"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "annotation-jvm-1.10.0.jar",
+          "url": "annotation-jvm-1.10.0.jar",
+          "size": 62171,
+          "sha512": "07c3d87a7643270cf9279ad0c9526947b5e8ab8f92360c2d5441645de4a004b73420b7e223ce4c226fcc8a1377d357d6fc45f10f285b21742b417e0d60f20798",
+          "sha256": "ddd072ddbb553178e205517ce777b2f05aa9e412982d9ecb4eedc74f1212f697",
+          "sha1": "388cfaa79001d0f024d28f6a13d5a3dfc2f0e18f",
+          "md5": "115b24fa6dc2fbca9edd40aadb0ce03e"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.compose.annotation-internal",
+          "module": "annotation",
+          "version": {
+            "requires": "1.8.0"
+          },
+          "reason": "prevents symbols duplication"
+        }
+      ],
+      "files": [
+        {
+          "name": "annotation-jvm-1.10.0.jar",
+          "url": "annotation-jvm-1.10.0.jar",
+          "size": 62171,
+          "sha512": "07c3d87a7643270cf9279ad0c9526947b5e8ab8f92360c2d5441645de4a004b73420b7e223ce4c226fcc8a1377d357d6fc45f10f285b21742b417e0d60f20798",
+          "sha256": "ddd072ddbb553178e205517ce777b2f05aa9e412982d9ecb4eedc74f1212f697",
+          "sha1": "388cfaa79001d0f024d28f6a13d5a3dfc2f0e18f",
+          "md5": "115b24fa6dc2fbca9edd40aadb0ce03e"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "annotation-jvm-1.10.0-sources.jar",
+          "url": "annotation-jvm-1.10.0-sources.jar",
+          "size": 73321,
+          "sha512": "a5251db0593d4b109d2896cd0b2747f4cd8d4b2f65856f234be6ca086ff4571865c4ad837138c8382ea53b97ebffe63669aa8b9b20fb622f561c18f902b15935",
+          "sha256": "4f093265c2f99d314a5e161d748100588c49663b098a8a031aa173315c530ef7",
+          "sha1": "05c7aafccc0043ff72afb3ed3e9109674995ab56",
+          "md5": "55de74482eb3eaeedff343be7027076a"
+        }
+      ]
+    }
+  ]
+}

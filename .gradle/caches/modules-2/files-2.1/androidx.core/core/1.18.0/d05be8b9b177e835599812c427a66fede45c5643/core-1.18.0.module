@@ -1,0 +1,295 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.core",
+    "module": "core",
+    "version": "1.18.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.3.0",
+      "buildId:": "14909292"
+    }
+  },
+  "variants": [
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "core-1.18.0-sources.jar",
+          "url": "core-1.18.0-sources.jar",
+          "size": 985289,
+          "sha512": "6ad289b282a40ac58d4ceca4df97ffe6d3ab846a4977db27874ffe4242e2baffb28f6793a14b31bf92758efb104e1efcf548e43d906d8776bb699d4d0627b3fe",
+          "sha256": "986522d59cd0b6b01b67c43ccd5bad9d36368372aeac35003b16942e37a88f4c",
+          "sha1": "64c52ffce6ad3a2d60d884d70098a9c24669ff50",
+          "md5": "67a8d1945bd85735b7a992234cef716f"
+        },
+        {
+          "name": "core-1.18.0-samples-sources.jar",
+          "url": "core-1.18.0-samples-sources.jar",
+          "size": 6272,
+          "sha512": "a9246de87cc8f33a38346139c37243099d11256100fe035083f43341e6aefea350781a64679c00436d2539a6c65de2a8e0152eb40f07234005f46d98cef4e723",
+          "sha256": "a487797562cc32e1233334574ca1681d36063ec9a4399c44e9d007a633dcd3a3",
+          "sha1": "26479f91ea0d83ae369a781b380b9b9a54551741",
+          "md5": "93b1b3eea236c8e04cd69e0d2853daf5"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation-experimental",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-viewtree",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-common",
+          "version": {
+            "requires": "2.6.2"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime",
+          "version": {
+            "requires": "2.6.2"
+          }
+        },
+        {
+          "group": "androidx.versionedparcelable",
+          "module": "versionedparcelable",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "listenablefuture",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jspecify",
+          "module": "jspecify",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-1.18.0.aar",
+          "url": "core-1.18.0.aar",
+          "size": 1364590,
+          "sha512": "23bf40da8c0506bddb44f51835f5347fb94454119d748706f4d29bde766d8c964caee155f8e3450e299ab5013fe41499e459a494a8369129cfdb8d986969f9f7",
+          "sha256": "311d83ac67d394076ec21d12ed2d10a44b59cb2929b7dce00e5a90a93842e37d",
+          "sha1": "ff046a9f2725d94c2eaaa82e08674bb761c17792",
+          "md5": "261b8e34a542365f5476de7dda1f4d06"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation-experimental",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "androidx.collection",
+          "module": "collection",
+          "version": {
+            "requires": "1.4.2"
+          }
+        },
+        {
+          "group": "androidx.concurrent",
+          "module": "concurrent-futures",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-viewtree",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.interpolator",
+          "module": "interpolator",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-common",
+          "version": {
+            "requires": "2.6.2"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime",
+          "version": {
+            "requires": "2.6.2"
+          }
+        },
+        {
+          "group": "androidx.tracing",
+          "module": "tracing",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "androidx.versionedparcelable",
+          "module": "versionedparcelable",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "listenablefuture",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jspecify",
+          "module": "jspecify",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.18.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-testing",
+          "version": {
+            "requires": "1.18.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-1.18.0.aar",
+          "url": "core-1.18.0.aar",
+          "size": 1364590,
+          "sha512": "23bf40da8c0506bddb44f51835f5347fb94454119d748706f4d29bde766d8c964caee155f8e3450e299ab5013fe41499e459a494a8369129cfdb8d986969f9f7",
+          "sha256": "311d83ac67d394076ec21d12ed2d10a44b59cb2929b7dce00e5a90a93842e37d",
+          "sha1": "ff046a9f2725d94c2eaaa82e08674bb761c17792",
+          "md5": "261b8e34a542365f5476de7dda1f4d06"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "files": [
+        {
+          "name": "core-1.18.0-versionMetadata.json",
+          "url": "core-1.18.0-versionMetadata.json",
+          "size": 280368,
+          "sha512": "a86af9edfc9b87d13a12661675dcca145d2a6ac6521a9af6f5000ac55142f0efd81133ed643ce56b0d35a4e3a290514a257fe3de5121406b66bbb01ad9f329f6",
+          "sha256": "43619616d49a579b0dd6effb65d09f75155ccf2a8b5ba1ba6899f5d525259699",
+          "sha1": "a899bfacb87c129b27c351c26555d6709a8cdca4",
+          "md5": "8626e740482ee1eb15821053d7a8c289"
+        }
+      ]
+    }
+  ]
+}

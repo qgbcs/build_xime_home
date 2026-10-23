@@ -1,0 +1,316 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.work",
+    "module": "work-runtime-ktx",
+    "version": "2.11.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0",
+      "buildId:": "14718783"
+    }
+  },
+  "variants": [
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.work",
+          "module": "work-gcm",
+          "version": {
+            "requires": "2.11.1"
+          },
+          "reason": "work-runtime-ktx is in atomic group androidx.work"
+        },
+        {
+          "group": "androidx.work",
+          "module": "work-multiprocess",
+          "version": {
+            "requires": "2.11.1"
+          },
+          "reason": "work-runtime-ktx is in atomic group androidx.work"
+        },
+        {
+          "group": "androidx.work",
+          "module": "work-runtime",
+          "version": {
+            "requires": "2.11.1"
+          },
+          "reason": "work-runtime-ktx is in atomic group androidx.work"
+        },
+        {
+          "group": "androidx.work",
+          "module": "work-rxjava2",
+          "version": {
+            "requires": "2.11.1"
+          },
+          "reason": "work-runtime-ktx is in atomic group androidx.work"
+        },
+        {
+          "group": "androidx.work",
+          "module": "work-rxjava3",
+          "version": {
+            "requires": "2.11.1"
+          },
+          "reason": "work-runtime-ktx is in atomic group androidx.work"
+        },
+        {
+          "group": "androidx.work",
+          "module": "work-testing",
+          "version": {
+            "requires": "2.11.1"
+          },
+          "reason": "work-runtime-ktx is in atomic group androidx.work"
+        }
+      ],
+      "files": [
+        {
+          "name": "work-runtime-ktx-2.11.1-sources.jar",
+          "url": "work-runtime-ktx-2.11.1-sources.jar",
+          "size": 4398,
+          "sha512": "eaaa9f9f26a7c979c48aa131e1a39b091f73c3d63b4ec209f4cf8c848bd4c22354e8c2cdba41e68e72c69793624ba72f60f8e7a705ef2213ec7683217b5b8f28",
+          "sha256": "4a5f293a931444d1cb766fb365bfcc2c286cd8ae43fdedad0cdfa2a69362ed15",
+          "sha1": "66ac1feafafc2d29b82f59287681b0f806a662b7",
+          "md5": "0bcab478160980290b15a4759d9b600c"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.work",
+          "module": "work-runtime",
+          "version": {
+            "requires": "2.11.1"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.work",
+          "module": "work-gcm",
+          "version": {
+            "requires": "2.11.1"
+          },
+          "reason": "work-runtime-ktx is in atomic group androidx.work"
+        },
+        {
+          "group": "androidx.work",
+          "module": "work-multiprocess",
+          "version": {
+            "requires": "2.11.1"
+          },
+          "reason": "work-runtime-ktx is in atomic group androidx.work"
+        },
+        {
+          "group": "androidx.work",
+          "module": "work-runtime",
+          "version": {
+            "requires": "2.11.1"
+          },
+          "reason": "work-runtime-ktx is in atomic group androidx.work"
+        },
+        {
+          "group": "androidx.work",
+          "module": "work-rxjava2",
+          "version": {
+            "requires": "2.11.1"
+          },
+          "reason": "work-runtime-ktx is in atomic group androidx.work"
+        },
+        {
+          "group": "androidx.work",
+          "module": "work-rxjava3",
+          "version": {
+            "requires": "2.11.1"
+          },
+          "reason": "work-runtime-ktx is in atomic group androidx.work"
+        },
+        {
+          "group": "androidx.work",
+          "module": "work-testing",
+          "version": {
+            "requires": "2.11.1"
+          },
+          "reason": "work-runtime-ktx is in atomic group androidx.work"
+        }
+      ],
+      "files": [
+        {
+          "name": "work-runtime-ktx-2.11.1.aar",
+          "url": "work-runtime-ktx-2.11.1.aar",
+          "size": 6103,
+          "sha512": "675ac2262bff10128715767b69c55771e43433d12514ebaedceca5ad0babbf4e729b9c949c93134b4338737e6b5f9e04c1df0d22c8de80aeb7df9d9b2f95e9ad",
+          "sha256": "7a743946b6e27037f1720b1f4487bcd48f8ba4dca6ba396fcbab46d110202f2f",
+          "sha1": "c8a96347147a28e1144cab47f39a211a47751f1d",
+          "md5": "4c1603dcd91e4916596b3258b9a88d49"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.work",
+          "module": "work-runtime",
+          "version": {
+            "requires": "2.11.1"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.work",
+          "module": "work-gcm",
+          "version": {
+            "requires": "2.11.1"
+          },
+          "reason": "work-runtime-ktx is in atomic group androidx.work"
+        },
+        {
+          "group": "androidx.work",
+          "module": "work-multiprocess",
+          "version": {
+            "requires": "2.11.1"
+          },
+          "reason": "work-runtime-ktx is in atomic group androidx.work"
+        },
+        {
+          "group": "androidx.work",
+          "module": "work-runtime",
+          "version": {
+            "requires": "2.11.1"
+          },
+          "reason": "work-runtime-ktx is in atomic group androidx.work"
+        },
+        {
+          "group": "androidx.work",
+          "module": "work-rxjava2",
+          "version": {
+            "requires": "2.11.1"
+          },
+          "reason": "work-runtime-ktx is in atomic group androidx.work"
+        },
+        {
+          "group": "androidx.work",
+          "module": "work-rxjava3",
+          "version": {
+            "requires": "2.11.1"
+          },
+          "reason": "work-runtime-ktx is in atomic group androidx.work"
+        },
+        {
+          "group": "androidx.work",
+          "module": "work-testing",
+          "version": {
+            "requires": "2.11.1"
+          },
+          "reason": "work-runtime-ktx is in atomic group androidx.work"
+        }
+      ],
+      "files": [
+        {
+          "name": "work-runtime-ktx-2.11.1.aar",
+          "url": "work-runtime-ktx-2.11.1.aar",
+          "size": 6103,
+          "sha512": "675ac2262bff10128715767b69c55771e43433d12514ebaedceca5ad0babbf4e729b9c949c93134b4338737e6b5f9e04c1df0d22c8de80aeb7df9d9b2f95e9ad",
+          "sha256": "7a743946b6e27037f1720b1f4487bcd48f8ba4dca6ba396fcbab46d110202f2f",
+          "sha1": "c8a96347147a28e1144cab47f39a211a47751f1d",
+          "md5": "4c1603dcd91e4916596b3258b9a88d49"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.work",
+          "module": "work-gcm",
+          "version": {
+            "requires": "2.11.1"
+          },
+          "reason": "work-runtime-ktx is in atomic group androidx.work"
+        },
+        {
+          "group": "androidx.work",
+          "module": "work-multiprocess",
+          "version": {
+            "requires": "2.11.1"
+          },
+          "reason": "work-runtime-ktx is in atomic group androidx.work"
+        },
+        {
+          "group": "androidx.work",
+          "module": "work-runtime",
+          "version": {
+            "requires": "2.11.1"
+          },
+          "reason": "work-runtime-ktx is in atomic group androidx.work"
+        },
+        {
+          "group": "androidx.work",
+          "module": "work-rxjava2",
+          "version": {
+            "requires": "2.11.1"
+          },
+          "reason": "work-runtime-ktx is in atomic group androidx.work"
+        },
+        {
+          "group": "androidx.work",
+          "module": "work-rxjava3",
+          "version": {
+            "requires": "2.11.1"
+          },
+          "reason": "work-runtime-ktx is in atomic group androidx.work"
+        },
+        {
+          "group": "androidx.work",
+          "module": "work-testing",
+          "version": {
+            "requires": "2.11.1"
+          },
+          "reason": "work-runtime-ktx is in atomic group androidx.work"
+        }
+      ],
+      "files": [
+        {
+          "name": "work-runtime-ktx-2.11.1-versionMetadata.json",
+          "url": "work-runtime-ktx-2.11.1-versionMetadata.json",
+          "size": 3007,
+          "sha512": "f51a4cdd45cd0c2f6785929ca3a9c0e974326f24b887e2679b037387053c43d25c40ae443e4266a8d2dcea343656b079a826d7ab0265e4a656e7d5ec528f477e",
+          "sha256": "4c2d110c235bea2bdac1bcd3ab0f64571a98df7ec47f46c2ea5839fd5234f68a",
+          "sha1": "437305f19ab1ce143709e68655edcd4dad040fea",
+          "md5": "ab4748cfa6fb9d54ef83452abdd4248a"
+        }
+      ]
+    }
+  ]
+}

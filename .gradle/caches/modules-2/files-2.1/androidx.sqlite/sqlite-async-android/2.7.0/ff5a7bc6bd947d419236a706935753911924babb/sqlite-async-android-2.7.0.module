@@ -1,0 +1,243 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../sqlite-async/2.7.0/sqlite-async-2.7.0.module",
+    "group": "androidx.sqlite",
+    "module": "sqlite-async",
+    "version": "2.7.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0",
+      "buildId:": "15714315"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.sqlite",
+          "module": "sqlite",
+          "version": {
+            "requires": "2.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.sqlite",
+          "module": "sqlite",
+          "version": {
+            "requires": "2.7.0"
+          },
+          "reason": "sqlite-async is in atomic group androidx.sqlite"
+        },
+        {
+          "group": "androidx.sqlite",
+          "module": "sqlite-framework",
+          "version": {
+            "requires": "2.7.0"
+          },
+          "reason": "sqlite-async is in atomic group androidx.sqlite"
+        },
+        {
+          "group": "androidx.sqlite",
+          "module": "sqlite-bundled",
+          "version": {
+            "requires": "2.7.0"
+          },
+          "reason": "sqlite-async is in atomic group androidx.sqlite"
+        },
+        {
+          "group": "androidx.sqlite",
+          "module": "sqlite-ktx",
+          "version": {
+            "requires": "2.7.0"
+          },
+          "reason": "sqlite-async is in atomic group androidx.sqlite"
+        },
+        {
+          "group": "androidx.sqlite",
+          "module": "sqlite-web",
+          "version": {
+            "requires": "2.7.0"
+          },
+          "reason": "sqlite-async is in atomic group androidx.sqlite"
+        }
+      ],
+      "files": [
+        {
+          "name": "sqlite-async.aar",
+          "url": "sqlite-async-android-2.7.0.aar",
+          "size": 7583,
+          "sha512": "b03a03e339f703eb03bd95e003cecf5dd4bdcfa7055e8ca2bdd053d2b55244113aa5e8e828762d471f2fac7b4c693acf1c64f3c632903fe8e7b92ae7c3b42a6f",
+          "sha256": "bc6ce1be34000bd9a532bfa679a9e595ec46138dea103b1af7309edc269b0a31",
+          "sha1": "f1a0110fa14c1712ea61432a45039e162606b1a6",
+          "md5": "a98f1e627688f331d9425e5d6ba4d27f"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.sqlite",
+          "module": "sqlite",
+          "version": {
+            "requires": "2.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.sqlite",
+          "module": "sqlite",
+          "version": {
+            "requires": "2.7.0"
+          },
+          "reason": "sqlite-async is in atomic group androidx.sqlite"
+        },
+        {
+          "group": "androidx.sqlite",
+          "module": "sqlite-framework",
+          "version": {
+            "requires": "2.7.0"
+          },
+          "reason": "sqlite-async is in atomic group androidx.sqlite"
+        },
+        {
+          "group": "androidx.sqlite",
+          "module": "sqlite-bundled",
+          "version": {
+            "requires": "2.7.0"
+          },
+          "reason": "sqlite-async is in atomic group androidx.sqlite"
+        },
+        {
+          "group": "androidx.sqlite",
+          "module": "sqlite-ktx",
+          "version": {
+            "requires": "2.7.0"
+          },
+          "reason": "sqlite-async is in atomic group androidx.sqlite"
+        },
+        {
+          "group": "androidx.sqlite",
+          "module": "sqlite-web",
+          "version": {
+            "requires": "2.7.0"
+          },
+          "reason": "sqlite-async is in atomic group androidx.sqlite"
+        }
+      ],
+      "files": [
+        {
+          "name": "sqlite-async.aar",
+          "url": "sqlite-async-android-2.7.0.aar",
+          "size": 7583,
+          "sha512": "b03a03e339f703eb03bd95e003cecf5dd4bdcfa7055e8ca2bdd053d2b55244113aa5e8e828762d471f2fac7b4c693acf1c64f3c632903fe8e7b92ae7c3b42a6f",
+          "sha256": "bc6ce1be34000bd9a532bfa679a9e595ec46138dea103b1af7309edc269b0a31",
+          "sha1": "f1a0110fa14c1712ea61432a45039e162606b1a6",
+          "md5": "a98f1e627688f331d9425e5d6ba4d27f"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.sqlite",
+          "module": "sqlite",
+          "version": {
+            "requires": "2.7.0"
+          },
+          "reason": "sqlite-async is in atomic group androidx.sqlite"
+        },
+        {
+          "group": "androidx.sqlite",
+          "module": "sqlite-framework",
+          "version": {
+            "requires": "2.7.0"
+          },
+          "reason": "sqlite-async is in atomic group androidx.sqlite"
+        },
+        {
+          "group": "androidx.sqlite",
+          "module": "sqlite-bundled",
+          "version": {
+            "requires": "2.7.0"
+          },
+          "reason": "sqlite-async is in atomic group androidx.sqlite"
+        },
+        {
+          "group": "androidx.sqlite",
+          "module": "sqlite-ktx",
+          "version": {
+            "requires": "2.7.0"
+          },
+          "reason": "sqlite-async is in atomic group androidx.sqlite"
+        },
+        {
+          "group": "androidx.sqlite",
+          "module": "sqlite-web",
+          "version": {
+            "requires": "2.7.0"
+          },
+          "reason": "sqlite-async is in atomic group androidx.sqlite"
+        }
+      ],
+      "files": [
+        {
+          "name": "sqlite-async-android-2.7.0-sources.jar",
+          "url": "sqlite-async-android-2.7.0-sources.jar",
+          "size": 7206,
+          "sha512": "5b97f613a1d3d69f8e03b4952d19b67d830813935ec55475664c96068949554cb9c333d3f60e4153e23de05cc731de0e4ec0ea596895e75f053df2e4716aa9f2",
+          "sha256": "0d56397cf089ff5b58b28d2001836744748cecaabd6204d994710a4f92d51b0e",
+          "sha1": "0436ee2516d20011bd9a48ec5aa24fb4d4598c08",
+          "md5": "7ae628582af38eca6235296a1df0e1cc"
+        }
+      ]
+    }
+  ]
+}

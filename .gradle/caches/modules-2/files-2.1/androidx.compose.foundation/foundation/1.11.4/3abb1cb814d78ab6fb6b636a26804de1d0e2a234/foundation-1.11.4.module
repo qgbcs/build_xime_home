@@ -1,0 +1,352 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.compose.foundation",
+    "module": "foundation",
+    "version": "1.11.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.0",
+      "buildId:": "15700434"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.collection",
+          "module": "collection",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.11.4"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.11.4"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation-layout",
+          "version": {
+            "requires": "1.11.4"
+          },
+          "reason": "foundation is in atomic group androidx.compose.foundation"
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation-lint",
+          "version": {
+            "requires": "1.11.4"
+          },
+          "reason": "foundation is in atomic group androidx.compose.foundation"
+        }
+      ],
+      "files": [
+        {
+          "name": "foundation-metadata-1.11.4.jar",
+          "url": "foundation-1.11.4.jar",
+          "size": 420594,
+          "sha512": "ae2ba427c3f753c1c485df2a934d8b18a193b33c7c534670bfcc32994ae70dfb3f9e5dd6300f2820fc1e0613fa7f95eb6623c7a0bf6ca619cd46a0bda91ddec9",
+          "sha256": "49620a0bf1fa46006c1645b43c3630fbc71f37a55ea1302ef1092ccaa76761cc",
+          "sha1": "5ef53710dcb225c3e9fcd98472b2b26fdb1b5f35",
+          "md5": "abbce077f16f27f557833fa69f6b3698"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation-layout",
+          "version": {
+            "requires": "1.11.4"
+          },
+          "reason": "foundation is in atomic group androidx.compose.foundation"
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation-lint",
+          "version": {
+            "requires": "1.11.4"
+          },
+          "reason": "foundation is in atomic group androidx.compose.foundation"
+        }
+      ],
+      "files": [
+        {
+          "name": "foundation-kotlin-1.11.4-sources.jar",
+          "url": "foundation-1.11.4-sources.jar",
+          "size": 1043361,
+          "sha512": "2385ccc2e97b624e02b92a3cc170c90a0b73ce13d035163aaf7f157bb4afb542d7441f911e4c1f655df64037def1668036fac8d314daeb377dd1b45d93749ac1",
+          "sha256": "b6e5e39262334b474b8d615af84f7d135b619fcecef859ac1f5b9c6f1adc2b3d",
+          "sha1": "73c8222e886870a03b27f0564007868649ca2d54",
+          "md5": "3b66bf639eeab73156a5b0bb4f258c20"
+        }
+      ]
+    },
+    {
+      "name": "androidxSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "androidx-multiplatform-docs"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation-layout",
+          "version": {
+            "requires": "1.11.4"
+          },
+          "reason": "foundation is in atomic group androidx.compose.foundation"
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation-lint",
+          "version": {
+            "requires": "1.11.4"
+          },
+          "reason": "foundation is in atomic group androidx.compose.foundation"
+        }
+      ],
+      "files": [
+        {
+          "name": "foundation-1.11.4-multiplatform-sources.jar",
+          "url": "foundation-1.11.4-multiplatform-sources.jar",
+          "size": 1175287,
+          "sha512": "b6d94fa9ebc7738fb12bd8b3b442e59122707c5ddb76bf5bde6d70a4caa7afe68fd724a293621f6343ceb0fc17fb5f02bcd94a30c53b11c1ae72ff99fce86b68",
+          "sha256": "ca2d25186d960cc36b395f49dc5cb2bfe238a0ea1de2384c550e5356bc746062",
+          "sha1": "2bc8d78f4df5dd9cec3c9aa92742d0397d3dd3e8",
+          "md5": "5d97eef0d6ec0b03cdbb9b9d932e2b61"
+        },
+        {
+          "name": "foundation-1.11.4-samples-sources.jar",
+          "url": "foundation-1.11.4-samples-sources.jar",
+          "size": 92539,
+          "sha512": "63aeb095fca5f2f787732a482bbc390adda77bf609513ff10ccae677362b7671639e8af73ed352bde004c09d9740e18f3af799d5d8b1425c5f01ec78b67bb108",
+          "sha256": "2dd0c2f1f9e828cd039d5ec77f5453c6d9ec955a112bec418f414f24abf3883f",
+          "sha1": "1ae6073158fe4a0b84b90a9bbc19574d75b0fdae",
+          "md5": "09dd4efeccc5ae8b6325e759c9c38749"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation-layout",
+          "version": {
+            "requires": "1.11.4"
+          },
+          "reason": "foundation is in atomic group androidx.compose.foundation"
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation-lint",
+          "version": {
+            "requires": "1.11.4"
+          },
+          "reason": "foundation is in atomic group androidx.compose.foundation"
+        }
+      ],
+      "files": [
+        {
+          "name": "apiLevels.json",
+          "url": "foundation-1.11.4-versionMetadata.json",
+          "size": 367376,
+          "sha512": "696aa9023d74a5061616218ee83d60b31e826182ca7f0f908939fc46c89c005232f239d31a41846bfaca2d6c685938077de98bb08573e1c13f9aa9f092dd2ac2",
+          "sha256": "e581bd0be5ad54805b0ce30523ca9f3b69d28bc7780a6afed3a2316096b67524",
+          "sha1": "d16e8e0733b9d170b8b8464e2204f29847af4737",
+          "md5": "a955537f564b97f856e971a67cde47ff"
+        }
+      ]
+    },
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../foundation-android/1.11.4/foundation-android-1.11.4.module",
+        "group": "androidx.compose.foundation",
+        "module": "foundation-android",
+        "version": "1.11.4"
+      }
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../foundation-android/1.11.4/foundation-android-1.11.4.module",
+        "group": "androidx.compose.foundation",
+        "module": "foundation-android",
+        "version": "1.11.4"
+      }
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../foundation-android/1.11.4/foundation-android-1.11.4.module",
+        "group": "androidx.compose.foundation",
+        "module": "foundation-android",
+        "version": "1.11.4"
+      }
+    },
+    {
+      "name": "jvmStubsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../foundation-jvmstubs/1.11.4/foundation-jvmstubs-1.11.4.module",
+        "group": "androidx.compose.foundation",
+        "module": "foundation-jvmstubs",
+        "version": "1.11.4"
+      }
+    },
+    {
+      "name": "jvmStubsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../foundation-jvmstubs/1.11.4/foundation-jvmstubs-1.11.4.module",
+        "group": "androidx.compose.foundation",
+        "module": "foundation-jvmstubs",
+        "version": "1.11.4"
+      }
+    },
+    {
+      "name": "jvmStubsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../foundation-jvmstubs/1.11.4/foundation-jvmstubs-1.11.4.module",
+        "group": "androidx.compose.foundation",
+        "module": "foundation-jvmstubs",
+        "version": "1.11.4"
+      }
+    },
+    {
+      "name": "linuxx64StubsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../foundation-linuxx64stubs/1.11.4/foundation-linuxx64stubs-1.11.4.module",
+        "group": "androidx.compose.foundation",
+        "module": "foundation-linuxx64stubs",
+        "version": "1.11.4"
+      }
+    },
+    {
+      "name": "linuxx64StubsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../foundation-linuxx64stubs/1.11.4/foundation-linuxx64stubs-1.11.4.module",
+        "group": "androidx.compose.foundation",
+        "module": "foundation-linuxx64stubs",
+        "version": "1.11.4"
+      }
+    }
+  ]
+}

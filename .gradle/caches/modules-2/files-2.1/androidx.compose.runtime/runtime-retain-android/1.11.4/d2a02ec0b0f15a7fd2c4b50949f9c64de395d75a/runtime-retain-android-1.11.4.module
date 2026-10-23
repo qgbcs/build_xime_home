@@ -1,0 +1,393 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../runtime-retain/1.11.4/runtime-retain-1.11.4.module",
+    "group": "androidx.compose.runtime",
+    "module": "runtime-retain",
+    "version": "1.11.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.0",
+      "buildId:": "15700434"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.11.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.11.4"
+          },
+          "reason": "runtime-retain is in atomic group androidx.compose.runtime"
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-annotation",
+          "version": {
+            "requires": "1.11.4"
+          },
+          "reason": "runtime-retain is in atomic group androidx.compose.runtime"
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-lint",
+          "version": {
+            "requires": "1.11.4"
+          },
+          "reason": "runtime-retain is in atomic group androidx.compose.runtime"
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-livedata",
+          "version": {
+            "requires": "1.11.4"
+          },
+          "reason": "runtime-retain is in atomic group androidx.compose.runtime"
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-retain-lint",
+          "version": {
+            "requires": "1.11.4"
+          },
+          "reason": "runtime-retain is in atomic group androidx.compose.runtime"
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-tracing",
+          "version": {
+            "requires": "1.11.4"
+          },
+          "reason": "runtime-retain is in atomic group androidx.compose.runtime"
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-rxjava2",
+          "version": {
+            "requires": "1.11.4"
+          },
+          "reason": "runtime-retain is in atomic group androidx.compose.runtime"
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-rxjava3",
+          "version": {
+            "requires": "1.11.4"
+          },
+          "reason": "runtime-retain is in atomic group androidx.compose.runtime"
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-saveable",
+          "version": {
+            "requires": "1.11.4"
+          },
+          "reason": "runtime-retain is in atomic group androidx.compose.runtime"
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-saveable-lint",
+          "version": {
+            "requires": "1.11.4"
+          },
+          "reason": "runtime-retain is in atomic group androidx.compose.runtime"
+        }
+      ],
+      "files": [
+        {
+          "name": "runtime-retain.aar",
+          "url": "runtime-retain-android-1.11.4.aar",
+          "size": 106873,
+          "sha512": "b23cea80a69267861285b2e2ed9fd5fada6f958cbd0199ed801a4476e28343aaaea98a00cad9848ae11faa96c41805ad38c800fe1ce7007afcaba7427ecda86b",
+          "sha256": "48d960544c81e82b674e86e04ead25eeb5d05a54948b6b2ca8690cc94067e600",
+          "sha1": "9dac0fb7c9be55c4398695e9a3c17cbc61b1a48a",
+          "md5": "cf99d589710f27c72c91eb9fc739c79e"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.collection",
+          "module": "collection",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.11.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.11.4"
+          },
+          "reason": "runtime-retain is in atomic group androidx.compose.runtime"
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-annotation",
+          "version": {
+            "requires": "1.11.4"
+          },
+          "reason": "runtime-retain is in atomic group androidx.compose.runtime"
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-lint",
+          "version": {
+            "requires": "1.11.4"
+          },
+          "reason": "runtime-retain is in atomic group androidx.compose.runtime"
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-livedata",
+          "version": {
+            "requires": "1.11.4"
+          },
+          "reason": "runtime-retain is in atomic group androidx.compose.runtime"
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-retain-lint",
+          "version": {
+            "requires": "1.11.4"
+          },
+          "reason": "runtime-retain is in atomic group androidx.compose.runtime"
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-tracing",
+          "version": {
+            "requires": "1.11.4"
+          },
+          "reason": "runtime-retain is in atomic group androidx.compose.runtime"
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-rxjava2",
+          "version": {
+            "requires": "1.11.4"
+          },
+          "reason": "runtime-retain is in atomic group androidx.compose.runtime"
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-rxjava3",
+          "version": {
+            "requires": "1.11.4"
+          },
+          "reason": "runtime-retain is in atomic group androidx.compose.runtime"
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-saveable",
+          "version": {
+            "requires": "1.11.4"
+          },
+          "reason": "runtime-retain is in atomic group androidx.compose.runtime"
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-saveable-lint",
+          "version": {
+            "requires": "1.11.4"
+          },
+          "reason": "runtime-retain is in atomic group androidx.compose.runtime"
+        }
+      ],
+      "files": [
+        {
+          "name": "runtime-retain.aar",
+          "url": "runtime-retain-android-1.11.4.aar",
+          "size": 106873,
+          "sha512": "b23cea80a69267861285b2e2ed9fd5fada6f958cbd0199ed801a4476e28343aaaea98a00cad9848ae11faa96c41805ad38c800fe1ce7007afcaba7427ecda86b",
+          "sha256": "48d960544c81e82b674e86e04ead25eeb5d05a54948b6b2ca8690cc94067e600",
+          "sha1": "9dac0fb7c9be55c4398695e9a3c17cbc61b1a48a",
+          "md5": "cf99d589710f27c72c91eb9fc739c79e"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.11.4"
+          },
+          "reason": "runtime-retain is in atomic group androidx.compose.runtime"
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-annotation",
+          "version": {
+            "requires": "1.11.4"
+          },
+          "reason": "runtime-retain is in atomic group androidx.compose.runtime"
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-lint",
+          "version": {
+            "requires": "1.11.4"
+          },
+          "reason": "runtime-retain is in atomic group androidx.compose.runtime"
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-livedata",
+          "version": {
+            "requires": "1.11.4"
+          },
+          "reason": "runtime-retain is in atomic group androidx.compose.runtime"
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-retain-lint",
+          "version": {
+            "requires": "1.11.4"
+          },
+          "reason": "runtime-retain is in atomic group androidx.compose.runtime"
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-tracing",
+          "version": {
+            "requires": "1.11.4"
+          },
+          "reason": "runtime-retain is in atomic group androidx.compose.runtime"
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-rxjava2",
+          "version": {
+            "requires": "1.11.4"
+          },
+          "reason": "runtime-retain is in atomic group androidx.compose.runtime"
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-rxjava3",
+          "version": {
+            "requires": "1.11.4"
+          },
+          "reason": "runtime-retain is in atomic group androidx.compose.runtime"
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-saveable",
+          "version": {
+            "requires": "1.11.4"
+          },
+          "reason": "runtime-retain is in atomic group androidx.compose.runtime"
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-saveable-lint",
+          "version": {
+            "requires": "1.11.4"
+          },
+          "reason": "runtime-retain is in atomic group androidx.compose.runtime"
+        }
+      ],
+      "files": [
+        {
+          "name": "runtime-retain-android-1.11.4-sources.jar",
+          "url": "runtime-retain-android-1.11.4-sources.jar",
+          "size": 31633,
+          "sha512": "b40ee7ec0346b583f8fa5489804fff546aa267ffa5c82c0ceea04aecd45dddb05fbd216222c95dff3e0d5148f9563d696be748b8b3a11a6aa1817710dce0f361",
+          "sha256": "6dab377d2582f7a2b7fcea90dda660ef49f6560081b899bb81e0b597cfa01dfc",
+          "sha1": "8dd3d73ba22c052140896d1ca3984723ed1bffa4",
+          "md5": "3e0e0922f0afe0187fa2b5733f7e4540"
+        },
+        {
+          "name": "runtime-retain-1.11.4-samples-sources.jar",
+          "url": "runtime-retain-android-1.11.4-samples-sources.jar",
+          "size": 9616,
+          "sha512": "36c17f3a5fe58395ef58c65c2bb6543003d6b4be34a5eab034d75c320dd2aca7926f90ba9d597f706aacb28d540d6972b75a9080f22ecf42543fcd05ddff39d1",
+          "sha256": "1b76c3cdfc41207bc6f36c7b1a5f60e6917b09fc3bf5f68a090ae878cf2370b7",
+          "sha1": "011b47bf31dec319397ef1eeb219c367e0c44d65",
+          "md5": "015f84ead1e9101cb5bf812a5159554e"
+        }
+      ]
+    }
+  ]
+}

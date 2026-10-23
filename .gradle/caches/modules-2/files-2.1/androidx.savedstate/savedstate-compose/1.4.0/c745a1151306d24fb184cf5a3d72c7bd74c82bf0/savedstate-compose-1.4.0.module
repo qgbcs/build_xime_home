@@ -1,0 +1,1210 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.savedstate",
+    "module": "savedstate-compose",
+    "version": "1.4.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0",
+      "buildId:": "14329657"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "androidx.savedstate",
+          "module": "savedstate",
+          "version": {
+            "requires": "1.4.0"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.savedstate",
+          "module": "savedstate",
+          "version": {
+            "requires": "1.4.0"
+          },
+          "reason": "savedstate-compose is in atomic group androidx.savedstate"
+        },
+        {
+          "group": "androidx.savedstate",
+          "module": "savedstate-ktx",
+          "version": {
+            "requires": "1.4.0"
+          },
+          "reason": "savedstate-compose is in atomic group androidx.savedstate"
+        },
+        {
+          "group": "androidx.savedstate",
+          "module": "savedstate-testing",
+          "version": {
+            "requires": "1.4.0"
+          },
+          "reason": "savedstate-compose is in atomic group androidx.savedstate"
+        }
+      ],
+      "files": [
+        {
+          "name": "savedstate-compose-metadata-1.4.0.jar",
+          "url": "savedstate-compose-1.4.0.jar",
+          "size": 10772,
+          "sha512": "9c00a1aa2676642f35caa01f89404f0efa7e3af5fc3cec93b5f0539560059d18eed16b6f29e8d74574ee82124c17795529dcc8237a56fa188cbb823c5fd0bff2",
+          "sha256": "864d20830971fb08c2ed0fc4f902b05fd02e38ef30bcb65a43b0c9910aac388c",
+          "sha1": "b8bbabaf87485f9ef562eaa4a6dd8373f4e11e05",
+          "md5": "c544dcf1228ba5c93571bb379527116d"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.savedstate",
+          "module": "savedstate",
+          "version": {
+            "requires": "1.4.0"
+          },
+          "reason": "savedstate-compose is in atomic group androidx.savedstate"
+        },
+        {
+          "group": "androidx.savedstate",
+          "module": "savedstate-ktx",
+          "version": {
+            "requires": "1.4.0"
+          },
+          "reason": "savedstate-compose is in atomic group androidx.savedstate"
+        },
+        {
+          "group": "androidx.savedstate",
+          "module": "savedstate-testing",
+          "version": {
+            "requires": "1.4.0"
+          },
+          "reason": "savedstate-compose is in atomic group androidx.savedstate"
+        }
+      ],
+      "files": [
+        {
+          "name": "savedstate-compose-kotlin-1.4.0-sources.jar",
+          "url": "savedstate-compose-1.4.0-sources.jar",
+          "size": 11485,
+          "sha512": "c3f7e819c7db6855d54d29a2ea475efa6db8053299d7c4e6669bd0f24cd2c04f09659cb06cc34fc47b2cfc40883673096df9238ae02a814244d8db7d9b3103fe",
+          "sha256": "da5a94aca4784cdc938b8d00bcd4d2dede2ddb9e9042b1e319f3fc11a59877eb",
+          "sha1": "eebf688f4f4957212477b9ddba509019ee707d35",
+          "md5": "451da8dfde1a6528a1da32e3896a1e1f"
+        }
+      ]
+    },
+    {
+      "name": "androidxSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "androidx-multiplatform-docs"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.savedstate",
+          "module": "savedstate",
+          "version": {
+            "requires": "1.4.0"
+          },
+          "reason": "savedstate-compose is in atomic group androidx.savedstate"
+        },
+        {
+          "group": "androidx.savedstate",
+          "module": "savedstate-ktx",
+          "version": {
+            "requires": "1.4.0"
+          },
+          "reason": "savedstate-compose is in atomic group androidx.savedstate"
+        },
+        {
+          "group": "androidx.savedstate",
+          "module": "savedstate-testing",
+          "version": {
+            "requires": "1.4.0"
+          },
+          "reason": "savedstate-compose is in atomic group androidx.savedstate"
+        }
+      ],
+      "files": [
+        {
+          "name": "savedstate-compose-1.4.0-multiplatform-sources.jar",
+          "url": "savedstate-compose-1.4.0-multiplatform-sources.jar",
+          "size": 14021,
+          "sha512": "356fff51a0e4b5cf58e849fd6f4feca75ad996ef4238ad919b0e726f0e0a1ba71c3322b015ba08d32d46809c172e47160ba0c6fbfad9111edccaffd8e950bf46",
+          "sha256": "b5e70f7362247811f9f3918f3bfa2b53166e503158738ee872af185245be17ff",
+          "sha1": "251fa2489c48118be544c4883b4bf4ead16500f7",
+          "md5": "2e0e81ad618b20d6e854e6c1e5c0274a"
+        },
+        {
+          "name": "savedstate-compose-1.4.0-samples-sources.jar",
+          "url": "savedstate-compose-1.4.0-samples-sources.jar",
+          "size": 11485,
+          "sha512": "c70632ca22133018b66aea9edc4943399353f19b85edf02f96059899ed628a9a4642e51c9861f26e4c7191782162a615a3ad2f55131f4ec8b6b9882fde6a037a",
+          "sha256": "5b5a5b73a418badb5b2e6a24284c4c3e00e216b1cb5b9ef7cbf5f147b0f54d21",
+          "sha1": "f4223dfac143d9d0e22dd51ca447eb6ea9fda65b",
+          "md5": "ad57e4ce3150888b401e4c7eef790605"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.savedstate",
+          "module": "savedstate",
+          "version": {
+            "requires": "1.4.0"
+          },
+          "reason": "savedstate-compose is in atomic group androidx.savedstate"
+        },
+        {
+          "group": "androidx.savedstate",
+          "module": "savedstate-ktx",
+          "version": {
+            "requires": "1.4.0"
+          },
+          "reason": "savedstate-compose is in atomic group androidx.savedstate"
+        },
+        {
+          "group": "androidx.savedstate",
+          "module": "savedstate-testing",
+          "version": {
+            "requires": "1.4.0"
+          },
+          "reason": "savedstate-compose is in atomic group androidx.savedstate"
+        }
+      ],
+      "files": [
+        {
+          "name": "apiLevels.json",
+          "url": "savedstate-compose-1.4.0-versionMetadata.json",
+          "size": 2319,
+          "sha512": "c2f42c19441b73229b7342a3b701592349e5d3c0c09dbe45babd70a969747c27409a4e88a345a6f121c6ec7de369389071e5c167650f231edf103c47ee97f0bf",
+          "sha256": "871677b5642860e43ea6a7c21bcc1c6b1209f2c58d760a99880a96ca93cff1c4",
+          "sha1": "5f2556edb4039b4bb12a4987408ab4af338ee238",
+          "md5": "92963fb43dbd21c9689718bbc9c79233"
+        }
+      ]
+    },
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../savedstate-compose-android/1.4.0/savedstate-compose-android-1.4.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-compose-android",
+        "version": "1.4.0"
+      }
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../savedstate-compose-android/1.4.0/savedstate-compose-android-1.4.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-compose-android",
+        "version": "1.4.0"
+      }
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../savedstate-compose-android/1.4.0/savedstate-compose-android-1.4.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-compose-android",
+        "version": "1.4.0"
+      }
+    },
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../savedstate-compose-desktop/1.4.0/savedstate-compose-desktop-1.4.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-compose-desktop",
+        "version": "1.4.0"
+      }
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../savedstate-compose-desktop/1.4.0/savedstate-compose-desktop-1.4.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-compose-desktop",
+        "version": "1.4.0"
+      }
+    },
+    {
+      "name": "desktopSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../savedstate-compose-desktop/1.4.0/savedstate-compose-desktop-1.4.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-compose-desktop",
+        "version": "1.4.0"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-compose-iosarm64/1.4.0/savedstate-compose-iosarm64-1.4.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-compose-iosarm64",
+        "version": "1.4.0"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-compose-iosarm64/1.4.0/savedstate-compose-iosarm64-1.4.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-compose-iosarm64",
+        "version": "1.4.0"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-compose-iosarm64/1.4.0/savedstate-compose-iosarm64-1.4.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-compose-iosarm64",
+        "version": "1.4.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-compose-iossimulatorarm64/1.4.0/savedstate-compose-iossimulatorarm64-1.4.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-compose-iossimulatorarm64",
+        "version": "1.4.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-compose-iossimulatorarm64/1.4.0/savedstate-compose-iossimulatorarm64-1.4.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-compose-iossimulatorarm64",
+        "version": "1.4.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-compose-iossimulatorarm64/1.4.0/savedstate-compose-iossimulatorarm64-1.4.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-compose-iossimulatorarm64",
+        "version": "1.4.0"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-compose-iosx64/1.4.0/savedstate-compose-iosx64-1.4.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-compose-iosx64",
+        "version": "1.4.0"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-compose-iosx64/1.4.0/savedstate-compose-iosx64-1.4.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-compose-iosx64",
+        "version": "1.4.0"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-compose-iosx64/1.4.0/savedstate-compose-iosx64-1.4.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-compose-iosx64",
+        "version": "1.4.0"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../savedstate-compose-js/1.4.0/savedstate-compose-js-1.4.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-compose-js",
+        "version": "1.4.0"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../savedstate-compose-js/1.4.0/savedstate-compose-js-1.4.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-compose-js",
+        "version": "1.4.0"
+      }
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../savedstate-compose-js/1.4.0/savedstate-compose-js-1.4.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-compose-js",
+        "version": "1.4.0"
+      }
+    },
+    {
+      "name": "linuxArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-compose-linuxarm64/1.4.0/savedstate-compose-linuxarm64-1.4.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-compose-linuxarm64",
+        "version": "1.4.0"
+      }
+    },
+    {
+      "name": "linuxArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-compose-linuxarm64/1.4.0/savedstate-compose-linuxarm64-1.4.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-compose-linuxarm64",
+        "version": "1.4.0"
+      }
+    },
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-compose-linuxx64/1.4.0/savedstate-compose-linuxx64-1.4.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-compose-linuxx64",
+        "version": "1.4.0"
+      }
+    },
+    {
+      "name": "linuxX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-compose-linuxx64/1.4.0/savedstate-compose-linuxx64-1.4.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-compose-linuxx64",
+        "version": "1.4.0"
+      }
+    },
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-compose-macosarm64/1.4.0/savedstate-compose-macosarm64-1.4.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-compose-macosarm64",
+        "version": "1.4.0"
+      }
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-compose-macosarm64/1.4.0/savedstate-compose-macosarm64-1.4.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-compose-macosarm64",
+        "version": "1.4.0"
+      }
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-compose-macosarm64/1.4.0/savedstate-compose-macosarm64-1.4.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-compose-macosarm64",
+        "version": "1.4.0"
+      }
+    },
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-compose-macosx64/1.4.0/savedstate-compose-macosx64-1.4.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-compose-macosx64",
+        "version": "1.4.0"
+      }
+    },
+    {
+      "name": "macosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-compose-macosx64/1.4.0/savedstate-compose-macosx64-1.4.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-compose-macosx64",
+        "version": "1.4.0"
+      }
+    },
+    {
+      "name": "macosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-compose-macosx64/1.4.0/savedstate-compose-macosx64-1.4.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-compose-macosx64",
+        "version": "1.4.0"
+      }
+    },
+    {
+      "name": "mingwX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-compose-mingwx64/1.4.0/savedstate-compose-mingwx64-1.4.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-compose-mingwx64",
+        "version": "1.4.0"
+      }
+    },
+    {
+      "name": "mingwX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-compose-mingwx64/1.4.0/savedstate-compose-mingwx64-1.4.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-compose-mingwx64",
+        "version": "1.4.0"
+      }
+    },
+    {
+      "name": "tvosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-compose-tvosarm64/1.4.0/savedstate-compose-tvosarm64-1.4.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-compose-tvosarm64",
+        "version": "1.4.0"
+      }
+    },
+    {
+      "name": "tvosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-compose-tvosarm64/1.4.0/savedstate-compose-tvosarm64-1.4.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-compose-tvosarm64",
+        "version": "1.4.0"
+      }
+    },
+    {
+      "name": "tvosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-compose-tvosarm64/1.4.0/savedstate-compose-tvosarm64-1.4.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-compose-tvosarm64",
+        "version": "1.4.0"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-compose-tvossimulatorarm64/1.4.0/savedstate-compose-tvossimulatorarm64-1.4.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-compose-tvossimulatorarm64",
+        "version": "1.4.0"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-compose-tvossimulatorarm64/1.4.0/savedstate-compose-tvossimulatorarm64-1.4.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-compose-tvossimulatorarm64",
+        "version": "1.4.0"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-compose-tvossimulatorarm64/1.4.0/savedstate-compose-tvossimulatorarm64-1.4.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-compose-tvossimulatorarm64",
+        "version": "1.4.0"
+      }
+    },
+    {
+      "name": "tvosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-compose-tvosx64/1.4.0/savedstate-compose-tvosx64-1.4.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-compose-tvosx64",
+        "version": "1.4.0"
+      }
+    },
+    {
+      "name": "tvosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-compose-tvosx64/1.4.0/savedstate-compose-tvosx64-1.4.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-compose-tvosx64",
+        "version": "1.4.0"
+      }
+    },
+    {
+      "name": "tvosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-compose-tvosx64/1.4.0/savedstate-compose-tvosx64-1.4.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-compose-tvosx64",
+        "version": "1.4.0"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../savedstate-compose-wasm-js/1.4.0/savedstate-compose-wasm-js-1.4.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-compose-wasm-js",
+        "version": "1.4.0"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../savedstate-compose-wasm-js/1.4.0/savedstate-compose-wasm-js-1.4.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-compose-wasm-js",
+        "version": "1.4.0"
+      }
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../savedstate-compose-wasm-js/1.4.0/savedstate-compose-wasm-js-1.4.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-compose-wasm-js",
+        "version": "1.4.0"
+      }
+    },
+    {
+      "name": "watchosArm32ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-compose-watchosarm32/1.4.0/savedstate-compose-watchosarm32-1.4.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-compose-watchosarm32",
+        "version": "1.4.0"
+      }
+    },
+    {
+      "name": "watchosArm32SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-compose-watchosarm32/1.4.0/savedstate-compose-watchosarm32-1.4.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-compose-watchosarm32",
+        "version": "1.4.0"
+      }
+    },
+    {
+      "name": "watchosArm32MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-compose-watchosarm32/1.4.0/savedstate-compose-watchosarm32-1.4.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-compose-watchosarm32",
+        "version": "1.4.0"
+      }
+    },
+    {
+      "name": "watchosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-compose-watchosarm64/1.4.0/savedstate-compose-watchosarm64-1.4.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-compose-watchosarm64",
+        "version": "1.4.0"
+      }
+    },
+    {
+      "name": "watchosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-compose-watchosarm64/1.4.0/savedstate-compose-watchosarm64-1.4.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-compose-watchosarm64",
+        "version": "1.4.0"
+      }
+    },
+    {
+      "name": "watchosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-compose-watchosarm64/1.4.0/savedstate-compose-watchosarm64-1.4.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-compose-watchosarm64",
+        "version": "1.4.0"
+      }
+    },
+    {
+      "name": "watchosDeviceArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_device_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-compose-watchosdevicearm64/1.4.0/savedstate-compose-watchosdevicearm64-1.4.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-compose-watchosdevicearm64",
+        "version": "1.4.0"
+      }
+    },
+    {
+      "name": "watchosDeviceArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_device_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-compose-watchosdevicearm64/1.4.0/savedstate-compose-watchosdevicearm64-1.4.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-compose-watchosdevicearm64",
+        "version": "1.4.0"
+      }
+    },
+    {
+      "name": "watchosDeviceArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_device_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-compose-watchosdevicearm64/1.4.0/savedstate-compose-watchosdevicearm64-1.4.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-compose-watchosdevicearm64",
+        "version": "1.4.0"
+      }
+    },
+    {
+      "name": "watchosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-compose-watchossimulatorarm64/1.4.0/savedstate-compose-watchossimulatorarm64-1.4.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-compose-watchossimulatorarm64",
+        "version": "1.4.0"
+      }
+    },
+    {
+      "name": "watchosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-compose-watchossimulatorarm64/1.4.0/savedstate-compose-watchossimulatorarm64-1.4.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-compose-watchossimulatorarm64",
+        "version": "1.4.0"
+      }
+    },
+    {
+      "name": "watchosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-compose-watchossimulatorarm64/1.4.0/savedstate-compose-watchossimulatorarm64-1.4.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-compose-watchossimulatorarm64",
+        "version": "1.4.0"
+      }
+    },
+    {
+      "name": "watchosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-compose-watchosx64/1.4.0/savedstate-compose-watchosx64-1.4.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-compose-watchosx64",
+        "version": "1.4.0"
+      }
+    },
+    {
+      "name": "watchosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-compose-watchosx64/1.4.0/savedstate-compose-watchosx64-1.4.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-compose-watchosx64",
+        "version": "1.4.0"
+      }
+    },
+    {
+      "name": "watchosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-compose-watchosx64/1.4.0/savedstate-compose-watchosx64-1.4.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-compose-watchosx64",
+        "version": "1.4.0"
+      }
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.android.tools.build",
+    "module": "gradle-settings-api",
+    "version": "9.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.3.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle-common-api",
+          "version": {
+            "requires": "9.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gradle-settings-api-9.1.0.jar",
+          "url": "gradle-settings-api-9.1.0.jar",
+          "size": 10057,
+          "sha512": "2c1cd27560b7c6980d0fb952c5a49b00b4a157c6cb7805fb493786cdd31cdc98fae5db6d5a9b799e9167517a418b40c443e0bbe10d0684becf6b0f5473023207",
+          "sha256": "7b1cb2709737656e21e50d2e1b64258a0f2f1c5c49710c521a83e8c9163f2b63",
+          "sha1": "1ec7e89fab3ddac711beac393327717d866bd838",
+          "md5": "85be9804f11a14a7502d0e44ee88541f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        },
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle-common-api",
+          "version": {
+            "requires": "9.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gradle-settings-api-9.1.0.jar",
+          "url": "gradle-settings-api-9.1.0.jar",
+          "size": 10057,
+          "sha512": "2c1cd27560b7c6980d0fb952c5a49b00b4a157c6cb7805fb493786cdd31cdc98fae5db6d5a9b799e9167517a418b40c443e0bbe10d0684becf6b0f5473023207",
+          "sha256": "7b1cb2709737656e21e50d2e1b64258a0f2f1c5c49710c521a83e8c9163f2b63",
+          "sha1": "1ec7e89fab3ddac711beac393327717d866bd838",
+          "md5": "85be9804f11a14a7502d0e44ee88541f"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gradle-settings-api-9.1.0-javadoc.jar",
+          "url": "gradle-settings-api-9.1.0-javadoc.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gradle-settings-api-9.1.0-sources.jar",
+          "url": "gradle-settings-api-9.1.0-sources.jar",
+          "size": 9521,
+          "sha512": "3ffcc7313c2009ada8d0bb8a40ce8a9c834b45567444d2a4aa1d8d05ac7e18fd6bbccf7cd0406e26c044e4a9dc4c4df9d2cb15e27cdd7d41867f95977a8e8760",
+          "sha256": "4c8faa0e93ac5171d0b1a34a052aadc7c09b9d123adddca77a16eb1a07e586cb",
+          "sha1": "0d9f75c6aa715ec9d88da2c8e3070c82f1ccccfb",
+          "md5": "5051ee82db4bfc3ed5e749ccfa3b11f5"
+        }
+      ]
+    }
+  ]
+}
