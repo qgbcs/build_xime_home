@@ -30,7 +30,7 @@ EOF
 fi
 shift   # 吃掉 ghp
 
-GH_USER="cjqbj"
+GH_USER="qgbcs"
 if [[ $# -gt 0 ]]; then
     GH_USER="$1"
     shift
@@ -112,12 +112,27 @@ try_clone git clone https://github.com/wxsb-web/multi_mqtt
 try_clone git clone --depth=1 https://github.com/cjqbj/client_mqtt-cjqbj client
 # xime
 xime_repo="xime"
-try_clone ./git.py clone --depth=1 -b main "https://${GIT_CRED}@github.com/${GH_USER}/${xime_repo}"
-#try_clone ./git.py clone --depth=1 -b main "https://github.com/qgbcs/${xime_repo}"
+# 构建分支：默认 qgb（可用环境变量覆盖，如 XIME_BRANCH=main）
+XIME_BRANCH="${XIME_BRANCH:-qgb}"
+
+if [[ -d "$xime_repo/.git" ]]; then
+    if git -C "$xime_repo" rev-parse --verify --quiet "refs/heads/$XIME_BRANCH" >/dev/null; then
+        echo "xime 已存在，切换到本地分支: $XIME_BRANCH"
+        git -C "$xime_repo" checkout "$XIME_BRANCH" || echo "警告: 切换 xime 分支失败，继续使用当前工作区。" >&2
+    else
+        echo "xime 已存在，拉取并切换到分支: $XIME_BRANCH"
+        git -C "$xime_repo" fetch --depth 1 origin "$XIME_BRANCH" || echo "警告: 拉取 xime 分支 $XIME_BRANCH 失败。" >&2
+        git -C "$xime_repo" checkout -B "$XIME_BRANCH" FETCH_HEAD || echo "警告: 切换 xime 分支 $XIME_BRANCH 失败，继续使用当前工作区。" >&2
+    fi
+else
+    try_clone ./git.py clone --depth=1 -b "$XIME_BRANCH" "https://${GIT_CRED}@github.com/${GH_USER}/${xime_repo}"
+fi
 
 if [[ -d "$xime_repo" ]]; then
+    # 词库资源子模块：librime 及插件源码由 debug_build_secexp.sh 自行准备
+    git -C "$xime_repo" submodule update --init --depth 1 app/src/main/assets/rime \
+        || echo "警告: 词库子模块初始化失败，继续构建。" >&2
     cd "$xime_repo"
-    #git submodule update --init --recursive
     echo "第一次执行耗时约 2+11 分钟，后续执行耗时约几十秒钟"
     ./debug_build_secexp.sh  "$@"
 else
