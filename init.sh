@@ -5,32 +5,53 @@ cd "$ROOT_DIR"
 
 # ============================================================
 # 参数解析
-#   $1 = ghp          GitHub Personal Access Token (必需)
-#   $2 = github_user  GitHub 用户名 (可选, 默认 cjqbj)
+#   $1 = ghp          GitHub Personal Access Token
+#                     可省略：自动从所在仓库 origin 远程地址中的
+#                     https://<user>:ghp_xxx@github.com/... 提取
+#   $2 = github_user  GitHub 用户名 (可选, 默认 qgbcs；远程地址带 user 时沿用)
 #   剩余参数原样传给 debug.sh
 # ============================================================
-GHP="${1:-}"
+GHP=""
+REMOTE_USER=""
+if [[ $# -gt 0 && "$1" == ghp_* ]]; then
+    GHP="$1"
+    shift   # 吃掉显式传入的 ghp
+fi
+
+if [[ -z "$GHP" ]]; then
+    remote_url="$(git -C "$ROOT_DIR" remote get-url origin 2>/dev/null || true)"
+    if [[ "$remote_url" =~ https?://([^:/@]+):(ghp_[A-Za-z0-9]{10,})@ ]]; then
+        REMOTE_USER="${BASH_REMATCH[1]}"
+        GHP="${BASH_REMATCH[2]}"
+        echo "未显式提供 ghp，已从仓库远程地址自动提取（GitHub 用户: $REMOTE_USER）"
+    elif [[ "$remote_url" =~ https?://(ghp_[A-Za-z0-9]{10,})@ ]]; then
+        GHP="${BASH_REMATCH[1]}"
+        echo "未显式提供 ghp，已从仓库远程地址自动提取"
+    fi
+fi
+
 if [[ -z "$GHP" ]]; then
     cat >&2 <<'EOF'
 错误: 缺少必需参数 <ghp>
 
 用法:
-    ./init.sh <ghp> [github_user] [debug.sh 参数...]
+    ./init.sh [ghp] [github_user] [debug.sh 参数...]
 
 参数:
-    ghp          GitHub Personal Access Token (必需)
-    github_user  GitHub 用户名 (可选, 默认: cjqbj)
+    ghp          GitHub Personal Access Token
+                 (省略时会尝试从当前仓库 origin 远程地址里提取 ghp_xxx)
+    github_user  GitHub 用户名 (可选, 默认: qgbcs)
 
 示例:
     ./init.sh ghp_xxxxxxxxxxxxxxxxxxxx
     ./init.sh ghp_xxxxxxxxxxxxxxxxxxxx myname
     ./init.sh ghp_xxxxxxxxxxxxxxxxxxxx myname release
+    ./init.sh                      # 远程地址里已含 ghp_xxx 时可直接运行
 EOF
     exit 1
 fi
-shift   # 吃掉 ghp
 
-GH_USER="qgbcs"
+GH_USER="${REMOTE_USER:-qgbcs}"
 if [[ $# -gt 0 ]]; then
     GH_USER="$1"
     shift
