@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.google.devtools.ksp",
+    "module": "symbol-processing-gradle-plugin",
+    "version": "2.3.12",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "symbol-processing-gradle-plugin-2.3.12.jar",
+          "url": "symbol-processing-gradle-plugin-2.3.12.jar",
+          "size": 166498,
+          "sha512": "4bc9ddae43d6e7e48236b1501972ac6995c736c47643f70c459cc4befb8f1297a550c91f41da785b33c14c5847dcffd55aab53eb4acc05d002b93efe63c82c3c",
+          "sha256": "6474060b400106165474cd7c9af28db3d439245cafbfcece65267ad48921a5af",
+          "sha1": "c2c248f852da9e253f230cca68f93b69b326e6be",
+          "md5": "88afc581b24bee755451ef4e85e4d751"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "symbol-processing-api",
+          "version": {
+            "requires": "2.3.12"
+          }
+        },
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "symbol-processing-common-deps",
+          "version": {
+            "requires": "2.3.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "symbol-processing-gradle-plugin-2.3.12.jar",
+          "url": "symbol-processing-gradle-plugin-2.3.12.jar",
+          "size": 166498,
+          "sha512": "4bc9ddae43d6e7e48236b1501972ac6995c736c47643f70c459cc4befb8f1297a550c91f41da785b33c14c5847dcffd55aab53eb4acc05d002b93efe63c82c3c",
+          "sha256": "6474060b400106165474cd7c9af28db3d439245cafbfcece65267ad48921a5af",
+          "sha1": "c2c248f852da9e253f230cca68f93b69b326e6be",
+          "md5": "88afc581b24bee755451ef4e85e4d751"
+        }
+      ]
+    }
+  ]
+}

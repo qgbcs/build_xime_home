@@ -128,7 +128,7 @@ try_clone() {
 # 这是真正需要拉取/构建的项目代码，不要在上层仓库里反复执行全量 git pull。
 
 # multi_mqtt
-try_clone git clone https://github.com/wxsb-web/multi_mqtt
+try_clone git clone "https://${GIT_CRED}@github.com/${GH_USER}/multi_mqtt"
 
 try_clone git clone --depth=1 https://github.com/cjqbj/client_mqtt-cjqbj client
 # xime
