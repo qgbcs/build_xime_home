@@ -1,0 +1,696 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../lifecycle-viewmodel-compose/2.10.0/lifecycle-viewmodel-compose-2.10.0.module",
+    "group": "androidx.lifecycle",
+    "module": "lifecycle-viewmodel-compose",
+    "version": "2.10.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0",
+      "buildId:": "14428372"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.9.1"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-common",
+          "version": {
+            "requires": "2.10.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel",
+          "version": {
+            "requires": "2.10.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-savedstate",
+          "version": {
+            "requires": "2.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.7.3"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-common",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-compose is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-common-java8",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-compose is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-compiler",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-compose is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-livedata",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-compose is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-livedata-core",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-compose is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-livedata-core-ktx",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-compose is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-livedata-ktx",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-compose is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-process",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-compose is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-reactivestreams",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-compose is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-reactivestreams-ktx",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-compose is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-compose is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-compose",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-compose is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-compose is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-testing",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-compose is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-service",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-compose is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-compose is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-ktx",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-compose is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-savedstate",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-compose is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-testing",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-compose is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-navigation3",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-compose is in atomic group androidx.lifecycle"
+        }
+      ],
+      "files": [
+        {
+          "name": "lifecycle-viewmodel-compose.aar",
+          "url": "lifecycle-viewmodel-compose-android-2.10.0.aar",
+          "size": 1025140,
+          "sha512": "d2f2a647d1e804529c3f9071eb509735f751c8a63d1f5493c683ef9d2e16e8e9def54f97511e16e4d45927e967ae68041b11945752759394f0452dad4c473fea",
+          "sha256": "225904e54ad5154768630471e108b98e143c261df0c08380ff43ea7e832dad7e",
+          "sha1": "40cce68130b940a7bca73b55358fdbb2526b407d",
+          "md5": "507bde634ecc3eab69bce6dddb8e707f"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.9.1"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-common",
+          "version": {
+            "requires": "2.10.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel",
+          "version": {
+            "requires": "2.10.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-savedstate",
+          "version": {
+            "requires": "2.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.7.3"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-common",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-compose is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-common-java8",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-compose is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-compiler",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-compose is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-livedata",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-compose is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-livedata-core",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-compose is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-livedata-core-ktx",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-compose is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-livedata-ktx",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-compose is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-process",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-compose is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-reactivestreams",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-compose is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-reactivestreams-ktx",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-compose is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-compose is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-compose",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-compose is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-compose is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-testing",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-compose is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-service",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-compose is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-compose is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-ktx",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-compose is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-savedstate",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-compose is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-testing",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-compose is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-navigation3",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-compose is in atomic group androidx.lifecycle"
+        }
+      ],
+      "files": [
+        {
+          "name": "lifecycle-viewmodel-compose.aar",
+          "url": "lifecycle-viewmodel-compose-android-2.10.0.aar",
+          "size": 1025140,
+          "sha512": "d2f2a647d1e804529c3f9071eb509735f751c8a63d1f5493c683ef9d2e16e8e9def54f97511e16e4d45927e967ae68041b11945752759394f0452dad4c473fea",
+          "sha256": "225904e54ad5154768630471e108b98e143c261df0c08380ff43ea7e832dad7e",
+          "sha1": "40cce68130b940a7bca73b55358fdbb2526b407d",
+          "md5": "507bde634ecc3eab69bce6dddb8e707f"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-common",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-compose is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-common-java8",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-compose is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-compiler",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-compose is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-livedata",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-compose is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-livedata-core",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-compose is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-livedata-core-ktx",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-compose is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-livedata-ktx",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-compose is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-process",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-compose is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-reactivestreams",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-compose is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-reactivestreams-ktx",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-compose is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-compose is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-compose",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-compose is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-compose is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-testing",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-compose is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-service",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-compose is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-compose is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-ktx",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-compose is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-savedstate",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-compose is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-testing",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-compose is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-navigation3",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-compose is in atomic group androidx.lifecycle"
+        }
+      ],
+      "files": [
+        {
+          "name": "lifecycle-viewmodel-compose-android-2.10.0-sources.jar",
+          "url": "lifecycle-viewmodel-compose-android-2.10.0-sources.jar",
+          "size": 14056,
+          "sha512": "1e284bf06f508e973dd5b0695f1ee01a56587f5247833a17508cf376d380d4facae3b443b8bf7a865c00f3f9f65764c93a7d8d128de5015e5f778cd07b6c946a",
+          "sha256": "e09dde2e8d1f7e05dcacee73da989cafbf003600e93c1e4e73f2f7589c7a75c4",
+          "sha1": "fa319fa8991263fc4ab4828913f517db662610df",
+          "md5": "2a0a3305b33788750cf9e9e8ef3b27b9"
+        },
+        {
+          "name": "lifecycle-viewmodel-compose-2.10.0-samples-sources.jar",
+          "url": "lifecycle-viewmodel-compose-android-2.10.0-samples-sources.jar",
+          "size": 7652,
+          "sha512": "afc0f53a24337dafd9e2db44104be2e883176026969e013674d10f6c4b90427f4edbfaf1818c0b988e0a5fe83a902febb288b327451236c3820075cfe66a449c",
+          "sha256": "fa9e113e0682b3b5f98367152e2405cc1faca1b54de55ed1178cbd8bc8949eba",
+          "sha1": "d2078aef7a1346bbe395a3bf1a54aea99f270dc2",
+          "md5": "d68e4fdd737e666cf464db61077ef392"
+        }
+      ]
+    }
+  ]
+}

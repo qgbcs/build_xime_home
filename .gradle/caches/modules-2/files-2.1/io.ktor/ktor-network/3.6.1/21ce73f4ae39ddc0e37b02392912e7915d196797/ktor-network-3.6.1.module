@@ -1,0 +1,1121 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.ktor",
+    "module": "ktor-network",
+    "version": "3.6.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-utils",
+          "version": {
+            "requires": "3.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-network-metadata-3.6.1.jar",
+          "url": "ktor-network-3.6.1.jar",
+          "size": 102969,
+          "sha512": "346f2119fbd8522a3075067848790d202c7454f5c8cc027ebd6946574e9b4f517077bf539eab6f88c4212bee3d46be0f30cad833f58d3623d91fc3967f3b9e39",
+          "sha256": "cea1854f150d0a73c2bfc0eb0d3386951bb86b0dfc2b7bc9b86fb100eea13b31",
+          "sha1": "90cf4a761a05741e9d0a3244a67e81a37135231e",
+          "md5": "c9409763efde9eb91f2a70300c5974ba"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "ktor-network-kotlin-3.6.1-sources.jar",
+          "url": "ktor-network-3.6.1-sources.jar",
+          "size": 64545,
+          "sha512": "3df14387de6e33295739741623700cc2920a70da208b5ec6ee34a244ba9b489ff745f4b14f64ec567eda06ca611dc6291824e8782f812bf7ecc69e125de151b0",
+          "sha256": "c58e1b51d9782491d94bc89ae07778334f115059dbe61b0eb8513abfd814a2d3",
+          "sha1": "405a93d4c1137db9ed145eff0535c6a3fec05b18",
+          "md5": "510abd9761a1f18698a657a75e9e39ab"
+        }
+      ]
+    },
+    {
+      "name": "androidNativeArm32ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "android_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-network-androidnativearm32/3.6.1/ktor-network-androidnativearm32-3.6.1.module",
+        "group": "io.ktor",
+        "module": "ktor-network-androidnativearm32",
+        "version": "3.6.1"
+      }
+    },
+    {
+      "name": "androidNativeArm32SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "android_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-network-androidnativearm32/3.6.1/ktor-network-androidnativearm32-3.6.1.module",
+        "group": "io.ktor",
+        "module": "ktor-network-androidnativearm32",
+        "version": "3.6.1"
+      }
+    },
+    {
+      "name": "androidNativeArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "android_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-network-androidnativearm64/3.6.1/ktor-network-androidnativearm64-3.6.1.module",
+        "group": "io.ktor",
+        "module": "ktor-network-androidnativearm64",
+        "version": "3.6.1"
+      }
+    },
+    {
+      "name": "androidNativeArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "android_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-network-androidnativearm64/3.6.1/ktor-network-androidnativearm64-3.6.1.module",
+        "group": "io.ktor",
+        "module": "ktor-network-androidnativearm64",
+        "version": "3.6.1"
+      }
+    },
+    {
+      "name": "androidNativeX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "android_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-network-androidnativex64/3.6.1/ktor-network-androidnativex64-3.6.1.module",
+        "group": "io.ktor",
+        "module": "ktor-network-androidnativex64",
+        "version": "3.6.1"
+      }
+    },
+    {
+      "name": "androidNativeX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "android_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-network-androidnativex64/3.6.1/ktor-network-androidnativex64-3.6.1.module",
+        "group": "io.ktor",
+        "module": "ktor-network-androidnativex64",
+        "version": "3.6.1"
+      }
+    },
+    {
+      "name": "androidNativeX86ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "android_x86",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-network-androidnativex86/3.6.1/ktor-network-androidnativex86-3.6.1.module",
+        "group": "io.ktor",
+        "module": "ktor-network-androidnativex86",
+        "version": "3.6.1"
+      }
+    },
+    {
+      "name": "androidNativeX86SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "android_x86",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-network-androidnativex86/3.6.1/ktor-network-androidnativex86-3.6.1.module",
+        "group": "io.ktor",
+        "module": "ktor-network-androidnativex86",
+        "version": "3.6.1"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-network-iosarm64/3.6.1/ktor-network-iosarm64-3.6.1.module",
+        "group": "io.ktor",
+        "module": "ktor-network-iosarm64",
+        "version": "3.6.1"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-network-iosarm64/3.6.1/ktor-network-iosarm64-3.6.1.module",
+        "group": "io.ktor",
+        "module": "ktor-network-iosarm64",
+        "version": "3.6.1"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-network-iosarm64/3.6.1/ktor-network-iosarm64-3.6.1.module",
+        "group": "io.ktor",
+        "module": "ktor-network-iosarm64",
+        "version": "3.6.1"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-network-iossimulatorarm64/3.6.1/ktor-network-iossimulatorarm64-3.6.1.module",
+        "group": "io.ktor",
+        "module": "ktor-network-iossimulatorarm64",
+        "version": "3.6.1"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-network-iossimulatorarm64/3.6.1/ktor-network-iossimulatorarm64-3.6.1.module",
+        "group": "io.ktor",
+        "module": "ktor-network-iossimulatorarm64",
+        "version": "3.6.1"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-network-iossimulatorarm64/3.6.1/ktor-network-iossimulatorarm64-3.6.1.module",
+        "group": "io.ktor",
+        "module": "ktor-network-iossimulatorarm64",
+        "version": "3.6.1"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-network-iosx64/3.6.1/ktor-network-iosx64-3.6.1.module",
+        "group": "io.ktor",
+        "module": "ktor-network-iosx64",
+        "version": "3.6.1"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-network-iosx64/3.6.1/ktor-network-iosx64-3.6.1.module",
+        "group": "io.ktor",
+        "module": "ktor-network-iosx64",
+        "version": "3.6.1"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-network-iosx64/3.6.1/ktor-network-iosx64-3.6.1.module",
+        "group": "io.ktor",
+        "module": "ktor-network-iosx64",
+        "version": "3.6.1"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../ktor-network-js/3.6.1/ktor-network-js-3.6.1.module",
+        "group": "io.ktor",
+        "module": "ktor-network-js",
+        "version": "3.6.1"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../ktor-network-js/3.6.1/ktor-network-js-3.6.1.module",
+        "group": "io.ktor",
+        "module": "ktor-network-js",
+        "version": "3.6.1"
+      }
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../ktor-network-js/3.6.1/ktor-network-js-3.6.1.module",
+        "group": "io.ktor",
+        "module": "ktor-network-js",
+        "version": "3.6.1"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../ktor-network-jvm/3.6.1/ktor-network-jvm-3.6.1.module",
+        "group": "io.ktor",
+        "module": "ktor-network-jvm",
+        "version": "3.6.1"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../ktor-network-jvm/3.6.1/ktor-network-jvm-3.6.1.module",
+        "group": "io.ktor",
+        "module": "ktor-network-jvm",
+        "version": "3.6.1"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../ktor-network-jvm/3.6.1/ktor-network-jvm-3.6.1.module",
+        "group": "io.ktor",
+        "module": "ktor-network-jvm",
+        "version": "3.6.1"
+      }
+    },
+    {
+      "name": "linuxArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-network-linuxarm64/3.6.1/ktor-network-linuxarm64-3.6.1.module",
+        "group": "io.ktor",
+        "module": "ktor-network-linuxarm64",
+        "version": "3.6.1"
+      }
+    },
+    {
+      "name": "linuxArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-network-linuxarm64/3.6.1/ktor-network-linuxarm64-3.6.1.module",
+        "group": "io.ktor",
+        "module": "ktor-network-linuxarm64",
+        "version": "3.6.1"
+      }
+    },
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-network-linuxx64/3.6.1/ktor-network-linuxx64-3.6.1.module",
+        "group": "io.ktor",
+        "module": "ktor-network-linuxx64",
+        "version": "3.6.1"
+      }
+    },
+    {
+      "name": "linuxX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-network-linuxx64/3.6.1/ktor-network-linuxx64-3.6.1.module",
+        "group": "io.ktor",
+        "module": "ktor-network-linuxx64",
+        "version": "3.6.1"
+      }
+    },
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-network-macosarm64/3.6.1/ktor-network-macosarm64-3.6.1.module",
+        "group": "io.ktor",
+        "module": "ktor-network-macosarm64",
+        "version": "3.6.1"
+      }
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-network-macosarm64/3.6.1/ktor-network-macosarm64-3.6.1.module",
+        "group": "io.ktor",
+        "module": "ktor-network-macosarm64",
+        "version": "3.6.1"
+      }
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-network-macosarm64/3.6.1/ktor-network-macosarm64-3.6.1.module",
+        "group": "io.ktor",
+        "module": "ktor-network-macosarm64",
+        "version": "3.6.1"
+      }
+    },
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-network-macosx64/3.6.1/ktor-network-macosx64-3.6.1.module",
+        "group": "io.ktor",
+        "module": "ktor-network-macosx64",
+        "version": "3.6.1"
+      }
+    },
+    {
+      "name": "macosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-network-macosx64/3.6.1/ktor-network-macosx64-3.6.1.module",
+        "group": "io.ktor",
+        "module": "ktor-network-macosx64",
+        "version": "3.6.1"
+      }
+    },
+    {
+      "name": "macosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-network-macosx64/3.6.1/ktor-network-macosx64-3.6.1.module",
+        "group": "io.ktor",
+        "module": "ktor-network-macosx64",
+        "version": "3.6.1"
+      }
+    },
+    {
+      "name": "mingwX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-network-mingwx64/3.6.1/ktor-network-mingwx64-3.6.1.module",
+        "group": "io.ktor",
+        "module": "ktor-network-mingwx64",
+        "version": "3.6.1"
+      }
+    },
+    {
+      "name": "mingwX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-network-mingwx64/3.6.1/ktor-network-mingwx64-3.6.1.module",
+        "group": "io.ktor",
+        "module": "ktor-network-mingwx64",
+        "version": "3.6.1"
+      }
+    },
+    {
+      "name": "tvosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-network-tvosarm64/3.6.1/ktor-network-tvosarm64-3.6.1.module",
+        "group": "io.ktor",
+        "module": "ktor-network-tvosarm64",
+        "version": "3.6.1"
+      }
+    },
+    {
+      "name": "tvosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-network-tvosarm64/3.6.1/ktor-network-tvosarm64-3.6.1.module",
+        "group": "io.ktor",
+        "module": "ktor-network-tvosarm64",
+        "version": "3.6.1"
+      }
+    },
+    {
+      "name": "tvosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-network-tvosarm64/3.6.1/ktor-network-tvosarm64-3.6.1.module",
+        "group": "io.ktor",
+        "module": "ktor-network-tvosarm64",
+        "version": "3.6.1"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-network-tvossimulatorarm64/3.6.1/ktor-network-tvossimulatorarm64-3.6.1.module",
+        "group": "io.ktor",
+        "module": "ktor-network-tvossimulatorarm64",
+        "version": "3.6.1"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-network-tvossimulatorarm64/3.6.1/ktor-network-tvossimulatorarm64-3.6.1.module",
+        "group": "io.ktor",
+        "module": "ktor-network-tvossimulatorarm64",
+        "version": "3.6.1"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-network-tvossimulatorarm64/3.6.1/ktor-network-tvossimulatorarm64-3.6.1.module",
+        "group": "io.ktor",
+        "module": "ktor-network-tvossimulatorarm64",
+        "version": "3.6.1"
+      }
+    },
+    {
+      "name": "tvosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-network-tvosx64/3.6.1/ktor-network-tvosx64-3.6.1.module",
+        "group": "io.ktor",
+        "module": "ktor-network-tvosx64",
+        "version": "3.6.1"
+      }
+    },
+    {
+      "name": "tvosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-network-tvosx64/3.6.1/ktor-network-tvosx64-3.6.1.module",
+        "group": "io.ktor",
+        "module": "ktor-network-tvosx64",
+        "version": "3.6.1"
+      }
+    },
+    {
+      "name": "tvosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-network-tvosx64/3.6.1/ktor-network-tvosx64-3.6.1.module",
+        "group": "io.ktor",
+        "module": "ktor-network-tvosx64",
+        "version": "3.6.1"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../ktor-network-wasm-js/3.6.1/ktor-network-wasm-js-3.6.1.module",
+        "group": "io.ktor",
+        "module": "ktor-network-wasm-js",
+        "version": "3.6.1"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../ktor-network-wasm-js/3.6.1/ktor-network-wasm-js-3.6.1.module",
+        "group": "io.ktor",
+        "module": "ktor-network-wasm-js",
+        "version": "3.6.1"
+      }
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../ktor-network-wasm-js/3.6.1/ktor-network-wasm-js-3.6.1.module",
+        "group": "io.ktor",
+        "module": "ktor-network-wasm-js",
+        "version": "3.6.1"
+      }
+    },
+    {
+      "name": "watchosArm32ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-network-watchosarm32/3.6.1/ktor-network-watchosarm32-3.6.1.module",
+        "group": "io.ktor",
+        "module": "ktor-network-watchosarm32",
+        "version": "3.6.1"
+      }
+    },
+    {
+      "name": "watchosArm32SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-network-watchosarm32/3.6.1/ktor-network-watchosarm32-3.6.1.module",
+        "group": "io.ktor",
+        "module": "ktor-network-watchosarm32",
+        "version": "3.6.1"
+      }
+    },
+    {
+      "name": "watchosArm32MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-network-watchosarm32/3.6.1/ktor-network-watchosarm32-3.6.1.module",
+        "group": "io.ktor",
+        "module": "ktor-network-watchosarm32",
+        "version": "3.6.1"
+      }
+    },
+    {
+      "name": "watchosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-network-watchosarm64/3.6.1/ktor-network-watchosarm64-3.6.1.module",
+        "group": "io.ktor",
+        "module": "ktor-network-watchosarm64",
+        "version": "3.6.1"
+      }
+    },
+    {
+      "name": "watchosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-network-watchosarm64/3.6.1/ktor-network-watchosarm64-3.6.1.module",
+        "group": "io.ktor",
+        "module": "ktor-network-watchosarm64",
+        "version": "3.6.1"
+      }
+    },
+    {
+      "name": "watchosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-network-watchosarm64/3.6.1/ktor-network-watchosarm64-3.6.1.module",
+        "group": "io.ktor",
+        "module": "ktor-network-watchosarm64",
+        "version": "3.6.1"
+      }
+    },
+    {
+      "name": "watchosDeviceArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_device_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-network-watchosdevicearm64/3.6.1/ktor-network-watchosdevicearm64-3.6.1.module",
+        "group": "io.ktor",
+        "module": "ktor-network-watchosdevicearm64",
+        "version": "3.6.1"
+      }
+    },
+    {
+      "name": "watchosDeviceArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_device_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-network-watchosdevicearm64/3.6.1/ktor-network-watchosdevicearm64-3.6.1.module",
+        "group": "io.ktor",
+        "module": "ktor-network-watchosdevicearm64",
+        "version": "3.6.1"
+      }
+    },
+    {
+      "name": "watchosDeviceArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_device_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-network-watchosdevicearm64/3.6.1/ktor-network-watchosdevicearm64-3.6.1.module",
+        "group": "io.ktor",
+        "module": "ktor-network-watchosdevicearm64",
+        "version": "3.6.1"
+      }
+    },
+    {
+      "name": "watchosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-network-watchossimulatorarm64/3.6.1/ktor-network-watchossimulatorarm64-3.6.1.module",
+        "group": "io.ktor",
+        "module": "ktor-network-watchossimulatorarm64",
+        "version": "3.6.1"
+      }
+    },
+    {
+      "name": "watchosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-network-watchossimulatorarm64/3.6.1/ktor-network-watchossimulatorarm64-3.6.1.module",
+        "group": "io.ktor",
+        "module": "ktor-network-watchossimulatorarm64",
+        "version": "3.6.1"
+      }
+    },
+    {
+      "name": "watchosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-network-watchossimulatorarm64/3.6.1/ktor-network-watchossimulatorarm64-3.6.1.module",
+        "group": "io.ktor",
+        "module": "ktor-network-watchossimulatorarm64",
+        "version": "3.6.1"
+      }
+    },
+    {
+      "name": "watchosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-network-watchosx64/3.6.1/ktor-network-watchosx64-3.6.1.module",
+        "group": "io.ktor",
+        "module": "ktor-network-watchosx64",
+        "version": "3.6.1"
+      }
+    },
+    {
+      "name": "watchosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-network-watchosx64/3.6.1/ktor-network-watchosx64-3.6.1.module",
+        "group": "io.ktor",
+        "module": "ktor-network-watchosx64",
+        "version": "3.6.1"
+      }
+    },
+    {
+      "name": "watchosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ktor-network-watchosx64/3.6.1/ktor-network-watchosx64-3.6.1.module",
+        "group": "io.ktor",
+        "module": "ktor-network-watchosx64",
+        "version": "3.6.1"
+      }
+    }
+  ]
+}

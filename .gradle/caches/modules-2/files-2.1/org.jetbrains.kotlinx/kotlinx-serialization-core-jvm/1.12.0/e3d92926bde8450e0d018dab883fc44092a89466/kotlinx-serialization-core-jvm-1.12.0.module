@@ -1,0 +1,124 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-serialization-core/1.12.0/kotlinx-serialization-core-1.12.0.module",
+    "group": "org.jetbrains.kotlinx",
+    "module": "kotlinx-serialization-core",
+    "version": "1.12.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-bom",
+          "version": {
+            "requires": "1.12.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-serialization-core-jvm-1.12.0.jar",
+          "url": "kotlinx-serialization-core-jvm-1.12.0.jar",
+          "size": 416396,
+          "sha512": "7537606f754ae82f76f1bbef716412c426bffb2a5940088f6bf586e5502cf94194574d0e46b00f50f64dd4a0bb7c90e86ef1699a4c50d23f56c8923b9ef3699a",
+          "sha256": "bcfddcac76159058ba0953af05938c17111d238cd41be7191874656454d62f1a",
+          "sha1": "60e7a99e653c96101a80f817b57bf698e40bf66c",
+          "md5": "24e3e20f5e03f1a7742da8f795f4a716"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-bom",
+          "version": {
+            "requires": "1.12.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-serialization-core-jvm-1.12.0.jar",
+          "url": "kotlinx-serialization-core-jvm-1.12.0.jar",
+          "size": 416396,
+          "sha512": "7537606f754ae82f76f1bbef716412c426bffb2a5940088f6bf586e5502cf94194574d0e46b00f50f64dd4a0bb7c90e86ef1699a4c50d23f56c8923b9ef3699a",
+          "sha256": "bcfddcac76159058ba0953af05938c17111d238cd41be7191874656454d62f1a",
+          "sha1": "60e7a99e653c96101a80f817b57bf698e40bf66c",
+          "md5": "24e3e20f5e03f1a7742da8f795f4a716"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kotlinx-serialization-core-jvm-1.12.0-sources.jar",
+          "url": "kotlinx-serialization-core-jvm-1.12.0-sources.jar",
+          "size": 112959,
+          "sha512": "e920ef58b044d4468fa028d2b37cf1fdf6d9f397e2d5c1bd7aec9b81e4e536c045a59ce957de20f2e136a94bd27588aee7501548ceb7e14a7b6c5581414facde",
+          "sha256": "b62fb8059123c43a72ddbe4aeaa8c92c8313d822c128ca2f861e3d91e35e5070",
+          "sha1": "0eb2becbbfadf1f5cf65f88cc058329b1f459fe9",
+          "md5": "234ecbb4fa047451f7311146d5c6194b"
+        }
+      ]
+    }
+  ]
+}

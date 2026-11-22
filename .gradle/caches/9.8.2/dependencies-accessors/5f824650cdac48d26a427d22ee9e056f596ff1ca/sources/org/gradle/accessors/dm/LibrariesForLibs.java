@@ -812,7 +812,7 @@ public class LibrariesForLibs extends AbstractExternalDependencyFactory {
         public Provider<String> getKotlinSerialization() { return getVersion("kotlinSerialization"); }
 
         /**
-         * Version alias <b>ksp</b> with value <b>2.3.12</b>
+         * Version alias <b>ksp</b> with value <b>2.3.13</b>
          * <p>
          * If the version is a rich version and cannot be represented as a
          * single version string, an empty string is returned.
@@ -852,7 +852,7 @@ public class LibrariesForLibs extends AbstractExternalDependencyFactory {
         public Provider<String> getNavigationCompose() { return getVersion("navigationCompose"); }
 
         /**
-         * Version alias <b>onnxruntimeAndroid</b> with value <b>1.31.0</b>
+         * Version alias <b>onnxruntimeAndroid</b> with value <b>1.31.1</b>
          * <p>
          * If the version is a rich version and cannot be represented as a
          * single version string, an empty string is returned.

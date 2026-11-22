@@ -1,0 +1,139 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.core",
+    "module": "core-ktx",
+    "version": "1.19.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0",
+      "buildId:": "16338100"
+    }
+  },
+  "variants": [
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "core-ktx-1.19.1-sources.jar",
+          "url": "core-ktx-1.19.1-sources.jar",
+          "size": 4366,
+          "sha512": "dd4d3db7ec1b0faa9da1bda5b29d238ed0f7c838f84baa1fbad18c91e0e3c83643b87cbfad6e88675fc7a9168ccca6f7d2bd44c0337e3231ea4cc246ee2388bc",
+          "sha256": "fb591a23600d0c3dd2b8ad3c330bf830ff607fd9e751303173a8180af211e2d5",
+          "sha1": "86728c860bfd4dde0a84efafeff9217f73c07d59",
+          "md5": "68df2af873d97897554ed1a694c499a9"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.19.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-ktx-1.19.1.aar",
+          "url": "core-ktx-1.19.1.aar",
+          "size": 5530,
+          "sha512": "508e271a908ec60586306ba2090ac3c5e1645aacb1efa8ecf89a6a5f2af418e99dd664d41fc0e1a35b8156994dc61fbd43f0bd5c982ab9cf178da4dcfc2a283b",
+          "sha256": "9a3e2919e64026ad18b42bf9931e8fea90a6a70e95e13a26519841e926fe5913",
+          "sha1": "bf28cc50f072715001f4dc3c4f7409501f437b1b",
+          "md5": "1522d1ac388be2e8338912bac45fbbc0"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.19.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.19.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-ktx-1.19.1.aar",
+          "url": "core-ktx-1.19.1.aar",
+          "size": 5530,
+          "sha512": "508e271a908ec60586306ba2090ac3c5e1645aacb1efa8ecf89a6a5f2af418e99dd664d41fc0e1a35b8156994dc61fbd43f0bd5c982ab9cf178da4dcfc2a283b",
+          "sha256": "9a3e2919e64026ad18b42bf9931e8fea90a6a70e95e13a26519841e926fe5913",
+          "sha1": "bf28cc50f072715001f4dc3c4f7409501f437b1b",
+          "md5": "1522d1ac388be2e8338912bac45fbbc0"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "files": [
+        {
+          "name": "core-ktx-1.19.1-versionMetadata.json",
+          "url": "core-ktx-1.19.1-versionMetadata.json",
+          "size": 49095,
+          "sha512": "9ff23f54c3993f7933ddf2cc09c0647662dd10e98777c397c6849cac61279198ad50cc92e79a2251d369c3ab3dd6d9f69ee9af058601ad9d77c3d1c0f4856ba6",
+          "sha256": "187aec71760c8a6cf039a66393a972f63c899560c08f8227e107b99657e3d8ac",
+          "sha1": "13865b1483026ee188bba377c7fe8185818ea71b",
+          "md5": "f0a85bf7a1a3918126cf79524422bd46"
+        }
+      ]
+    }
+  ]
+}

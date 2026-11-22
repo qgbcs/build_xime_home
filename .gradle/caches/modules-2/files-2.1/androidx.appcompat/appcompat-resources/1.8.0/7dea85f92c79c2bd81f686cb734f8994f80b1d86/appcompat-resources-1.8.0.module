@@ -1,0 +1,233 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.appcompat",
+    "module": "appcompat-resources",
+    "version": "1.8.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.0",
+      "buildId:": "15854533"
+    }
+  },
+  "variants": [
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.8.0"
+          },
+          "reason": "appcompat-resources is in atomic group androidx.appcompat"
+        }
+      ],
+      "files": [
+        {
+          "name": "appcompat-resources-1.8.0-sources.jar",
+          "url": "appcompat-resources-1.8.0-sources.jar",
+          "size": 42230,
+          "sha512": "3103b63ab15979e3cc130f431386543ebd3e764ae0b26d98f65d9ac138500452958fe46cf040dd7e92ec5039f87657764bb2cccfe3c143108c2674e54b55d85b",
+          "sha256": "dd48777d3bf4a7614bd35998242d3519d12ac080dcaf01beadb709f478ef7ef1",
+          "sha1": "c66eb257f101e855c31e212b2ea93a8fb88292e9",
+          "md5": "dd15f4089f451685eae4ad161f894766"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "androidx.vectordrawable",
+          "module": "vectordrawable",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.vectordrawable",
+          "module": "vectordrawable-animated",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jspecify",
+          "module": "jspecify",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.8.0"
+          },
+          "reason": "appcompat-resources is in atomic group androidx.appcompat"
+        }
+      ],
+      "files": [
+        {
+          "name": "appcompat-resources-1.8.0.aar",
+          "url": "appcompat-resources-1.8.0.aar",
+          "size": 67369,
+          "sha512": "2f6f7803942257f427e246aafbeea516ffc581da0b3aaf62cde79e841a73f3bdd5af5cd8ecf515e60fef6882395434e7177152541d47cfcc42d1164e8a3bf261",
+          "sha256": "3fe48cc3df409bed03063a4f5f5f9f8c51f1d63ea9e88d41e6489bf58495a5af",
+          "sha1": "898003a0ec0d6faa6bf117cd8b76b726aec57a46",
+          "md5": "ce029ecd24bc64f1d746164f5be6eb13"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "androidx.collection",
+          "module": "collection",
+          "version": {
+            "requires": "1.4.2"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "androidx.vectordrawable",
+          "module": "vectordrawable",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.vectordrawable",
+          "module": "vectordrawable-animated",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jspecify",
+          "module": "jspecify",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.8.0"
+          },
+          "reason": "appcompat-resources is in atomic group androidx.appcompat"
+        }
+      ],
+      "files": [
+        {
+          "name": "appcompat-resources-1.8.0.aar",
+          "url": "appcompat-resources-1.8.0.aar",
+          "size": 67369,
+          "sha512": "2f6f7803942257f427e246aafbeea516ffc581da0b3aaf62cde79e841a73f3bdd5af5cd8ecf515e60fef6882395434e7177152541d47cfcc42d1164e8a3bf261",
+          "sha256": "3fe48cc3df409bed03063a4f5f5f9f8c51f1d63ea9e88d41e6489bf58495a5af",
+          "sha1": "898003a0ec0d6faa6bf117cd8b76b726aec57a46",
+          "md5": "ce029ecd24bc64f1d746164f5be6eb13"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.8.0"
+          },
+          "reason": "appcompat-resources is in atomic group androidx.appcompat"
+        }
+      ],
+      "files": [
+        {
+          "name": "appcompat-resources-1.8.0-versionMetadata.json",
+          "url": "appcompat-resources-1.8.0-versionMetadata.json",
+          "size": 4232,
+          "sha512": "c02806b5c304b5e37e08060b4cd052f28ba4e2bf0071a7f3d2e9e1526b47f337c3da80da61666c29a94720440b9556286b8a3187a209cd68f2072d1b5324dbbe",
+          "sha256": "9f3887ca29e47b39170d79c421817d46a9d104967cd09c6b47992483f13a380d",
+          "sha1": "2d05dcb08c7ca641bd6685f0055979e6bfcda932",
+          "md5": "83c50cf8bce48a9c999ce77b59a90a90"
+        }
+      ]
+    }
+  ]
+}

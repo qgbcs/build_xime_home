@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-serialization-json/1.12.0/kotlinx-serialization-json-1.12.0.module",
+    "group": "org.jetbrains.kotlinx",
+    "module": "kotlinx-serialization-json",
+    "version": "1.12.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-bom",
+          "version": {
+            "requires": "1.12.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-serialization-json-jvm-1.12.0.jar",
+          "url": "kotlinx-serialization-json-jvm-1.12.0.jar",
+          "size": 306230,
+          "sha512": "74e5fb84a64635e1dcdbf4869dad3604b4694794127e06606f07709756d47731537cf294f1b9386ab5fa969d750e5d6dce780cd6a78d13fe43b04e0bb247e8df",
+          "sha256": "879eb73e46cb63253ab0fa7cca4448f5c96bca1a16ff377abcb71ebab60e0631",
+          "sha1": "3e4ae142f2e099c52e99d2ea8256f6ad1b9518ce",
+          "md5": "0805a487a7a38936b5bac42142a228cd"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-bom",
+          "version": {
+            "requires": "1.12.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-serialization-json-jvm-1.12.0.jar",
+          "url": "kotlinx-serialization-json-jvm-1.12.0.jar",
+          "size": 306230,
+          "sha512": "74e5fb84a64635e1dcdbf4869dad3604b4694794127e06606f07709756d47731537cf294f1b9386ab5fa969d750e5d6dce780cd6a78d13fe43b04e0bb247e8df",
+          "sha256": "879eb73e46cb63253ab0fa7cca4448f5c96bca1a16ff377abcb71ebab60e0631",
+          "sha1": "3e4ae142f2e099c52e99d2ea8256f6ad1b9518ce",
+          "md5": "0805a487a7a38936b5bac42142a228cd"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kotlinx-serialization-json-jvm-1.12.0-sources.jar",
+          "url": "kotlinx-serialization-json-jvm-1.12.0-sources.jar",
+          "size": 95111,
+          "sha512": "7b11763570872f8e3a45a25da59bf3c837b5ea8439d988f36d731166c9959547c3536d3f6fed78182914349e4bcee7f64d960777a123b92b72a70f108270204d",
+          "sha256": "af584f8e83f23e62a3a06f58f79a49e0c84e0011eb6c3526afc8ea1f3ace7db1",
+          "sha1": "b2bf923edc5eee740b7fd18a1def3807fc93e6fb",
+          "md5": "e8fc3cfd5ebddba80ac868defab1ea2c"
+        }
+      ]
+    }
+  ]
+}

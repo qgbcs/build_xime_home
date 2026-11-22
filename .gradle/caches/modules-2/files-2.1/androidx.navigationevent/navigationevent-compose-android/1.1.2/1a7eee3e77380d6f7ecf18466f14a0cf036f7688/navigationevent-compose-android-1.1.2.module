@@ -1,0 +1,209 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../navigationevent-compose/1.1.2/navigationevent-compose-1.1.2.module",
+    "group": "androidx.navigationevent",
+    "module": "navigationevent-compose",
+    "version": "1.1.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0-rc-1",
+      "buildId:": "15599658"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.11.2"
+          }
+        },
+        {
+          "group": "androidx.navigationevent",
+          "module": "navigationevent",
+          "version": {
+            "requires": "1.1.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.navigationevent",
+          "module": "navigationevent",
+          "version": {
+            "requires": "1.1.2"
+          },
+          "reason": "navigationevent-compose is in atomic group androidx.navigationevent"
+        },
+        {
+          "group": "androidx.navigationevent",
+          "module": "navigationevent-testing",
+          "version": {
+            "requires": "1.1.2"
+          },
+          "reason": "navigationevent-compose is in atomic group androidx.navigationevent"
+        }
+      ],
+      "files": [
+        {
+          "name": "navigationevent-compose.aar",
+          "url": "navigationevent-compose-android-1.1.2.aar",
+          "size": 29799,
+          "sha512": "4873e7af452847485e915a72ce96d8f4df41825ba8999979fbd38b2721faae91da94fc604a46f8d1f43e52800540d7772bca94c49be0434cf1db954e20b0c6c3",
+          "sha256": "ac9773dc9076d3b035ccf5494316d78a5f9abc18a8fa73fb211f92957286e1aa",
+          "sha1": "2c04fa533fde27ae1ca7668e53f476243c4be0b3",
+          "md5": "37b9fb42db0470d9102fe8712a5db1ce"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.11.2"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.11.2"
+          },
+          "reason": "Ensure we are using the Compose-UI 1.11 or above"
+        },
+        {
+          "group": "androidx.navigationevent",
+          "module": "navigationevent",
+          "version": {
+            "requires": "1.1.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.navigationevent",
+          "module": "navigationevent",
+          "version": {
+            "requires": "1.1.2"
+          },
+          "reason": "navigationevent-compose is in atomic group androidx.navigationevent"
+        },
+        {
+          "group": "androidx.navigationevent",
+          "module": "navigationevent-testing",
+          "version": {
+            "requires": "1.1.2"
+          },
+          "reason": "navigationevent-compose is in atomic group androidx.navigationevent"
+        }
+      ],
+      "files": [
+        {
+          "name": "navigationevent-compose.aar",
+          "url": "navigationevent-compose-android-1.1.2.aar",
+          "size": 29799,
+          "sha512": "4873e7af452847485e915a72ce96d8f4df41825ba8999979fbd38b2721faae91da94fc604a46f8d1f43e52800540d7772bca94c49be0434cf1db954e20b0c6c3",
+          "sha256": "ac9773dc9076d3b035ccf5494316d78a5f9abc18a8fa73fb211f92957286e1aa",
+          "sha1": "2c04fa533fde27ae1ca7668e53f476243c4be0b3",
+          "md5": "37b9fb42db0470d9102fe8712a5db1ce"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.navigationevent",
+          "module": "navigationevent",
+          "version": {
+            "requires": "1.1.2"
+          },
+          "reason": "navigationevent-compose is in atomic group androidx.navigationevent"
+        },
+        {
+          "group": "androidx.navigationevent",
+          "module": "navigationevent-testing",
+          "version": {
+            "requires": "1.1.2"
+          },
+          "reason": "navigationevent-compose is in atomic group androidx.navigationevent"
+        }
+      ],
+      "files": [
+        {
+          "name": "navigationevent-compose-android-1.1.2-sources.jar",
+          "url": "navigationevent-compose-android-1.1.2-sources.jar",
+          "size": 14664,
+          "sha512": "c1c99465889e95c006bb8aeea421825a54d26363bd9d2f934599049d8d6b3c3edd9f16f33b32545b40343017242cceba0c7bc78893be63f96bf97e3f36314991",
+          "sha256": "d643f7507fcc2ebe67c98bdce1d4b37582154960bf53f0b4ac9c70881e52cdc1",
+          "sha1": "e0511f1ee595a3aa1885a03ae508b68bd31b944e",
+          "md5": "126d7bc3500f0af20c53bf863b0a3d1d"
+        },
+        {
+          "name": "navigationevent-compose-1.1.2-samples-sources.jar",
+          "url": "navigationevent-compose-android-1.1.2-samples-sources.jar",
+          "size": 5859,
+          "sha512": "ade557bee51aab3e41cde6381162fb98e8053ab0a9349fad48367d34bd5cebab5a76cb5081ad0f933e4a3f27ffb56f4ada3f1c5b2563acde1cad98d44d2fc1ac",
+          "sha256": "df63ae9684f469f4538795438481b802b394d365566b5af25487e0eef2f4ac6f",
+          "sha1": "b7d83bf2bf811c87eec0c4133cf342e08043060e",
+          "md5": "3dc3a37e0a809197bcd92e7bf8e9c888"
+        }
+      ]
+    }
+  ]
+}

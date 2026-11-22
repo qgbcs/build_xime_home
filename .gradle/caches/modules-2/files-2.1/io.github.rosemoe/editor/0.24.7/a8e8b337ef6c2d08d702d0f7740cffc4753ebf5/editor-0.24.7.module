@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.rosemoe",
+    "module": "editor",
+    "version": "0.24.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "editor-0.24.7.aar",
+          "url": "editor-0.24.7.aar",
+          "size": 798166,
+          "sha512": "99dff7d8a7bb555d9b1530405d2ae72eaf10611ca7a087ce95a671ad844efc7180ef7d92e1bb975c1fd83d9b57d0c282b7c52c5ff84f44233a3103048f9e5d24",
+          "sha256": "cdfdacdb3ac8605b190768d93f504935400c9aa37b773dc6f6c840311faf2b4c",
+          "sha1": "2f057662aa6cf2b5198407b109779ce93d5250e7",
+          "md5": "a6b687ccd1810c5d0d21709df93f9fca"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.collection",
+          "module": "collection",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "editor-0.24.7.aar",
+          "url": "editor-0.24.7.aar",
+          "size": 798166,
+          "sha512": "99dff7d8a7bb555d9b1530405d2ae72eaf10611ca7a087ce95a671ad844efc7180ef7d92e1bb975c1fd83d9b57d0c282b7c52c5ff84f44233a3103048f9e5d24",
+          "sha256": "cdfdacdb3ac8605b190768d93f504935400c9aa37b773dc6f6c840311faf2b4c",
+          "sha1": "2f057662aa6cf2b5198407b109779ce93d5250e7",
+          "md5": "a6b687ccd1810c5d0d21709df93f9fca"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "editor-0.24.7-sources.jar",
+          "url": "editor-0.24.7-sources.jar",
+          "size": 569035,
+          "sha512": "5dbac56a230a9643c39ec3d4412852b28426a05c3774d5ea49efc42b8101638bae588b4bbba3d8301dbf48a9f3527f4872578e7c49029e60af6be907806b7f96",
+          "sha256": "bed28a8d9bb171fb0f2bdea97e4ab2308628d01a56f8e65f4a0f014619d280a1",
+          "sha1": "a87134d15bb1a17e6a3d1c86e5455496a0d5b407",
+          "md5": "befe46d0da64fb0b290ccbbde0b65141"
+        }
+      ]
+    }
+  ]
+}

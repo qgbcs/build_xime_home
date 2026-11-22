@@ -1,0 +1,1797 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.lifecycle",
+    "module": "lifecycle-viewmodel-savedstate",
+    "version": "2.10.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0",
+      "buildId:": "14428372"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.9.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-common",
+          "version": {
+            "requires": "2.10.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel",
+          "version": {
+            "requires": "2.10.0"
+          }
+        },
+        {
+          "group": "androidx.savedstate",
+          "module": "savedstate",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.7.3"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-common",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-common-java8",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-compiler",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-livedata",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-livedata-core",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-livedata-core-ktx",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-livedata-ktx",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-process",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-reactivestreams",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-reactivestreams-ktx",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-compose",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-testing",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-service",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-compose",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-ktx",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-testing",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-navigation3",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "org.jetbrains.androidx.lifecycle",
+          "module": "lifecycle-viewmodel-savedstate",
+          "version": {
+            "requires": "2.9.5"
+          },
+          "reason": "prevents symbols duplication"
+        }
+      ],
+      "files": [
+        {
+          "name": "lifecycle-viewmodel-savedstate-metadata-2.10.0.jar",
+          "url": "lifecycle-viewmodel-savedstate-2.10.0.jar",
+          "size": 19736,
+          "sha512": "159424b37eece6a86367686f910cd0858c54c18b412b95df717585889720297307f4c902dd0b93e0749053fc28e2261d8893857910e68e19dcd49752be87a752",
+          "sha256": "b18144e91c4780b3b05943256053d7d4dccc45b153066d5f5ffce1839aa0511b",
+          "sha1": "b18297610ea1c6f5ee6035b9222800e497a43ef6",
+          "md5": "42b334f5ebac2576fd58d3e496eed52e"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-common",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-common-java8",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-compiler",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-livedata",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-livedata-core",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-livedata-core-ktx",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-livedata-ktx",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-process",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-reactivestreams",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-reactivestreams-ktx",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-compose",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-testing",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-service",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-compose",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-ktx",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-testing",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-navigation3",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        }
+      ],
+      "files": [
+        {
+          "name": "lifecycle-viewmodel-savedstate-kotlin-2.10.0-sources.jar",
+          "url": "lifecycle-viewmodel-savedstate-2.10.0-sources.jar",
+          "size": 24809,
+          "sha512": "205b6af559457f22cd66f8ce0e6db968288510fc8d0928cad434bb1ced583b8a0c752de7ceb2f941d47c58ae2345f672bef4f3248822486a3c73dbb75e090386",
+          "sha256": "4b50b4e8a373533f6bece7076d530c85440d552bbb54ec5c73848552b414f4c4",
+          "sha1": "74dd525f1d56acdf477c40031bc1c5b9f96618df",
+          "md5": "a8fac429249eba6d98ee7ce7fdbd954a"
+        }
+      ]
+    },
+    {
+      "name": "androidxSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "androidx-multiplatform-docs"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-common",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-common-java8",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-compiler",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-livedata",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-livedata-core",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-livedata-core-ktx",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-livedata-ktx",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-process",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-reactivestreams",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-reactivestreams-ktx",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-compose",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-testing",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-service",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-compose",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-ktx",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-testing",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-navigation3",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        }
+      ],
+      "files": [
+        {
+          "name": "lifecycle-viewmodel-savedstate-2.10.0-multiplatform-sources.jar",
+          "url": "lifecycle-viewmodel-savedstate-2.10.0-multiplatform-sources.jar",
+          "size": 38115,
+          "sha512": "15b166a9f0a95fc0a7b340f6c68dfd350a0b42d899df40e06c06ad21bde3bd3681f2c36414b960e6b46510d6d3b0735198453bbebbed9e12c953079245d7f994",
+          "sha256": "dc41bd9708b0b190ffa6afa3d57390de2c351169cfa57fc951d609a41ecace59",
+          "sha1": "74c5f4329fca00afb5b800ba5c49f44dbefd1fce",
+          "md5": "76eda4664a1f968f702a6d4f695e7942"
+        },
+        {
+          "name": "lifecycle-viewmodel-savedstate-2.10.0-samples-sources.jar",
+          "url": "lifecycle-viewmodel-savedstate-2.10.0-samples-sources.jar",
+          "size": 5593,
+          "sha512": "dd0f37b2e8fed03d02d9c5e877884ac96df5f2a3ce667e81136d125efff42bfa5ba7bb3761ade2b1d0305a06e2c9e733fb6b3952467dc5abb2243a77cb5eaddc",
+          "sha256": "db875f4851cbc4a6c89085aa0acc8b9517c9df7ad2c987da1c9111c2121247bb",
+          "sha1": "f0e6ff50f158c97ed29349cdb28ca5b372205f46",
+          "md5": "1d2700ef8f867b9eb49a77117a301aeb"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-common",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-common-java8",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-compiler",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-livedata",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-livedata-core",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-livedata-core-ktx",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-livedata-ktx",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-process",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-reactivestreams",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-reactivestreams-ktx",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-compose",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-testing",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-service",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-compose",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-ktx",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-testing",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-navigation3",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "reason": "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle"
+        }
+      ],
+      "files": [
+        {
+          "name": "apiLevels.json",
+          "url": "lifecycle-viewmodel-savedstate-2.10.0-versionMetadata.json",
+          "size": 5122,
+          "sha512": "2b5fafa87939102f486820ab19e069d3c4a510423525ffce5ca43f9d99fd282ab381ee00beabc38756f2226894027096175f8becbd5f4b0cb40cfa4f8991c36c",
+          "sha256": "b0972273e19f33910a84ac2d6d473bf3f0c352bbb0739e3ee029a5ad3142bb4c",
+          "sha1": "90494ad158fad7613808356c4e6698c1b6029dbc",
+          "md5": "b1ccdf3f2aff43b95f987014514eecae"
+        }
+      ]
+    },
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../lifecycle-viewmodel-savedstate-android/2.10.0/lifecycle-viewmodel-savedstate-android-2.10.0.module",
+        "group": "androidx.lifecycle",
+        "module": "lifecycle-viewmodel-savedstate-android",
+        "version": "2.10.0"
+      }
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../lifecycle-viewmodel-savedstate-android/2.10.0/lifecycle-viewmodel-savedstate-android-2.10.0.module",
+        "group": "androidx.lifecycle",
+        "module": "lifecycle-viewmodel-savedstate-android",
+        "version": "2.10.0"
+      }
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../lifecycle-viewmodel-savedstate-android/2.10.0/lifecycle-viewmodel-savedstate-android-2.10.0.module",
+        "group": "androidx.lifecycle",
+        "module": "lifecycle-viewmodel-savedstate-android",
+        "version": "2.10.0"
+      }
+    },
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../lifecycle-viewmodel-savedstate-desktop/2.10.0/lifecycle-viewmodel-savedstate-desktop-2.10.0.module",
+        "group": "androidx.lifecycle",
+        "module": "lifecycle-viewmodel-savedstate-desktop",
+        "version": "2.10.0"
+      }
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../lifecycle-viewmodel-savedstate-desktop/2.10.0/lifecycle-viewmodel-savedstate-desktop-2.10.0.module",
+        "group": "androidx.lifecycle",
+        "module": "lifecycle-viewmodel-savedstate-desktop",
+        "version": "2.10.0"
+      }
+    },
+    {
+      "name": "desktopSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../lifecycle-viewmodel-savedstate-desktop/2.10.0/lifecycle-viewmodel-savedstate-desktop-2.10.0.module",
+        "group": "androidx.lifecycle",
+        "module": "lifecycle-viewmodel-savedstate-desktop",
+        "version": "2.10.0"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lifecycle-viewmodel-savedstate-iosarm64/2.10.0/lifecycle-viewmodel-savedstate-iosarm64-2.10.0.module",
+        "group": "androidx.lifecycle",
+        "module": "lifecycle-viewmodel-savedstate-iosarm64",
+        "version": "2.10.0"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lifecycle-viewmodel-savedstate-iosarm64/2.10.0/lifecycle-viewmodel-savedstate-iosarm64-2.10.0.module",
+        "group": "androidx.lifecycle",
+        "module": "lifecycle-viewmodel-savedstate-iosarm64",
+        "version": "2.10.0"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lifecycle-viewmodel-savedstate-iosarm64/2.10.0/lifecycle-viewmodel-savedstate-iosarm64-2.10.0.module",
+        "group": "androidx.lifecycle",
+        "module": "lifecycle-viewmodel-savedstate-iosarm64",
+        "version": "2.10.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lifecycle-viewmodel-savedstate-iossimulatorarm64/2.10.0/lifecycle-viewmodel-savedstate-iossimulatorarm64-2.10.0.module",
+        "group": "androidx.lifecycle",
+        "module": "lifecycle-viewmodel-savedstate-iossimulatorarm64",
+        "version": "2.10.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lifecycle-viewmodel-savedstate-iossimulatorarm64/2.10.0/lifecycle-viewmodel-savedstate-iossimulatorarm64-2.10.0.module",
+        "group": "androidx.lifecycle",
+        "module": "lifecycle-viewmodel-savedstate-iossimulatorarm64",
+        "version": "2.10.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lifecycle-viewmodel-savedstate-iossimulatorarm64/2.10.0/lifecycle-viewmodel-savedstate-iossimulatorarm64-2.10.0.module",
+        "group": "androidx.lifecycle",
+        "module": "lifecycle-viewmodel-savedstate-iossimulatorarm64",
+        "version": "2.10.0"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lifecycle-viewmodel-savedstate-iosx64/2.10.0/lifecycle-viewmodel-savedstate-iosx64-2.10.0.module",
+        "group": "androidx.lifecycle",
+        "module": "lifecycle-viewmodel-savedstate-iosx64",
+        "version": "2.10.0"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lifecycle-viewmodel-savedstate-iosx64/2.10.0/lifecycle-viewmodel-savedstate-iosx64-2.10.0.module",
+        "group": "androidx.lifecycle",
+        "module": "lifecycle-viewmodel-savedstate-iosx64",
+        "version": "2.10.0"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lifecycle-viewmodel-savedstate-iosx64/2.10.0/lifecycle-viewmodel-savedstate-iosx64-2.10.0.module",
+        "group": "androidx.lifecycle",
+        "module": "lifecycle-viewmodel-savedstate-iosx64",
+        "version": "2.10.0"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../lifecycle-viewmodel-savedstate-js/2.10.0/lifecycle-viewmodel-savedstate-js-2.10.0.module",
+        "group": "androidx.lifecycle",
+        "module": "lifecycle-viewmodel-savedstate-js",
+        "version": "2.10.0"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../lifecycle-viewmodel-savedstate-js/2.10.0/lifecycle-viewmodel-savedstate-js-2.10.0.module",
+        "group": "androidx.lifecycle",
+        "module": "lifecycle-viewmodel-savedstate-js",
+        "version": "2.10.0"
+      }
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../lifecycle-viewmodel-savedstate-js/2.10.0/lifecycle-viewmodel-savedstate-js-2.10.0.module",
+        "group": "androidx.lifecycle",
+        "module": "lifecycle-viewmodel-savedstate-js",
+        "version": "2.10.0"
+      }
+    },
+    {
+      "name": "linuxArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lifecycle-viewmodel-savedstate-linuxarm64/2.10.0/lifecycle-viewmodel-savedstate-linuxarm64-2.10.0.module",
+        "group": "androidx.lifecycle",
+        "module": "lifecycle-viewmodel-savedstate-linuxarm64",
+        "version": "2.10.0"
+      }
+    },
+    {
+      "name": "linuxArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lifecycle-viewmodel-savedstate-linuxarm64/2.10.0/lifecycle-viewmodel-savedstate-linuxarm64-2.10.0.module",
+        "group": "androidx.lifecycle",
+        "module": "lifecycle-viewmodel-savedstate-linuxarm64",
+        "version": "2.10.0"
+      }
+    },
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lifecycle-viewmodel-savedstate-linuxx64/2.10.0/lifecycle-viewmodel-savedstate-linuxx64-2.10.0.module",
+        "group": "androidx.lifecycle",
+        "module": "lifecycle-viewmodel-savedstate-linuxx64",
+        "version": "2.10.0"
+      }
+    },
+    {
+      "name": "linuxX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lifecycle-viewmodel-savedstate-linuxx64/2.10.0/lifecycle-viewmodel-savedstate-linuxx64-2.10.0.module",
+        "group": "androidx.lifecycle",
+        "module": "lifecycle-viewmodel-savedstate-linuxx64",
+        "version": "2.10.0"
+      }
+    },
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lifecycle-viewmodel-savedstate-macosarm64/2.10.0/lifecycle-viewmodel-savedstate-macosarm64-2.10.0.module",
+        "group": "androidx.lifecycle",
+        "module": "lifecycle-viewmodel-savedstate-macosarm64",
+        "version": "2.10.0"
+      }
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lifecycle-viewmodel-savedstate-macosarm64/2.10.0/lifecycle-viewmodel-savedstate-macosarm64-2.10.0.module",
+        "group": "androidx.lifecycle",
+        "module": "lifecycle-viewmodel-savedstate-macosarm64",
+        "version": "2.10.0"
+      }
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lifecycle-viewmodel-savedstate-macosarm64/2.10.0/lifecycle-viewmodel-savedstate-macosarm64-2.10.0.module",
+        "group": "androidx.lifecycle",
+        "module": "lifecycle-viewmodel-savedstate-macosarm64",
+        "version": "2.10.0"
+      }
+    },
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lifecycle-viewmodel-savedstate-macosx64/2.10.0/lifecycle-viewmodel-savedstate-macosx64-2.10.0.module",
+        "group": "androidx.lifecycle",
+        "module": "lifecycle-viewmodel-savedstate-macosx64",
+        "version": "2.10.0"
+      }
+    },
+    {
+      "name": "macosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lifecycle-viewmodel-savedstate-macosx64/2.10.0/lifecycle-viewmodel-savedstate-macosx64-2.10.0.module",
+        "group": "androidx.lifecycle",
+        "module": "lifecycle-viewmodel-savedstate-macosx64",
+        "version": "2.10.0"
+      }
+    },
+    {
+      "name": "macosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lifecycle-viewmodel-savedstate-macosx64/2.10.0/lifecycle-viewmodel-savedstate-macosx64-2.10.0.module",
+        "group": "androidx.lifecycle",
+        "module": "lifecycle-viewmodel-savedstate-macosx64",
+        "version": "2.10.0"
+      }
+    },
+    {
+      "name": "mingwX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lifecycle-viewmodel-savedstate-mingwx64/2.10.0/lifecycle-viewmodel-savedstate-mingwx64-2.10.0.module",
+        "group": "androidx.lifecycle",
+        "module": "lifecycle-viewmodel-savedstate-mingwx64",
+        "version": "2.10.0"
+      }
+    },
+    {
+      "name": "mingwX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lifecycle-viewmodel-savedstate-mingwx64/2.10.0/lifecycle-viewmodel-savedstate-mingwx64-2.10.0.module",
+        "group": "androidx.lifecycle",
+        "module": "lifecycle-viewmodel-savedstate-mingwx64",
+        "version": "2.10.0"
+      }
+    },
+    {
+      "name": "tvosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lifecycle-viewmodel-savedstate-tvosarm64/2.10.0/lifecycle-viewmodel-savedstate-tvosarm64-2.10.0.module",
+        "group": "androidx.lifecycle",
+        "module": "lifecycle-viewmodel-savedstate-tvosarm64",
+        "version": "2.10.0"
+      }
+    },
+    {
+      "name": "tvosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lifecycle-viewmodel-savedstate-tvosarm64/2.10.0/lifecycle-viewmodel-savedstate-tvosarm64-2.10.0.module",
+        "group": "androidx.lifecycle",
+        "module": "lifecycle-viewmodel-savedstate-tvosarm64",
+        "version": "2.10.0"
+      }
+    },
+    {
+      "name": "tvosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lifecycle-viewmodel-savedstate-tvosarm64/2.10.0/lifecycle-viewmodel-savedstate-tvosarm64-2.10.0.module",
+        "group": "androidx.lifecycle",
+        "module": "lifecycle-viewmodel-savedstate-tvosarm64",
+        "version": "2.10.0"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lifecycle-viewmodel-savedstate-tvossimulatorarm64/2.10.0/lifecycle-viewmodel-savedstate-tvossimulatorarm64-2.10.0.module",
+        "group": "androidx.lifecycle",
+        "module": "lifecycle-viewmodel-savedstate-tvossimulatorarm64",
+        "version": "2.10.0"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lifecycle-viewmodel-savedstate-tvossimulatorarm64/2.10.0/lifecycle-viewmodel-savedstate-tvossimulatorarm64-2.10.0.module",
+        "group": "androidx.lifecycle",
+        "module": "lifecycle-viewmodel-savedstate-tvossimulatorarm64",
+        "version": "2.10.0"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lifecycle-viewmodel-savedstate-tvossimulatorarm64/2.10.0/lifecycle-viewmodel-savedstate-tvossimulatorarm64-2.10.0.module",
+        "group": "androidx.lifecycle",
+        "module": "lifecycle-viewmodel-savedstate-tvossimulatorarm64",
+        "version": "2.10.0"
+      }
+    },
+    {
+      "name": "tvosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lifecycle-viewmodel-savedstate-tvosx64/2.10.0/lifecycle-viewmodel-savedstate-tvosx64-2.10.0.module",
+        "group": "androidx.lifecycle",
+        "module": "lifecycle-viewmodel-savedstate-tvosx64",
+        "version": "2.10.0"
+      }
+    },
+    {
+      "name": "tvosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lifecycle-viewmodel-savedstate-tvosx64/2.10.0/lifecycle-viewmodel-savedstate-tvosx64-2.10.0.module",
+        "group": "androidx.lifecycle",
+        "module": "lifecycle-viewmodel-savedstate-tvosx64",
+        "version": "2.10.0"
+      }
+    },
+    {
+      "name": "tvosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lifecycle-viewmodel-savedstate-tvosx64/2.10.0/lifecycle-viewmodel-savedstate-tvosx64-2.10.0.module",
+        "group": "androidx.lifecycle",
+        "module": "lifecycle-viewmodel-savedstate-tvosx64",
+        "version": "2.10.0"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../lifecycle-viewmodel-savedstate-wasm-js/2.10.0/lifecycle-viewmodel-savedstate-wasm-js-2.10.0.module",
+        "group": "androidx.lifecycle",
+        "module": "lifecycle-viewmodel-savedstate-wasm-js",
+        "version": "2.10.0"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../lifecycle-viewmodel-savedstate-wasm-js/2.10.0/lifecycle-viewmodel-savedstate-wasm-js-2.10.0.module",
+        "group": "androidx.lifecycle",
+        "module": "lifecycle-viewmodel-savedstate-wasm-js",
+        "version": "2.10.0"
+      }
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../lifecycle-viewmodel-savedstate-wasm-js/2.10.0/lifecycle-viewmodel-savedstate-wasm-js-2.10.0.module",
+        "group": "androidx.lifecycle",
+        "module": "lifecycle-viewmodel-savedstate-wasm-js",
+        "version": "2.10.0"
+      }
+    },
+    {
+      "name": "watchosArm32ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lifecycle-viewmodel-savedstate-watchosarm32/2.10.0/lifecycle-viewmodel-savedstate-watchosarm32-2.10.0.module",
+        "group": "androidx.lifecycle",
+        "module": "lifecycle-viewmodel-savedstate-watchosarm32",
+        "version": "2.10.0"
+      }
+    },
+    {
+      "name": "watchosArm32SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lifecycle-viewmodel-savedstate-watchosarm32/2.10.0/lifecycle-viewmodel-savedstate-watchosarm32-2.10.0.module",
+        "group": "androidx.lifecycle",
+        "module": "lifecycle-viewmodel-savedstate-watchosarm32",
+        "version": "2.10.0"
+      }
+    },
+    {
+      "name": "watchosArm32MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lifecycle-viewmodel-savedstate-watchosarm32/2.10.0/lifecycle-viewmodel-savedstate-watchosarm32-2.10.0.module",
+        "group": "androidx.lifecycle",
+        "module": "lifecycle-viewmodel-savedstate-watchosarm32",
+        "version": "2.10.0"
+      }
+    },
+    {
+      "name": "watchosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lifecycle-viewmodel-savedstate-watchosarm64/2.10.0/lifecycle-viewmodel-savedstate-watchosarm64-2.10.0.module",
+        "group": "androidx.lifecycle",
+        "module": "lifecycle-viewmodel-savedstate-watchosarm64",
+        "version": "2.10.0"
+      }
+    },
+    {
+      "name": "watchosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lifecycle-viewmodel-savedstate-watchosarm64/2.10.0/lifecycle-viewmodel-savedstate-watchosarm64-2.10.0.module",
+        "group": "androidx.lifecycle",
+        "module": "lifecycle-viewmodel-savedstate-watchosarm64",
+        "version": "2.10.0"
+      }
+    },
+    {
+      "name": "watchosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lifecycle-viewmodel-savedstate-watchosarm64/2.10.0/lifecycle-viewmodel-savedstate-watchosarm64-2.10.0.module",
+        "group": "androidx.lifecycle",
+        "module": "lifecycle-viewmodel-savedstate-watchosarm64",
+        "version": "2.10.0"
+      }
+    },
+    {
+      "name": "watchosDeviceArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_device_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lifecycle-viewmodel-savedstate-watchosdevicearm64/2.10.0/lifecycle-viewmodel-savedstate-watchosdevicearm64-2.10.0.module",
+        "group": "androidx.lifecycle",
+        "module": "lifecycle-viewmodel-savedstate-watchosdevicearm64",
+        "version": "2.10.0"
+      }
+    },
+    {
+      "name": "watchosDeviceArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_device_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lifecycle-viewmodel-savedstate-watchosdevicearm64/2.10.0/lifecycle-viewmodel-savedstate-watchosdevicearm64-2.10.0.module",
+        "group": "androidx.lifecycle",
+        "module": "lifecycle-viewmodel-savedstate-watchosdevicearm64",
+        "version": "2.10.0"
+      }
+    },
+    {
+      "name": "watchosDeviceArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_device_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lifecycle-viewmodel-savedstate-watchosdevicearm64/2.10.0/lifecycle-viewmodel-savedstate-watchosdevicearm64-2.10.0.module",
+        "group": "androidx.lifecycle",
+        "module": "lifecycle-viewmodel-savedstate-watchosdevicearm64",
+        "version": "2.10.0"
+      }
+    },
+    {
+      "name": "watchosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lifecycle-viewmodel-savedstate-watchossimulatorarm64/2.10.0/lifecycle-viewmodel-savedstate-watchossimulatorarm64-2.10.0.module",
+        "group": "androidx.lifecycle",
+        "module": "lifecycle-viewmodel-savedstate-watchossimulatorarm64",
+        "version": "2.10.0"
+      }
+    },
+    {
+      "name": "watchosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lifecycle-viewmodel-savedstate-watchossimulatorarm64/2.10.0/lifecycle-viewmodel-savedstate-watchossimulatorarm64-2.10.0.module",
+        "group": "androidx.lifecycle",
+        "module": "lifecycle-viewmodel-savedstate-watchossimulatorarm64",
+        "version": "2.10.0"
+      }
+    },
+    {
+      "name": "watchosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lifecycle-viewmodel-savedstate-watchossimulatorarm64/2.10.0/lifecycle-viewmodel-savedstate-watchossimulatorarm64-2.10.0.module",
+        "group": "androidx.lifecycle",
+        "module": "lifecycle-viewmodel-savedstate-watchossimulatorarm64",
+        "version": "2.10.0"
+      }
+    },
+    {
+      "name": "watchosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lifecycle-viewmodel-savedstate-watchosx64/2.10.0/lifecycle-viewmodel-savedstate-watchosx64-2.10.0.module",
+        "group": "androidx.lifecycle",
+        "module": "lifecycle-viewmodel-savedstate-watchosx64",
+        "version": "2.10.0"
+      }
+    },
+    {
+      "name": "watchosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lifecycle-viewmodel-savedstate-watchosx64/2.10.0/lifecycle-viewmodel-savedstate-watchosx64-2.10.0.module",
+        "group": "androidx.lifecycle",
+        "module": "lifecycle-viewmodel-savedstate-watchosx64",
+        "version": "2.10.0"
+      }
+    },
+    {
+      "name": "watchosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lifecycle-viewmodel-savedstate-watchosx64/2.10.0/lifecycle-viewmodel-savedstate-watchosx64-2.10.0.module",
+        "group": "androidx.lifecycle",
+        "module": "lifecycle-viewmodel-savedstate-watchosx64",
+        "version": "2.10.0"
+      }
+    }
+  ]
+}

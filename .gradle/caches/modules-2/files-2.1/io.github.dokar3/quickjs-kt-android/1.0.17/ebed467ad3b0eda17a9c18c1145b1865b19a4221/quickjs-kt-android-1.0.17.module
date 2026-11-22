@@ -1,0 +1,135 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../quickjs-kt/1.0.17/quickjs-kt-1.0.17.module",
+    "group": "io.github.dokar3",
+    "module": "quickjs-kt",
+    "version": "1.0.17",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "quickjs-release.aar",
+          "url": "quickjs-kt-android-1.0.17.aar",
+          "size": 1835910,
+          "sha512": "f361bf6ac60767b9e4e7e404acc0068b3d4c8846a8cd5f792cfe8f906952e466b2086aaf4df36693379748409b83cb6b376d74183b0eac1096e107ccac6ed6e9",
+          "sha256": "94a5a8e5986a2dece6208de15501e07a84d7e08e58274f192361ca7c94502a8d",
+          "sha1": "e6abc1ac5f413f81911d2e92008be8e39b339af4",
+          "md5": "f881e08a3a6cbf47c41dcb36c093e61a"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "quickjs-release.aar",
+          "url": "quickjs-kt-android-1.0.17.aar",
+          "size": 1835910,
+          "sha512": "f361bf6ac60767b9e4e7e404acc0068b3d4c8846a8cd5f792cfe8f906952e466b2086aaf4df36693379748409b83cb6b376d74183b0eac1096e107ccac6ed6e9",
+          "sha256": "94a5a8e5986a2dece6208de15501e07a84d7e08e58274f192361ca7c94502a8d",
+          "sha1": "e6abc1ac5f413f81911d2e92008be8e39b339af4",
+          "md5": "f881e08a3a6cbf47c41dcb36c093e61a"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "quickjs-android-sources.jar",
+          "url": "quickjs-kt-android-1.0.17-sources.jar",
+          "size": 36349,
+          "sha512": "0337fce912b549fa5aeaee5a5933d917a263d645a02ac146ded1d8cecbc91bcb76b18b3189d43f5f46f0a30951618dc9775886c12c2407d99df5f2197fe8dab6",
+          "sha256": "99cdbb15e6bd8358f0e8b8898cd2deb169e115f456d35ea41d2f1750dc39a401",
+          "sha1": "16c6a1a50e071d887d1bc1c2553213b798c32843",
+          "md5": "14ec892134a50212f64fd7dc81e5ac57"
+        }
+      ]
+    }
+  ]
+}

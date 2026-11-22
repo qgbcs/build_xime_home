@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-network/3.6.1/ktor-network-3.6.1.module",
+    "group": "io.ktor",
+    "module": "ktor-network",
+    "version": "3.6.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.19"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-utils",
+          "version": {
+            "requires": "3.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-network-jvm-3.6.1.jar",
+          "url": "ktor-network-jvm-3.6.1.jar",
+          "size": 202149,
+          "sha512": "893849494c7c61c62ca690fb4ddc9e8d15ff3adc74fcd5d1870e721e4e36cac7ff6832da8e27a34561ff3a61fc5a7267b0ce4e775d558d57aae77e8652550b78",
+          "sha256": "3d1c8dba07e2d8939015fdb8436e2d28f3c7465e578ab938f9ff67cba5a4f535",
+          "sha1": "550b034ff9a43fbec2243cfc98f17fa9cad5923c",
+          "md5": "0e09ff22530bceafacffa96fd9926566"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.19"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-utils",
+          "version": {
+            "requires": "3.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-network-jvm-3.6.1.jar",
+          "url": "ktor-network-jvm-3.6.1.jar",
+          "size": 202149,
+          "sha512": "893849494c7c61c62ca690fb4ddc9e8d15ff3adc74fcd5d1870e721e4e36cac7ff6832da8e27a34561ff3a61fc5a7267b0ce4e775d558d57aae77e8652550b78",
+          "sha256": "3d1c8dba07e2d8939015fdb8436e2d28f3c7465e578ab938f9ff67cba5a4f535",
+          "sha1": "550b034ff9a43fbec2243cfc98f17fa9cad5923c",
+          "md5": "0e09ff22530bceafacffa96fd9926566"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "ktor-network-jvm-3.6.1-sources.jar",
+          "url": "ktor-network-jvm-3.6.1-sources.jar",
+          "size": 43350,
+          "sha512": "adc776b915d0a79119c723f071674e09a39a8f70f0dab7dafdbf0273225c6c7464717dea7bfc812d637ede84c4a06e43155e49eadafea5361365c2acc607d731",
+          "sha256": "bd254bf8905fec4f4cda71e6d9f45b45a981e199eaff4abecb509526e12abf85",
+          "sha1": "eddc85a407f2963655c795d9beec9a9f64a6ebc7",
+          "md5": "a51f13514bca85a275ce477744944270"
+        }
+      ]
+    }
+  ]
+}

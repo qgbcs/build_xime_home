@@ -1,0 +1,1339 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.navigation",
+    "module": "navigation-common",
+    "version": "2.10.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.0",
+      "buildId:": "16343433"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.9.1"
+          }
+        },
+        {
+          "group": "androidx.collection",
+          "module": "collection",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-common",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-savedstate",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "androidx.savedstate",
+          "module": "savedstate",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.7.3"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-common-ktx",
+          "version": {
+            "requires": "2.10.2"
+          },
+          "reason": "navigation-common is in atomic group androidx.navigation"
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-compose",
+          "version": {
+            "requires": "2.10.2"
+          },
+          "reason": "navigation-common is in atomic group androidx.navigation"
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-dynamic-features-fragment",
+          "version": {
+            "requires": "2.10.2"
+          },
+          "reason": "navigation-common is in atomic group androidx.navigation"
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-dynamic-features-runtime",
+          "version": {
+            "requires": "2.10.2"
+          },
+          "reason": "navigation-common is in atomic group androidx.navigation"
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-fragment",
+          "version": {
+            "requires": "2.10.2"
+          },
+          "reason": "navigation-common is in atomic group androidx.navigation"
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-fragment-compose",
+          "version": {
+            "requires": "2.10.2"
+          },
+          "reason": "navigation-common is in atomic group androidx.navigation"
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-fragment-ktx",
+          "version": {
+            "requires": "2.10.2"
+          },
+          "reason": "navigation-common is in atomic group androidx.navigation"
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-runtime",
+          "version": {
+            "requires": "2.10.2"
+          },
+          "reason": "navigation-common is in atomic group androidx.navigation"
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-runtime-ktx",
+          "version": {
+            "requires": "2.10.2"
+          },
+          "reason": "navigation-common is in atomic group androidx.navigation"
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-safe-args-generator",
+          "version": {
+            "requires": "2.10.2"
+          },
+          "reason": "navigation-common is in atomic group androidx.navigation"
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-safe-args-gradle-plugin",
+          "version": {
+            "requires": "2.10.2"
+          },
+          "reason": "navigation-common is in atomic group androidx.navigation"
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-testing",
+          "version": {
+            "requires": "2.10.2"
+          },
+          "reason": "navigation-common is in atomic group androidx.navigation"
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-ui",
+          "version": {
+            "requires": "2.10.2"
+          },
+          "reason": "navigation-common is in atomic group androidx.navigation"
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-ui-ktx",
+          "version": {
+            "requires": "2.10.2"
+          },
+          "reason": "navigation-common is in atomic group androidx.navigation"
+        }
+      ],
+      "files": [
+        {
+          "name": "navigation-common-metadata-2.10.2.jar",
+          "url": "navigation-common-2.10.2.jar",
+          "size": 58064,
+          "sha512": "c19e75a380da6b4c3dbba5232e422c4e85fcdd666b8fe7d1f46661bb9324cc7f6ae37abe681f401d2a41a9cea98e47d56386a9143121e1bb6252c953915c4e82",
+          "sha256": "6e9da08bc6a2f2388338da28ba1ce161b69f821163b5909a6b2603022eabc93e",
+          "sha1": "871bd0881d74a86f23e9aa03ea5146f3a6eef3e4",
+          "md5": "54263d9265b0358458c77f4e9a15edb5"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-common-ktx",
+          "version": {
+            "requires": "2.10.2"
+          },
+          "reason": "navigation-common is in atomic group androidx.navigation"
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-compose",
+          "version": {
+            "requires": "2.10.2"
+          },
+          "reason": "navigation-common is in atomic group androidx.navigation"
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-dynamic-features-fragment",
+          "version": {
+            "requires": "2.10.2"
+          },
+          "reason": "navigation-common is in atomic group androidx.navigation"
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-dynamic-features-runtime",
+          "version": {
+            "requires": "2.10.2"
+          },
+          "reason": "navigation-common is in atomic group androidx.navigation"
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-fragment",
+          "version": {
+            "requires": "2.10.2"
+          },
+          "reason": "navigation-common is in atomic group androidx.navigation"
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-fragment-compose",
+          "version": {
+            "requires": "2.10.2"
+          },
+          "reason": "navigation-common is in atomic group androidx.navigation"
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-fragment-ktx",
+          "version": {
+            "requires": "2.10.2"
+          },
+          "reason": "navigation-common is in atomic group androidx.navigation"
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-runtime",
+          "version": {
+            "requires": "2.10.2"
+          },
+          "reason": "navigation-common is in atomic group androidx.navigation"
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-runtime-ktx",
+          "version": {
+            "requires": "2.10.2"
+          },
+          "reason": "navigation-common is in atomic group androidx.navigation"
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-safe-args-generator",
+          "version": {
+            "requires": "2.10.2"
+          },
+          "reason": "navigation-common is in atomic group androidx.navigation"
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-safe-args-gradle-plugin",
+          "version": {
+            "requires": "2.10.2"
+          },
+          "reason": "navigation-common is in atomic group androidx.navigation"
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-testing",
+          "version": {
+            "requires": "2.10.2"
+          },
+          "reason": "navigation-common is in atomic group androidx.navigation"
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-ui",
+          "version": {
+            "requires": "2.10.2"
+          },
+          "reason": "navigation-common is in atomic group androidx.navigation"
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-ui-ktx",
+          "version": {
+            "requires": "2.10.2"
+          },
+          "reason": "navigation-common is in atomic group androidx.navigation"
+        }
+      ],
+      "files": [
+        {
+          "name": "navigation-common-kotlin-2.10.2-sources.jar",
+          "url": "navigation-common-2.10.2-sources.jar",
+          "size": 113324,
+          "sha512": "7f40623ef427a83d02d2d0f53468975a824a4a9e8271f562adcda39073102ebd92c56bb663b3427d58bd40e3b2f6f293ef928f1667cea8fa0a7a41d37d9ee7b3",
+          "sha256": "df93a7644bb90342189e25ce7d39665163e281689b44549e41695db5e42e9c7a",
+          "sha1": "6e87ec99ab49a52d75a9590804b22275cc42d45f",
+          "md5": "9a06530b18611789d7dca5279795c8df"
+        }
+      ]
+    },
+    {
+      "name": "androidxSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "androidx-multiplatform-docs"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-common-ktx",
+          "version": {
+            "requires": "2.10.2"
+          },
+          "reason": "navigation-common is in atomic group androidx.navigation"
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-compose",
+          "version": {
+            "requires": "2.10.2"
+          },
+          "reason": "navigation-common is in atomic group androidx.navigation"
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-dynamic-features-fragment",
+          "version": {
+            "requires": "2.10.2"
+          },
+          "reason": "navigation-common is in atomic group androidx.navigation"
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-dynamic-features-runtime",
+          "version": {
+            "requires": "2.10.2"
+          },
+          "reason": "navigation-common is in atomic group androidx.navigation"
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-fragment",
+          "version": {
+            "requires": "2.10.2"
+          },
+          "reason": "navigation-common is in atomic group androidx.navigation"
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-fragment-compose",
+          "version": {
+            "requires": "2.10.2"
+          },
+          "reason": "navigation-common is in atomic group androidx.navigation"
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-fragment-ktx",
+          "version": {
+            "requires": "2.10.2"
+          },
+          "reason": "navigation-common is in atomic group androidx.navigation"
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-runtime",
+          "version": {
+            "requires": "2.10.2"
+          },
+          "reason": "navigation-common is in atomic group androidx.navigation"
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-runtime-ktx",
+          "version": {
+            "requires": "2.10.2"
+          },
+          "reason": "navigation-common is in atomic group androidx.navigation"
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-safe-args-generator",
+          "version": {
+            "requires": "2.10.2"
+          },
+          "reason": "navigation-common is in atomic group androidx.navigation"
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-safe-args-gradle-plugin",
+          "version": {
+            "requires": "2.10.2"
+          },
+          "reason": "navigation-common is in atomic group androidx.navigation"
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-testing",
+          "version": {
+            "requires": "2.10.2"
+          },
+          "reason": "navigation-common is in atomic group androidx.navigation"
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-ui",
+          "version": {
+            "requires": "2.10.2"
+          },
+          "reason": "navigation-common is in atomic group androidx.navigation"
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-ui-ktx",
+          "version": {
+            "requires": "2.10.2"
+          },
+          "reason": "navigation-common is in atomic group androidx.navigation"
+        }
+      ],
+      "files": [
+        {
+          "name": "navigation-common-2.10.2-multiplatform-sources.jar",
+          "url": "navigation-common-2.10.2-multiplatform-sources.jar",
+          "size": 148519,
+          "sha512": "0de26923e9414ec99ff7fa9d812b5491cc699c01291c15eac4abcf71bf0270b5faddec6df50fdf183f20fdf95a7e0be2fd564a937357ccfa62b7fe90b5fb471f",
+          "sha256": "3624ef3bc13d475c919ae0491a527f72fcccdf75d21b1eca0d4ac5cc5524fc2c",
+          "sha1": "b01473badaa67759b2c91dab106abd5201fba3ee",
+          "md5": "a59e00890aaff55cd8cc4a256f37a30f"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-common-ktx",
+          "version": {
+            "requires": "2.10.2"
+          },
+          "reason": "navigation-common is in atomic group androidx.navigation"
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-compose",
+          "version": {
+            "requires": "2.10.2"
+          },
+          "reason": "navigation-common is in atomic group androidx.navigation"
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-dynamic-features-fragment",
+          "version": {
+            "requires": "2.10.2"
+          },
+          "reason": "navigation-common is in atomic group androidx.navigation"
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-dynamic-features-runtime",
+          "version": {
+            "requires": "2.10.2"
+          },
+          "reason": "navigation-common is in atomic group androidx.navigation"
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-fragment",
+          "version": {
+            "requires": "2.10.2"
+          },
+          "reason": "navigation-common is in atomic group androidx.navigation"
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-fragment-compose",
+          "version": {
+            "requires": "2.10.2"
+          },
+          "reason": "navigation-common is in atomic group androidx.navigation"
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-fragment-ktx",
+          "version": {
+            "requires": "2.10.2"
+          },
+          "reason": "navigation-common is in atomic group androidx.navigation"
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-runtime",
+          "version": {
+            "requires": "2.10.2"
+          },
+          "reason": "navigation-common is in atomic group androidx.navigation"
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-runtime-ktx",
+          "version": {
+            "requires": "2.10.2"
+          },
+          "reason": "navigation-common is in atomic group androidx.navigation"
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-safe-args-generator",
+          "version": {
+            "requires": "2.10.2"
+          },
+          "reason": "navigation-common is in atomic group androidx.navigation"
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-safe-args-gradle-plugin",
+          "version": {
+            "requires": "2.10.2"
+          },
+          "reason": "navigation-common is in atomic group androidx.navigation"
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-testing",
+          "version": {
+            "requires": "2.10.2"
+          },
+          "reason": "navigation-common is in atomic group androidx.navigation"
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-ui",
+          "version": {
+            "requires": "2.10.2"
+          },
+          "reason": "navigation-common is in atomic group androidx.navigation"
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-ui-ktx",
+          "version": {
+            "requires": "2.10.2"
+          },
+          "reason": "navigation-common is in atomic group androidx.navigation"
+        }
+      ],
+      "files": [
+        {
+          "name": "apiLevels.json",
+          "url": "navigation-common-2.10.2-versionMetadata.json",
+          "size": 35904,
+          "sha512": "07a449989af918d379c12da77cba9c851bb617fae46d58628d84f990c5df4a13f788e55229b4cdac26a572e60737b962149cf66ecfca0a71622655b8642f4410",
+          "sha256": "c1ba2f5d134078279643ac32f05190c9daa97f08d7dab53953f6686a6f5c8f8a",
+          "sha1": "c185d35c3a31d319e6e8c0ddf9d47247ed49362c",
+          "md5": "21b58dcb8051d6318503e4c0005495f7"
+        }
+      ]
+    },
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../navigation-common-android/2.10.2/navigation-common-android-2.10.2.module",
+        "group": "androidx.navigation",
+        "module": "navigation-common-android",
+        "version": "2.10.2"
+      }
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../navigation-common-android/2.10.2/navigation-common-android-2.10.2.module",
+        "group": "androidx.navigation",
+        "module": "navigation-common-android",
+        "version": "2.10.2"
+      }
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../navigation-common-android/2.10.2/navigation-common-android-2.10.2.module",
+        "group": "androidx.navigation",
+        "module": "navigation-common-android",
+        "version": "2.10.2"
+      }
+    },
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../navigation-common-desktop/2.10.2/navigation-common-desktop-2.10.2.module",
+        "group": "androidx.navigation",
+        "module": "navigation-common-desktop",
+        "version": "2.10.2"
+      }
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../navigation-common-desktop/2.10.2/navigation-common-desktop-2.10.2.module",
+        "group": "androidx.navigation",
+        "module": "navigation-common-desktop",
+        "version": "2.10.2"
+      }
+    },
+    {
+      "name": "desktopSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../navigation-common-desktop/2.10.2/navigation-common-desktop-2.10.2.module",
+        "group": "androidx.navigation",
+        "module": "navigation-common-desktop",
+        "version": "2.10.2"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../navigation-common-iosarm64/2.10.2/navigation-common-iosarm64-2.10.2.module",
+        "group": "androidx.navigation",
+        "module": "navigation-common-iosarm64",
+        "version": "2.10.2"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../navigation-common-iosarm64/2.10.2/navigation-common-iosarm64-2.10.2.module",
+        "group": "androidx.navigation",
+        "module": "navigation-common-iosarm64",
+        "version": "2.10.2"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../navigation-common-iosarm64/2.10.2/navigation-common-iosarm64-2.10.2.module",
+        "group": "androidx.navigation",
+        "module": "navigation-common-iosarm64",
+        "version": "2.10.2"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../navigation-common-iossimulatorarm64/2.10.2/navigation-common-iossimulatorarm64-2.10.2.module",
+        "group": "androidx.navigation",
+        "module": "navigation-common-iossimulatorarm64",
+        "version": "2.10.2"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../navigation-common-iossimulatorarm64/2.10.2/navigation-common-iossimulatorarm64-2.10.2.module",
+        "group": "androidx.navigation",
+        "module": "navigation-common-iossimulatorarm64",
+        "version": "2.10.2"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../navigation-common-iossimulatorarm64/2.10.2/navigation-common-iossimulatorarm64-2.10.2.module",
+        "group": "androidx.navigation",
+        "module": "navigation-common-iossimulatorarm64",
+        "version": "2.10.2"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../navigation-common-js/2.10.2/navigation-common-js-2.10.2.module",
+        "group": "androidx.navigation",
+        "module": "navigation-common-js",
+        "version": "2.10.2"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../navigation-common-js/2.10.2/navigation-common-js-2.10.2.module",
+        "group": "androidx.navigation",
+        "module": "navigation-common-js",
+        "version": "2.10.2"
+      }
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../navigation-common-js/2.10.2/navigation-common-js-2.10.2.module",
+        "group": "androidx.navigation",
+        "module": "navigation-common-js",
+        "version": "2.10.2"
+      }
+    },
+    {
+      "name": "linuxArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../navigation-common-linuxarm64/2.10.2/navigation-common-linuxarm64-2.10.2.module",
+        "group": "androidx.navigation",
+        "module": "navigation-common-linuxarm64",
+        "version": "2.10.2"
+      }
+    },
+    {
+      "name": "linuxArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../navigation-common-linuxarm64/2.10.2/navigation-common-linuxarm64-2.10.2.module",
+        "group": "androidx.navigation",
+        "module": "navigation-common-linuxarm64",
+        "version": "2.10.2"
+      }
+    },
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../navigation-common-linuxx64/2.10.2/navigation-common-linuxx64-2.10.2.module",
+        "group": "androidx.navigation",
+        "module": "navigation-common-linuxx64",
+        "version": "2.10.2"
+      }
+    },
+    {
+      "name": "linuxX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../navigation-common-linuxx64/2.10.2/navigation-common-linuxx64-2.10.2.module",
+        "group": "androidx.navigation",
+        "module": "navigation-common-linuxx64",
+        "version": "2.10.2"
+      }
+    },
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../navigation-common-macosarm64/2.10.2/navigation-common-macosarm64-2.10.2.module",
+        "group": "androidx.navigation",
+        "module": "navigation-common-macosarm64",
+        "version": "2.10.2"
+      }
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../navigation-common-macosarm64/2.10.2/navigation-common-macosarm64-2.10.2.module",
+        "group": "androidx.navigation",
+        "module": "navigation-common-macosarm64",
+        "version": "2.10.2"
+      }
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../navigation-common-macosarm64/2.10.2/navigation-common-macosarm64-2.10.2.module",
+        "group": "androidx.navigation",
+        "module": "navigation-common-macosarm64",
+        "version": "2.10.2"
+      }
+    },
+    {
+      "name": "tvosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../navigation-common-tvosarm64/2.10.2/navigation-common-tvosarm64-2.10.2.module",
+        "group": "androidx.navigation",
+        "module": "navigation-common-tvosarm64",
+        "version": "2.10.2"
+      }
+    },
+    {
+      "name": "tvosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../navigation-common-tvosarm64/2.10.2/navigation-common-tvosarm64-2.10.2.module",
+        "group": "androidx.navigation",
+        "module": "navigation-common-tvosarm64",
+        "version": "2.10.2"
+      }
+    },
+    {
+      "name": "tvosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../navigation-common-tvosarm64/2.10.2/navigation-common-tvosarm64-2.10.2.module",
+        "group": "androidx.navigation",
+        "module": "navigation-common-tvosarm64",
+        "version": "2.10.2"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../navigation-common-tvossimulatorarm64/2.10.2/navigation-common-tvossimulatorarm64-2.10.2.module",
+        "group": "androidx.navigation",
+        "module": "navigation-common-tvossimulatorarm64",
+        "version": "2.10.2"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../navigation-common-tvossimulatorarm64/2.10.2/navigation-common-tvossimulatorarm64-2.10.2.module",
+        "group": "androidx.navigation",
+        "module": "navigation-common-tvossimulatorarm64",
+        "version": "2.10.2"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../navigation-common-tvossimulatorarm64/2.10.2/navigation-common-tvossimulatorarm64-2.10.2.module",
+        "group": "androidx.navigation",
+        "module": "navigation-common-tvossimulatorarm64",
+        "version": "2.10.2"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../navigation-common-wasm-js/2.10.2/navigation-common-wasm-js-2.10.2.module",
+        "group": "androidx.navigation",
+        "module": "navigation-common-wasm-js",
+        "version": "2.10.2"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../navigation-common-wasm-js/2.10.2/navigation-common-wasm-js-2.10.2.module",
+        "group": "androidx.navigation",
+        "module": "navigation-common-wasm-js",
+        "version": "2.10.2"
+      }
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../navigation-common-wasm-js/2.10.2/navigation-common-wasm-js-2.10.2.module",
+        "group": "androidx.navigation",
+        "module": "navigation-common-wasm-js",
+        "version": "2.10.2"
+      }
+    },
+    {
+      "name": "watchosArm32ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../navigation-common-watchosarm32/2.10.2/navigation-common-watchosarm32-2.10.2.module",
+        "group": "androidx.navigation",
+        "module": "navigation-common-watchosarm32",
+        "version": "2.10.2"
+      }
+    },
+    {
+      "name": "watchosArm32SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../navigation-common-watchosarm32/2.10.2/navigation-common-watchosarm32-2.10.2.module",
+        "group": "androidx.navigation",
+        "module": "navigation-common-watchosarm32",
+        "version": "2.10.2"
+      }
+    },
+    {
+      "name": "watchosArm32MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../navigation-common-watchosarm32/2.10.2/navigation-common-watchosarm32-2.10.2.module",
+        "group": "androidx.navigation",
+        "module": "navigation-common-watchosarm32",
+        "version": "2.10.2"
+      }
+    },
+    {
+      "name": "watchosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../navigation-common-watchosarm64/2.10.2/navigation-common-watchosarm64-2.10.2.module",
+        "group": "androidx.navigation",
+        "module": "navigation-common-watchosarm64",
+        "version": "2.10.2"
+      }
+    },
+    {
+      "name": "watchosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../navigation-common-watchosarm64/2.10.2/navigation-common-watchosarm64-2.10.2.module",
+        "group": "androidx.navigation",
+        "module": "navigation-common-watchosarm64",
+        "version": "2.10.2"
+      }
+    },
+    {
+      "name": "watchosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../navigation-common-watchosarm64/2.10.2/navigation-common-watchosarm64-2.10.2.module",
+        "group": "androidx.navigation",
+        "module": "navigation-common-watchosarm64",
+        "version": "2.10.2"
+      }
+    },
+    {
+      "name": "watchosDeviceArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_device_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../navigation-common-watchosdevicearm64/2.10.2/navigation-common-watchosdevicearm64-2.10.2.module",
+        "group": "androidx.navigation",
+        "module": "navigation-common-watchosdevicearm64",
+        "version": "2.10.2"
+      }
+    },
+    {
+      "name": "watchosDeviceArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_device_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../navigation-common-watchosdevicearm64/2.10.2/navigation-common-watchosdevicearm64-2.10.2.module",
+        "group": "androidx.navigation",
+        "module": "navigation-common-watchosdevicearm64",
+        "version": "2.10.2"
+      }
+    },
+    {
+      "name": "watchosDeviceArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_device_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../navigation-common-watchosdevicearm64/2.10.2/navigation-common-watchosdevicearm64-2.10.2.module",
+        "group": "androidx.navigation",
+        "module": "navigation-common-watchosdevicearm64",
+        "version": "2.10.2"
+      }
+    },
+    {
+      "name": "watchosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../navigation-common-watchossimulatorarm64/2.10.2/navigation-common-watchossimulatorarm64-2.10.2.module",
+        "group": "androidx.navigation",
+        "module": "navigation-common-watchossimulatorarm64",
+        "version": "2.10.2"
+      }
+    },
+    {
+      "name": "watchosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../navigation-common-watchossimulatorarm64/2.10.2/navigation-common-watchossimulatorarm64-2.10.2.module",
+        "group": "androidx.navigation",
+        "module": "navigation-common-watchossimulatorarm64",
+        "version": "2.10.2"
+      }
+    },
+    {
+      "name": "watchosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../navigation-common-watchossimulatorarm64/2.10.2/navigation-common-watchossimulatorarm64-2.10.2.module",
+        "group": "androidx.navigation",
+        "module": "navigation-common-watchossimulatorarm64",
+        "version": "2.10.2"
+      }
+    }
+  ]
+}

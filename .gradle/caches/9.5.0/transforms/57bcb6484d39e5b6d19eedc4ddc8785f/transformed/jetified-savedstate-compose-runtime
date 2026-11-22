@@ -1,0 +1,7 @@
+androidx.savedstate.compose.LocalSavedStateRegistryOwnerKt
+androidx.savedstate.compose.serialization.serializers.MutableStateSerializer
+androidx.savedstate.compose.serialization.serializers.MutableStateSerializerKt
+androidx.savedstate.compose.serialization.serializers.SnapshotStateListSerializer
+androidx.savedstate.compose.serialization.serializers.SnapshotStateListSerializerKt
+androidx.savedstate.compose.serialization.serializers.SnapshotStateMapSerializer
+androidx.savedstate.compose.serialization.serializers.SnapshotStateMapSerializerKt

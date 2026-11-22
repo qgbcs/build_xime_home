@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2026 The Android Open Source Project -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="@android:color/system_neutral1_500"
+          android:lStar="90"
+          android:alpha="0.10"/>
+</selector>

@@ -1,0 +1,963 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.navigationevent",
+    "module": "navigationevent-compose",
+    "version": "1.1.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0-rc-1",
+      "buildId:": "15599658"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.11.2"
+          }
+        },
+        {
+          "group": "androidx.navigationevent",
+          "module": "navigationevent",
+          "version": {
+            "requires": "1.1.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.navigationevent",
+          "module": "navigationevent",
+          "version": {
+            "requires": "1.1.2"
+          },
+          "reason": "navigationevent-compose is in atomic group androidx.navigationevent"
+        },
+        {
+          "group": "androidx.navigationevent",
+          "module": "navigationevent-testing",
+          "version": {
+            "requires": "1.1.2"
+          },
+          "reason": "navigationevent-compose is in atomic group androidx.navigationevent"
+        }
+      ],
+      "files": [
+        {
+          "name": "navigationevent-compose-metadata-1.1.2.jar",
+          "url": "navigationevent-compose-1.1.2.jar",
+          "size": 11250,
+          "sha512": "7980b77c04e63b6c6841da9cba50f85fef12d232b41d96e960d5ed5e6935590c8a9e4be4626bd5c10032e29ac567ba1d87f9e3873975de12647354fe9c0c606b",
+          "sha256": "f11b3c8d1b1d0e2cad4c91b04b661e46103fabdc627e78ce19baa932ca01cfec",
+          "sha1": "19a4a5f34502a91a76e46db54d50d5529b33d514",
+          "md5": "13c5ff76cdbd5930379596c3369633f3"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.navigationevent",
+          "module": "navigationevent",
+          "version": {
+            "requires": "1.1.2"
+          },
+          "reason": "navigationevent-compose is in atomic group androidx.navigationevent"
+        },
+        {
+          "group": "androidx.navigationevent",
+          "module": "navigationevent-testing",
+          "version": {
+            "requires": "1.1.2"
+          },
+          "reason": "navigationevent-compose is in atomic group androidx.navigationevent"
+        }
+      ],
+      "files": [
+        {
+          "name": "navigationevent-compose-kotlin-1.1.2-sources.jar",
+          "url": "navigationevent-compose-1.1.2-sources.jar",
+          "size": 14636,
+          "sha512": "d3174044748f433441b9cf604f0bf315b9e1ebb092b6c46ce79e8ae4127a1608ec436eb88d04cabb53d7ddb87bfd07a3a37a31d8aec0480b51be36737dffe9d7",
+          "sha256": "25e36c0afa796e71ea2979ae37fff10db56bc3154df0bd90a0f3f1a19693ccaa",
+          "sha1": "6260e43af71f926dd942ab3b4fbf9f62ffa64b66",
+          "md5": "9a48222c92ff45ebd6a34d328d4b791a"
+        }
+      ]
+    },
+    {
+      "name": "androidxSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "androidx-multiplatform-docs"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.navigationevent",
+          "module": "navigationevent",
+          "version": {
+            "requires": "1.1.2"
+          },
+          "reason": "navigationevent-compose is in atomic group androidx.navigationevent"
+        },
+        {
+          "group": "androidx.navigationevent",
+          "module": "navigationevent-testing",
+          "version": {
+            "requires": "1.1.2"
+          },
+          "reason": "navigationevent-compose is in atomic group androidx.navigationevent"
+        }
+      ],
+      "files": [
+        {
+          "name": "navigationevent-compose-1.1.2-multiplatform-sources.jar",
+          "url": "navigationevent-compose-1.1.2-multiplatform-sources.jar",
+          "size": 16571,
+          "sha512": "5a9c4afeb7f1233878137012dcb5467bc53b00459b956a42fe8c6fa46230c9fe696a894f6f3687841afb6b3e1e5da88efdb8eb3c0af89e28900b6f3215382f79",
+          "sha256": "d0f94b5c54356e34e32e209d4aa8a428a4ec8820d719f37588781f14024aaab6",
+          "sha1": "444accd6c32d0b1e576f53308a1c8438cf0bcac8",
+          "md5": "cf3e84ffd6feb9e66f9fd3bbd27827d3"
+        },
+        {
+          "name": "navigationevent-compose-1.1.2-samples-sources.jar",
+          "url": "navigationevent-compose-1.1.2-samples-sources.jar",
+          "size": 5859,
+          "sha512": "ade557bee51aab3e41cde6381162fb98e8053ab0a9349fad48367d34bd5cebab5a76cb5081ad0f933e4a3f27ffb56f4ada3f1c5b2563acde1cad98d44d2fc1ac",
+          "sha256": "df63ae9684f469f4538795438481b802b394d365566b5af25487e0eef2f4ac6f",
+          "sha1": "b7d83bf2bf811c87eec0c4133cf342e08043060e",
+          "md5": "3dc3a37e0a809197bcd92e7bf8e9c888"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.navigationevent",
+          "module": "navigationevent",
+          "version": {
+            "requires": "1.1.2"
+          },
+          "reason": "navigationevent-compose is in atomic group androidx.navigationevent"
+        },
+        {
+          "group": "androidx.navigationevent",
+          "module": "navigationevent-testing",
+          "version": {
+            "requires": "1.1.2"
+          },
+          "reason": "navigationevent-compose is in atomic group androidx.navigationevent"
+        }
+      ],
+      "files": [
+        {
+          "name": "apiLevels.json",
+          "url": "navigationevent-compose-1.1.2-versionMetadata.json",
+          "size": 3783,
+          "sha512": "415f2bb5b292961d0c7968f168458fbd26422dd48c5e0ab97d4286a6d305dee986907cc3c91ef03d551c7bd740dff8e55aaddf5df07876fb63c525c4f2512a81",
+          "sha256": "4908238c91060223706e68a3ff101bd36e7177f7c465b6b6649da1bf956fdcad",
+          "sha1": "3a508b46f30b8971f4a2c645b4edd85b6b7b9895",
+          "md5": "a3e5c642390c20d3785476294f393146"
+        }
+      ]
+    },
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../navigationevent-compose-android/1.1.2/navigationevent-compose-android-1.1.2.module",
+        "group": "androidx.navigationevent",
+        "module": "navigationevent-compose-android",
+        "version": "1.1.2"
+      }
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../navigationevent-compose-android/1.1.2/navigationevent-compose-android-1.1.2.module",
+        "group": "androidx.navigationevent",
+        "module": "navigationevent-compose-android",
+        "version": "1.1.2"
+      }
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../navigationevent-compose-android/1.1.2/navigationevent-compose-android-1.1.2.module",
+        "group": "androidx.navigationevent",
+        "module": "navigationevent-compose-android",
+        "version": "1.1.2"
+      }
+    },
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../navigationevent-compose-desktop/1.1.2/navigationevent-compose-desktop-1.1.2.module",
+        "group": "androidx.navigationevent",
+        "module": "navigationevent-compose-desktop",
+        "version": "1.1.2"
+      }
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../navigationevent-compose-desktop/1.1.2/navigationevent-compose-desktop-1.1.2.module",
+        "group": "androidx.navigationevent",
+        "module": "navigationevent-compose-desktop",
+        "version": "1.1.2"
+      }
+    },
+    {
+      "name": "desktopSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../navigationevent-compose-desktop/1.1.2/navigationevent-compose-desktop-1.1.2.module",
+        "group": "androidx.navigationevent",
+        "module": "navigationevent-compose-desktop",
+        "version": "1.1.2"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../navigationevent-compose-iosarm64/1.1.2/navigationevent-compose-iosarm64-1.1.2.module",
+        "group": "androidx.navigationevent",
+        "module": "navigationevent-compose-iosarm64",
+        "version": "1.1.2"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../navigationevent-compose-iosarm64/1.1.2/navigationevent-compose-iosarm64-1.1.2.module",
+        "group": "androidx.navigationevent",
+        "module": "navigationevent-compose-iosarm64",
+        "version": "1.1.2"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../navigationevent-compose-iosarm64/1.1.2/navigationevent-compose-iosarm64-1.1.2.module",
+        "group": "androidx.navigationevent",
+        "module": "navigationevent-compose-iosarm64",
+        "version": "1.1.2"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../navigationevent-compose-iossimulatorarm64/1.1.2/navigationevent-compose-iossimulatorarm64-1.1.2.module",
+        "group": "androidx.navigationevent",
+        "module": "navigationevent-compose-iossimulatorarm64",
+        "version": "1.1.2"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../navigationevent-compose-iossimulatorarm64/1.1.2/navigationevent-compose-iossimulatorarm64-1.1.2.module",
+        "group": "androidx.navigationevent",
+        "module": "navigationevent-compose-iossimulatorarm64",
+        "version": "1.1.2"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../navigationevent-compose-iossimulatorarm64/1.1.2/navigationevent-compose-iossimulatorarm64-1.1.2.module",
+        "group": "androidx.navigationevent",
+        "module": "navigationevent-compose-iossimulatorarm64",
+        "version": "1.1.2"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../navigationevent-compose-js/1.1.2/navigationevent-compose-js-1.1.2.module",
+        "group": "androidx.navigationevent",
+        "module": "navigationevent-compose-js",
+        "version": "1.1.2"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../navigationevent-compose-js/1.1.2/navigationevent-compose-js-1.1.2.module",
+        "group": "androidx.navigationevent",
+        "module": "navigationevent-compose-js",
+        "version": "1.1.2"
+      }
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../navigationevent-compose-js/1.1.2/navigationevent-compose-js-1.1.2.module",
+        "group": "androidx.navigationevent",
+        "module": "navigationevent-compose-js",
+        "version": "1.1.2"
+      }
+    },
+    {
+      "name": "linuxArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../navigationevent-compose-linuxarm64/1.1.2/navigationevent-compose-linuxarm64-1.1.2.module",
+        "group": "androidx.navigationevent",
+        "module": "navigationevent-compose-linuxarm64",
+        "version": "1.1.2"
+      }
+    },
+    {
+      "name": "linuxArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../navigationevent-compose-linuxarm64/1.1.2/navigationevent-compose-linuxarm64-1.1.2.module",
+        "group": "androidx.navigationevent",
+        "module": "navigationevent-compose-linuxarm64",
+        "version": "1.1.2"
+      }
+    },
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../navigationevent-compose-linuxx64/1.1.2/navigationevent-compose-linuxx64-1.1.2.module",
+        "group": "androidx.navigationevent",
+        "module": "navigationevent-compose-linuxx64",
+        "version": "1.1.2"
+      }
+    },
+    {
+      "name": "linuxX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../navigationevent-compose-linuxx64/1.1.2/navigationevent-compose-linuxx64-1.1.2.module",
+        "group": "androidx.navigationevent",
+        "module": "navigationevent-compose-linuxx64",
+        "version": "1.1.2"
+      }
+    },
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../navigationevent-compose-macosarm64/1.1.2/navigationevent-compose-macosarm64-1.1.2.module",
+        "group": "androidx.navigationevent",
+        "module": "navigationevent-compose-macosarm64",
+        "version": "1.1.2"
+      }
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../navigationevent-compose-macosarm64/1.1.2/navigationevent-compose-macosarm64-1.1.2.module",
+        "group": "androidx.navigationevent",
+        "module": "navigationevent-compose-macosarm64",
+        "version": "1.1.2"
+      }
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../navigationevent-compose-macosarm64/1.1.2/navigationevent-compose-macosarm64-1.1.2.module",
+        "group": "androidx.navigationevent",
+        "module": "navigationevent-compose-macosarm64",
+        "version": "1.1.2"
+      }
+    },
+    {
+      "name": "mingwX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../navigationevent-compose-mingwx64/1.1.2/navigationevent-compose-mingwx64-1.1.2.module",
+        "group": "androidx.navigationevent",
+        "module": "navigationevent-compose-mingwx64",
+        "version": "1.1.2"
+      }
+    },
+    {
+      "name": "mingwX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../navigationevent-compose-mingwx64/1.1.2/navigationevent-compose-mingwx64-1.1.2.module",
+        "group": "androidx.navigationevent",
+        "module": "navigationevent-compose-mingwx64",
+        "version": "1.1.2"
+      }
+    },
+    {
+      "name": "tvosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../navigationevent-compose-tvosarm64/1.1.2/navigationevent-compose-tvosarm64-1.1.2.module",
+        "group": "androidx.navigationevent",
+        "module": "navigationevent-compose-tvosarm64",
+        "version": "1.1.2"
+      }
+    },
+    {
+      "name": "tvosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../navigationevent-compose-tvosarm64/1.1.2/navigationevent-compose-tvosarm64-1.1.2.module",
+        "group": "androidx.navigationevent",
+        "module": "navigationevent-compose-tvosarm64",
+        "version": "1.1.2"
+      }
+    },
+    {
+      "name": "tvosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../navigationevent-compose-tvosarm64/1.1.2/navigationevent-compose-tvosarm64-1.1.2.module",
+        "group": "androidx.navigationevent",
+        "module": "navigationevent-compose-tvosarm64",
+        "version": "1.1.2"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../navigationevent-compose-tvossimulatorarm64/1.1.2/navigationevent-compose-tvossimulatorarm64-1.1.2.module",
+        "group": "androidx.navigationevent",
+        "module": "navigationevent-compose-tvossimulatorarm64",
+        "version": "1.1.2"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../navigationevent-compose-tvossimulatorarm64/1.1.2/navigationevent-compose-tvossimulatorarm64-1.1.2.module",
+        "group": "androidx.navigationevent",
+        "module": "navigationevent-compose-tvossimulatorarm64",
+        "version": "1.1.2"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../navigationevent-compose-tvossimulatorarm64/1.1.2/navigationevent-compose-tvossimulatorarm64-1.1.2.module",
+        "group": "androidx.navigationevent",
+        "module": "navigationevent-compose-tvossimulatorarm64",
+        "version": "1.1.2"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../navigationevent-compose-wasm-js/1.1.2/navigationevent-compose-wasm-js-1.1.2.module",
+        "group": "androidx.navigationevent",
+        "module": "navigationevent-compose-wasm-js",
+        "version": "1.1.2"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../navigationevent-compose-wasm-js/1.1.2/navigationevent-compose-wasm-js-1.1.2.module",
+        "group": "androidx.navigationevent",
+        "module": "navigationevent-compose-wasm-js",
+        "version": "1.1.2"
+      }
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../navigationevent-compose-wasm-js/1.1.2/navigationevent-compose-wasm-js-1.1.2.module",
+        "group": "androidx.navigationevent",
+        "module": "navigationevent-compose-wasm-js",
+        "version": "1.1.2"
+      }
+    },
+    {
+      "name": "watchosArm32ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../navigationevent-compose-watchosarm32/1.1.2/navigationevent-compose-watchosarm32-1.1.2.module",
+        "group": "androidx.navigationevent",
+        "module": "navigationevent-compose-watchosarm32",
+        "version": "1.1.2"
+      }
+    },
+    {
+      "name": "watchosArm32SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../navigationevent-compose-watchosarm32/1.1.2/navigationevent-compose-watchosarm32-1.1.2.module",
+        "group": "androidx.navigationevent",
+        "module": "navigationevent-compose-watchosarm32",
+        "version": "1.1.2"
+      }
+    },
+    {
+      "name": "watchosArm32MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../navigationevent-compose-watchosarm32/1.1.2/navigationevent-compose-watchosarm32-1.1.2.module",
+        "group": "androidx.navigationevent",
+        "module": "navigationevent-compose-watchosarm32",
+        "version": "1.1.2"
+      }
+    },
+    {
+      "name": "watchosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../navigationevent-compose-watchosarm64/1.1.2/navigationevent-compose-watchosarm64-1.1.2.module",
+        "group": "androidx.navigationevent",
+        "module": "navigationevent-compose-watchosarm64",
+        "version": "1.1.2"
+      }
+    },
+    {
+      "name": "watchosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../navigationevent-compose-watchosarm64/1.1.2/navigationevent-compose-watchosarm64-1.1.2.module",
+        "group": "androidx.navigationevent",
+        "module": "navigationevent-compose-watchosarm64",
+        "version": "1.1.2"
+      }
+    },
+    {
+      "name": "watchosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../navigationevent-compose-watchosarm64/1.1.2/navigationevent-compose-watchosarm64-1.1.2.module",
+        "group": "androidx.navigationevent",
+        "module": "navigationevent-compose-watchosarm64",
+        "version": "1.1.2"
+      }
+    },
+    {
+      "name": "watchosDeviceArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_device_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../navigationevent-compose-watchosdevicearm64/1.1.2/navigationevent-compose-watchosdevicearm64-1.1.2.module",
+        "group": "androidx.navigationevent",
+        "module": "navigationevent-compose-watchosdevicearm64",
+        "version": "1.1.2"
+      }
+    },
+    {
+      "name": "watchosDeviceArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_device_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../navigationevent-compose-watchosdevicearm64/1.1.2/navigationevent-compose-watchosdevicearm64-1.1.2.module",
+        "group": "androidx.navigationevent",
+        "module": "navigationevent-compose-watchosdevicearm64",
+        "version": "1.1.2"
+      }
+    },
+    {
+      "name": "watchosDeviceArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_device_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../navigationevent-compose-watchosdevicearm64/1.1.2/navigationevent-compose-watchosdevicearm64-1.1.2.module",
+        "group": "androidx.navigationevent",
+        "module": "navigationevent-compose-watchosdevicearm64",
+        "version": "1.1.2"
+      }
+    },
+    {
+      "name": "watchosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../navigationevent-compose-watchossimulatorarm64/1.1.2/navigationevent-compose-watchossimulatorarm64-1.1.2.module",
+        "group": "androidx.navigationevent",
+        "module": "navigationevent-compose-watchossimulatorarm64",
+        "version": "1.1.2"
+      }
+    },
+    {
+      "name": "watchosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../navigationevent-compose-watchossimulatorarm64/1.1.2/navigationevent-compose-watchossimulatorarm64-1.1.2.module",
+        "group": "androidx.navigationevent",
+        "module": "navigationevent-compose-watchossimulatorarm64",
+        "version": "1.1.2"
+      }
+    },
+    {
+      "name": "watchosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../navigationevent-compose-watchossimulatorarm64/1.1.2/navigationevent-compose-watchossimulatorarm64-1.1.2.module",
+        "group": "androidx.navigationevent",
+        "module": "navigationevent-compose-watchossimulatorarm64",
+        "version": "1.1.2"
+      }
+    }
+  ]
+}

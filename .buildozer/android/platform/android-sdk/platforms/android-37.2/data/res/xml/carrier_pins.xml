@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Carrier default SIM PINs database -->
+<carrier_database xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="carrier_pin_schema.xsd">
+    <carrier>
+        <!-- EE UK -->
+        <canonical_id>2</canonical_id>
+        <default_sim_pin>1111</default_sim_pin>
+    </carrier>
+    <carrier>
+        <!-- Vodafone UK -->
+        <canonical_id>28</canonical_id>
+        <default_sim_pin>0000</default_sim_pin>
+    </carrier>
+    <carrier>
+        <!-- Rogers -->
+        <canonical_id>1403</canonical_id>
+        <default_sim_pin>1234</default_sim_pin>
+    </carrier>
+    <carrier>
+        <!-- au -->
+        <canonical_id>1581</canonical_id>
+        <default_sim_pin>1234</default_sim_pin>
+    </carrier>
+    <carrier>
+        <!-- KPN Mobiel -->
+        <canonical_id>1644</canonical_id>
+        <default_sim_pin>0000</default_sim_pin>
+    </carrier>
+    <carrier>
+        <!-- Telenor Sverige AB -->
+        <canonical_id>1695</canonical_id>
+        <default_sim_pin>0000</default_sim_pin>
+    </carrier>
+    <carrier>
+        <!-- Kyivstar GSM -->
+        <canonical_id>1747</canonical_id>
+        <default_sim_pin>1111</default_sim_pin>
+    </carrier>
+    <carrier>
+        <!-- Verizon -->
+        <canonical_id>1839</canonical_id>
+        <default_sim_pin>1111</default_sim_pin>
+    </carrier>
+    <carrier>
+        <!-- SoftBank -->
+        <canonical_id>1894</canonical_id>
+        <default_sim_pin>9999</default_sim_pin>
+    </carrier>
+    <carrier>
+        <!-- AT&T MX -->
+        <canonical_id>1915</canonical_id>
+        <default_sim_pin>1111</default_sim_pin>
+    </carrier>
+    <carrier>
+        <!-- Fido -->
+        <canonical_id>1962</canonical_id>
+        <default_sim_pin>1234</default_sim_pin>
+    </carrier>
+    <carrier>
+        <!-- Chatr Mobile -->
+        <canonical_id>2055</canonical_id>
+        <default_sim_pin>1234</default_sim_pin>
+    </carrier>
+    <carrier>
+        <!-- Rakuten Mobile(MNO) -->
+        <canonical_id>2429</canonical_id>
+        <default_sim_pin>0000</default_sim_pin>
+    </carrier>
+    <carrier>
+        <!-- KPN Lab -->
+        <canonical_id>2651</canonical_id>
+        <default_sim_pin>0000</default_sim_pin>
+    </carrier>
+</carrier_database>

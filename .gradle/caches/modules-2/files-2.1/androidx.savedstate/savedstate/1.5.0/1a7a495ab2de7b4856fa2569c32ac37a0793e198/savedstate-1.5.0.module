@@ -1,0 +1,1024 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.savedstate",
+    "module": "savedstate",
+    "version": "1.5.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0-rc-1",
+      "buildId:": "15389946"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.9.1"
+          }
+        },
+        {
+          "group": "androidx.collection",
+          "module": "collection",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-common",
+          "version": {
+            "requires": "2.9.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.28.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.7.3"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.savedstate",
+          "module": "savedstate-compose",
+          "version": {
+            "requires": "1.5.0"
+          },
+          "reason": "savedstate is in atomic group androidx.savedstate"
+        },
+        {
+          "group": "androidx.savedstate",
+          "module": "savedstate-ktx",
+          "version": {
+            "requires": "1.5.0"
+          },
+          "reason": "savedstate is in atomic group androidx.savedstate"
+        },
+        {
+          "group": "androidx.savedstate",
+          "module": "savedstate-testing",
+          "version": {
+            "requires": "1.5.0"
+          },
+          "reason": "savedstate is in atomic group androidx.savedstate"
+        },
+        {
+          "group": "org.jetbrains.androidx.savedstate",
+          "module": "savedstate",
+          "version": {
+            "requires": "1.3.5"
+          },
+          "reason": "prevents symbols duplication"
+        }
+      ],
+      "files": [
+        {
+          "name": "savedstate-metadata-1.5.0.jar",
+          "url": "savedstate-1.5.0.jar",
+          "size": 34655,
+          "sha512": "ad3ab8cb6fab5c6e06fd3a1d05db4c7d21a43ab6d732dfaef9d5cd10a936c3f47d05645bb46cfe4b834147a675e7ab3449f50a212b421cf425ab71c90286ad22",
+          "sha256": "af20b2cf3a1b8f5e2fbcf5a11158e6908db5ec856b75afc06441f1d1b5001ab6",
+          "sha1": "e8479ecfccb4958172e60e0fc48a905906bffa4c",
+          "md5": "a35217a2369be05c9dff33bcfcb7bc16"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.savedstate",
+          "module": "savedstate-compose",
+          "version": {
+            "requires": "1.5.0"
+          },
+          "reason": "savedstate is in atomic group androidx.savedstate"
+        },
+        {
+          "group": "androidx.savedstate",
+          "module": "savedstate-ktx",
+          "version": {
+            "requires": "1.5.0"
+          },
+          "reason": "savedstate is in atomic group androidx.savedstate"
+        },
+        {
+          "group": "androidx.savedstate",
+          "module": "savedstate-testing",
+          "version": {
+            "requires": "1.5.0"
+          },
+          "reason": "savedstate is in atomic group androidx.savedstate"
+        }
+      ],
+      "files": [
+        {
+          "name": "savedstate-kotlin-1.5.0-sources.jar",
+          "url": "savedstate-1.5.0-sources.jar",
+          "size": 53993,
+          "sha512": "2d8c2591c92b811a1c96c97b425db6801841b7354f6e9911b246d85050a88a02dff885a56840d80521553a57de248e6de27cda7f1fd22b9acc4f7211893959e9",
+          "sha256": "f18567f22572b12b16bafd50974f78ec1d7d9ccdcb4ce68bc60920667662a82b",
+          "sha1": "dd0e32c34143f7cf9bc7abdefeb257468cf3249f",
+          "md5": "8a654b02ef77e61d379b4de2986005e2"
+        }
+      ]
+    },
+    {
+      "name": "androidxSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "androidx-multiplatform-docs"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.savedstate",
+          "module": "savedstate-compose",
+          "version": {
+            "requires": "1.5.0"
+          },
+          "reason": "savedstate is in atomic group androidx.savedstate"
+        },
+        {
+          "group": "androidx.savedstate",
+          "module": "savedstate-ktx",
+          "version": {
+            "requires": "1.5.0"
+          },
+          "reason": "savedstate is in atomic group androidx.savedstate"
+        },
+        {
+          "group": "androidx.savedstate",
+          "module": "savedstate-testing",
+          "version": {
+            "requires": "1.5.0"
+          },
+          "reason": "savedstate is in atomic group androidx.savedstate"
+        }
+      ],
+      "files": [
+        {
+          "name": "savedstate-1.5.0-multiplatform-sources.jar",
+          "url": "savedstate-1.5.0-multiplatform-sources.jar",
+          "size": 74547,
+          "sha512": "7ca11d9bb082cb2370a4befe8250156f6ed11927afbebc421993e6ea80558e3efdd9edff11c608c3fde6378ec5c53bf00d40c103f34998d950e739de95c6c719",
+          "sha256": "06462df09dd3f1bb6db6135a1757647727f3fe81c1f2e67e86be54d94dadb9c5",
+          "sha1": "af3891bc141b9575eec824e5320b97fcc273c213",
+          "md5": "59c3484c3c9d0cb0db6dfa403c1762cc"
+        },
+        {
+          "name": "savedstate-1.5.0-samples-sources.jar",
+          "url": "savedstate-1.5.0-samples-sources.jar",
+          "size": 7332,
+          "sha512": "4fe7a85ba33bdcb7e5e4317cd689e8c22440716a7f11b53bc7e8917f274e7a008e75cf16c536dff8a8b56ca25b710b9eead34c9a94184b6ce69e422df9515287",
+          "sha256": "4abec847d38d8c8da5e49024af13cb979d3987ee64d08333b5168a31fe8ac116",
+          "sha1": "9e41b96f9d4d15210da7c5a72db9b1e92e42d6d5",
+          "md5": "608a6b3fd3599cc36583ac507aca17af"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.savedstate",
+          "module": "savedstate-compose",
+          "version": {
+            "requires": "1.5.0"
+          },
+          "reason": "savedstate is in atomic group androidx.savedstate"
+        },
+        {
+          "group": "androidx.savedstate",
+          "module": "savedstate-ktx",
+          "version": {
+            "requires": "1.5.0"
+          },
+          "reason": "savedstate is in atomic group androidx.savedstate"
+        },
+        {
+          "group": "androidx.savedstate",
+          "module": "savedstate-testing",
+          "version": {
+            "requires": "1.5.0"
+          },
+          "reason": "savedstate is in atomic group androidx.savedstate"
+        }
+      ],
+      "files": [
+        {
+          "name": "apiLevels.json",
+          "url": "savedstate-1.5.0-versionMetadata.json",
+          "size": 36530,
+          "sha512": "ec348f42241985d8c858b626ecd605cfc757ef009f902ad1dc4d4b568552b618f69d716deb4346a5c5b4d3ea0bc6da26cbe0c13938b6047b8d09a4a160ac5d1c",
+          "sha256": "c0dca8b2480e99516ce62c09f973716f41c2260ff6b04be5e7bb45d9e6de5f5d",
+          "sha1": "15db0a98b9bf671faf5551a2ebaee7a58da87fa7",
+          "md5": "695b4c023cd2b6dcf26fa029256b5e24"
+        }
+      ]
+    },
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../savedstate-android/1.5.0/savedstate-android-1.5.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-android",
+        "version": "1.5.0"
+      }
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../savedstate-android/1.5.0/savedstate-android-1.5.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-android",
+        "version": "1.5.0"
+      }
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../savedstate-android/1.5.0/savedstate-android-1.5.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-android",
+        "version": "1.5.0"
+      }
+    },
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../savedstate-desktop/1.5.0/savedstate-desktop-1.5.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-desktop",
+        "version": "1.5.0"
+      }
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../savedstate-desktop/1.5.0/savedstate-desktop-1.5.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-desktop",
+        "version": "1.5.0"
+      }
+    },
+    {
+      "name": "desktopSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../savedstate-desktop/1.5.0/savedstate-desktop-1.5.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-desktop",
+        "version": "1.5.0"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-iosarm64/1.5.0/savedstate-iosarm64-1.5.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-iosarm64",
+        "version": "1.5.0"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-iosarm64/1.5.0/savedstate-iosarm64-1.5.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-iosarm64",
+        "version": "1.5.0"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-iosarm64/1.5.0/savedstate-iosarm64-1.5.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-iosarm64",
+        "version": "1.5.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-iossimulatorarm64/1.5.0/savedstate-iossimulatorarm64-1.5.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-iossimulatorarm64",
+        "version": "1.5.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-iossimulatorarm64/1.5.0/savedstate-iossimulatorarm64-1.5.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-iossimulatorarm64",
+        "version": "1.5.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-iossimulatorarm64/1.5.0/savedstate-iossimulatorarm64-1.5.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-iossimulatorarm64",
+        "version": "1.5.0"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../savedstate-js/1.5.0/savedstate-js-1.5.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-js",
+        "version": "1.5.0"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../savedstate-js/1.5.0/savedstate-js-1.5.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-js",
+        "version": "1.5.0"
+      }
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../savedstate-js/1.5.0/savedstate-js-1.5.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-js",
+        "version": "1.5.0"
+      }
+    },
+    {
+      "name": "linuxArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-linuxarm64/1.5.0/savedstate-linuxarm64-1.5.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-linuxarm64",
+        "version": "1.5.0"
+      }
+    },
+    {
+      "name": "linuxArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-linuxarm64/1.5.0/savedstate-linuxarm64-1.5.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-linuxarm64",
+        "version": "1.5.0"
+      }
+    },
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-linuxx64/1.5.0/savedstate-linuxx64-1.5.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-linuxx64",
+        "version": "1.5.0"
+      }
+    },
+    {
+      "name": "linuxX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-linuxx64/1.5.0/savedstate-linuxx64-1.5.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-linuxx64",
+        "version": "1.5.0"
+      }
+    },
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-macosarm64/1.5.0/savedstate-macosarm64-1.5.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-macosarm64",
+        "version": "1.5.0"
+      }
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-macosarm64/1.5.0/savedstate-macosarm64-1.5.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-macosarm64",
+        "version": "1.5.0"
+      }
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-macosarm64/1.5.0/savedstate-macosarm64-1.5.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-macosarm64",
+        "version": "1.5.0"
+      }
+    },
+    {
+      "name": "mingwX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-mingwx64/1.5.0/savedstate-mingwx64-1.5.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-mingwx64",
+        "version": "1.5.0"
+      }
+    },
+    {
+      "name": "mingwX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-mingwx64/1.5.0/savedstate-mingwx64-1.5.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-mingwx64",
+        "version": "1.5.0"
+      }
+    },
+    {
+      "name": "tvosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-tvosarm64/1.5.0/savedstate-tvosarm64-1.5.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-tvosarm64",
+        "version": "1.5.0"
+      }
+    },
+    {
+      "name": "tvosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-tvosarm64/1.5.0/savedstate-tvosarm64-1.5.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-tvosarm64",
+        "version": "1.5.0"
+      }
+    },
+    {
+      "name": "tvosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-tvosarm64/1.5.0/savedstate-tvosarm64-1.5.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-tvosarm64",
+        "version": "1.5.0"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-tvossimulatorarm64/1.5.0/savedstate-tvossimulatorarm64-1.5.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-tvossimulatorarm64",
+        "version": "1.5.0"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-tvossimulatorarm64/1.5.0/savedstate-tvossimulatorarm64-1.5.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-tvossimulatorarm64",
+        "version": "1.5.0"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-tvossimulatorarm64/1.5.0/savedstate-tvossimulatorarm64-1.5.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-tvossimulatorarm64",
+        "version": "1.5.0"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../savedstate-wasm-js/1.5.0/savedstate-wasm-js-1.5.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-wasm-js",
+        "version": "1.5.0"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../savedstate-wasm-js/1.5.0/savedstate-wasm-js-1.5.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-wasm-js",
+        "version": "1.5.0"
+      }
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../savedstate-wasm-js/1.5.0/savedstate-wasm-js-1.5.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-wasm-js",
+        "version": "1.5.0"
+      }
+    },
+    {
+      "name": "watchosArm32ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-watchosarm32/1.5.0/savedstate-watchosarm32-1.5.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-watchosarm32",
+        "version": "1.5.0"
+      }
+    },
+    {
+      "name": "watchosArm32SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-watchosarm32/1.5.0/savedstate-watchosarm32-1.5.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-watchosarm32",
+        "version": "1.5.0"
+      }
+    },
+    {
+      "name": "watchosArm32MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-watchosarm32/1.5.0/savedstate-watchosarm32-1.5.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-watchosarm32",
+        "version": "1.5.0"
+      }
+    },
+    {
+      "name": "watchosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-watchosarm64/1.5.0/savedstate-watchosarm64-1.5.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-watchosarm64",
+        "version": "1.5.0"
+      }
+    },
+    {
+      "name": "watchosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-watchosarm64/1.5.0/savedstate-watchosarm64-1.5.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-watchosarm64",
+        "version": "1.5.0"
+      }
+    },
+    {
+      "name": "watchosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-watchosarm64/1.5.0/savedstate-watchosarm64-1.5.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-watchosarm64",
+        "version": "1.5.0"
+      }
+    },
+    {
+      "name": "watchosDeviceArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_device_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-watchosdevicearm64/1.5.0/savedstate-watchosdevicearm64-1.5.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-watchosdevicearm64",
+        "version": "1.5.0"
+      }
+    },
+    {
+      "name": "watchosDeviceArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_device_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-watchosdevicearm64/1.5.0/savedstate-watchosdevicearm64-1.5.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-watchosdevicearm64",
+        "version": "1.5.0"
+      }
+    },
+    {
+      "name": "watchosDeviceArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_device_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-watchosdevicearm64/1.5.0/savedstate-watchosdevicearm64-1.5.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-watchosdevicearm64",
+        "version": "1.5.0"
+      }
+    },
+    {
+      "name": "watchosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-watchossimulatorarm64/1.5.0/savedstate-watchossimulatorarm64-1.5.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-watchossimulatorarm64",
+        "version": "1.5.0"
+      }
+    },
+    {
+      "name": "watchosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-watchossimulatorarm64/1.5.0/savedstate-watchossimulatorarm64-1.5.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-watchossimulatorarm64",
+        "version": "1.5.0"
+      }
+    },
+    {
+      "name": "watchosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../savedstate-watchossimulatorarm64/1.5.0/savedstate-watchossimulatorarm64-1.5.0.module",
+        "group": "androidx.savedstate",
+        "module": "savedstate-watchossimulatorarm64",
+        "version": "1.5.0"
+      }
+    }
+  ]
+}

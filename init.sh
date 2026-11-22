@@ -130,7 +130,7 @@ try_clone() {
 # multi_mqtt
 try_clone git clone "https://${GIT_CRED}@github.com/${GH_USER}/multi_mqtt"
 
-try_clone git clone --depth=1 https://github.com/cjqbj/client_mqtt-cjqbj client
+try_clone git clone --depth=1  "https://${GIT_CRED}@github.com/${GH_USER}/client"
 # xime
 xime_repo="xime"
 # 构建分支：默认 qgb（可用环境变量覆盖，如 XIME_BRANCH=main）

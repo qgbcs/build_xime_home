@@ -1,0 +1,428 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.compose.animation",
+    "module": "animation-core",
+    "version": "1.12.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0",
+      "buildId:": "16239466"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.12.1"
+          },
+          "reason": "animation-core is in atomic group androidx.compose.animation"
+        },
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation-lint",
+          "version": {
+            "requires": "1.12.1"
+          },
+          "reason": "animation-core is in atomic group androidx.compose.animation"
+        },
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation-core-lint",
+          "version": {
+            "requires": "1.12.1"
+          },
+          "reason": "animation-core is in atomic group androidx.compose.animation"
+        },
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation-tooling-internal",
+          "version": {
+            "requires": "1.12.1"
+          },
+          "reason": "animation-core is in atomic group androidx.compose.animation"
+        },
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation-graphics",
+          "version": {
+            "requires": "1.12.1"
+          },
+          "reason": "animation-core is in atomic group androidx.compose.animation"
+        }
+      ],
+      "files": [
+        {
+          "name": "animation-core-metadata-1.12.1.jar",
+          "url": "animation-core-1.12.1.jar",
+          "size": 46013,
+          "sha512": "1995bd778f6bbc3da3ef095d41a2db51b59eb4057a6c45600a44cb8791e1210c19057a964eeb8ee64a05afe84f987291110f9f44efed1f931ddc8091744fc892",
+          "sha256": "9781038b772a791d5019b19b932bde9679b000aafde99c0084a723e182be2c64",
+          "sha1": "b06bf404d372dbeda3db3f9fbaa2a19cab5077dd",
+          "md5": "b1e79bf4012b0703049fa2eb053a4b68"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.12.1"
+          },
+          "reason": "animation-core is in atomic group androidx.compose.animation"
+        },
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation-lint",
+          "version": {
+            "requires": "1.12.1"
+          },
+          "reason": "animation-core is in atomic group androidx.compose.animation"
+        },
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation-core-lint",
+          "version": {
+            "requires": "1.12.1"
+          },
+          "reason": "animation-core is in atomic group androidx.compose.animation"
+        },
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation-tooling-internal",
+          "version": {
+            "requires": "1.12.1"
+          },
+          "reason": "animation-core is in atomic group androidx.compose.animation"
+        },
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation-graphics",
+          "version": {
+            "requires": "1.12.1"
+          },
+          "reason": "animation-core is in atomic group androidx.compose.animation"
+        }
+      ],
+      "files": [
+        {
+          "name": "animation-core-kotlin-1.12.1-sources.jar",
+          "url": "animation-core-1.12.1-sources.jar",
+          "size": 120541,
+          "sha512": "76a411e8e49c39ee77160b204230f5656c91eac989e6c7cfd56b3de9ad496954ca14404139de01168a787720736b3fd9e6bf085a6433c15a7d3580823cbd5a43",
+          "sha256": "47e2108fdc373ca00958f605a94c83886eaa855f47ec7dc3d67af89a7194c73c",
+          "sha1": "67890c7b2d2a8051f63fa02d1645ff68d7bf1e22",
+          "md5": "f5b1b8e557eab9dda87e3a36d510d0dd"
+        }
+      ]
+    },
+    {
+      "name": "androidxSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "androidx-multiplatform-docs"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.12.1"
+          },
+          "reason": "animation-core is in atomic group androidx.compose.animation"
+        },
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation-lint",
+          "version": {
+            "requires": "1.12.1"
+          },
+          "reason": "animation-core is in atomic group androidx.compose.animation"
+        },
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation-core-lint",
+          "version": {
+            "requires": "1.12.1"
+          },
+          "reason": "animation-core is in atomic group androidx.compose.animation"
+        },
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation-tooling-internal",
+          "version": {
+            "requires": "1.12.1"
+          },
+          "reason": "animation-core is in atomic group androidx.compose.animation"
+        },
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation-graphics",
+          "version": {
+            "requires": "1.12.1"
+          },
+          "reason": "animation-core is in atomic group androidx.compose.animation"
+        }
+      ],
+      "files": [
+        {
+          "name": "animation-core-1.12.1-multiplatform-sources.jar",
+          "url": "animation-core-1.12.1-multiplatform-sources.jar",
+          "size": 119347,
+          "sha512": "321496e80597506930752d5bef06425a78add5baf701270e8709756986039a639c4299f3aa4afc14d7ea979559d923364b316d8ad867fdd6e567a22117ed6f3f",
+          "sha256": "c9d1421f12d7b4e1c3e21f0ede4cee3d712151559520047f9a25c243ad321d5c",
+          "sha1": "7597292db206e019d0d55ad8e0fcab5fb845ac6b",
+          "md5": "4e6405409bacdb273812ab8f9bd14907"
+        },
+        {
+          "name": "animation-core-1.12.1-samples-sources.jar",
+          "url": "animation-core-1.12.1-samples-sources.jar",
+          "size": 26226,
+          "sha512": "5b473e7b2abaf7d306622a7fd74d2dfbd4fcbba4104ee9b44067f3cd326ea99413df3522a3ede4bc58fb58a97f4446e05846820f189701f89294caa0ea06cab9",
+          "sha256": "27b91e37886a30691ab276a1a864dd13b1b570f318caa6a41bba2bba8e6217fe",
+          "sha1": "c679db83410b85f3de2e3af29fc324182393fac4",
+          "md5": "09245c1a17142bd359404f87dd0fed39"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.12.1"
+          },
+          "reason": "animation-core is in atomic group androidx.compose.animation"
+        },
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation-lint",
+          "version": {
+            "requires": "1.12.1"
+          },
+          "reason": "animation-core is in atomic group androidx.compose.animation"
+        },
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation-core-lint",
+          "version": {
+            "requires": "1.12.1"
+          },
+          "reason": "animation-core is in atomic group androidx.compose.animation"
+        },
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation-tooling-internal",
+          "version": {
+            "requires": "1.12.1"
+          },
+          "reason": "animation-core is in atomic group androidx.compose.animation"
+        },
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation-graphics",
+          "version": {
+            "requires": "1.12.1"
+          },
+          "reason": "animation-core is in atomic group androidx.compose.animation"
+        }
+      ],
+      "files": [
+        {
+          "name": "apiLevels.json",
+          "url": "animation-core-1.12.1-versionMetadata.json",
+          "size": 81384,
+          "sha512": "45909cf3f77a7ab7d5944a839cdb8e72bd21b992fac0ce70b6f2f15050d6fb20e547ab0f729b2ca841af1d7070a9d8a00622361beb15f6389f3d8f9c7fbc93ff",
+          "sha256": "310ac66c365be3d0e5654cfd0889988f8f2b1ededd47771a894299b6ebba256f",
+          "sha1": "c5c3cb09d1d890eb6e9e98c469b30a6fca1921e5",
+          "md5": "88b5684d5369e046d2d7e27251fa4bf6"
+        }
+      ]
+    },
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../animation-core-android/1.12.1/animation-core-android-1.12.1.module",
+        "group": "androidx.compose.animation",
+        "module": "animation-core-android",
+        "version": "1.12.1"
+      }
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../animation-core-android/1.12.1/animation-core-android-1.12.1.module",
+        "group": "androidx.compose.animation",
+        "module": "animation-core-android",
+        "version": "1.12.1"
+      }
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../animation-core-android/1.12.1/animation-core-android-1.12.1.module",
+        "group": "androidx.compose.animation",
+        "module": "animation-core-android",
+        "version": "1.12.1"
+      }
+    },
+    {
+      "name": "jvmStubsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../animation-core-jvmstubs/1.12.1/animation-core-jvmstubs-1.12.1.module",
+        "group": "androidx.compose.animation",
+        "module": "animation-core-jvmstubs",
+        "version": "1.12.1"
+      }
+    },
+    {
+      "name": "jvmStubsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../animation-core-jvmstubs/1.12.1/animation-core-jvmstubs-1.12.1.module",
+        "group": "androidx.compose.animation",
+        "module": "animation-core-jvmstubs",
+        "version": "1.12.1"
+      }
+    },
+    {
+      "name": "jvmStubsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../animation-core-jvmstubs/1.12.1/animation-core-jvmstubs-1.12.1.module",
+        "group": "androidx.compose.animation",
+        "module": "animation-core-jvmstubs",
+        "version": "1.12.1"
+      }
+    },
+    {
+      "name": "linuxx64StubsApiElements-published",
+      "attributes": {
+        "androidx.kmp.hasCInterop": false,
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../animation-core-linuxx64stubs/1.12.1/animation-core-linuxx64stubs-1.12.1.module",
+        "group": "androidx.compose.animation",
+        "module": "animation-core-linuxx64stubs",
+        "version": "1.12.1"
+      }
+    },
+    {
+      "name": "linuxx64StubsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../animation-core-linuxx64stubs/1.12.1/animation-core-linuxx64stubs-1.12.1.module",
+        "group": "androidx.compose.animation",
+        "module": "animation-core-linuxx64stubs",
+        "version": "1.12.1"
+      }
+    }
+  ]
+}

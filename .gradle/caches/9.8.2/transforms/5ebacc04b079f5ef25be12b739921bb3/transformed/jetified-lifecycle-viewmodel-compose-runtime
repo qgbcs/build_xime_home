@@ -1,0 +1,15 @@
+androidx.lifecycle.viewmodel.compose.CanonicalName_jvmAndAndroidKt
+androidx.lifecycle.viewmodel.compose.LocalViewModelStoreOwner
+androidx.lifecycle.viewmodel.compose.LocalViewModelStoreOwner_androidKt
+androidx.lifecycle.viewmodel.compose.LocalViewModelStoreOwner_androidKt$ViewModelStoreOwnerHostDefaultKey$1
+androidx.lifecycle.viewmodel.compose.RememberViewModelStoreOwnerKt
+androidx.lifecycle.viewmodel.compose.RememberViewModelStoreOwnerKt$rememberViewModelStoreOwner$lambda$2$0$$inlined$onDispose$1
+androidx.lifecycle.viewmodel.compose.RememberViewModelStoreProviderKt
+androidx.lifecycle.viewmodel.compose.RememberViewModelStoreProviderKt$rememberViewModelStoreProvider$lambda$3$0$$inlined$onDispose$1
+androidx.lifecycle.viewmodel.compose.SavedStateHandleSaveableApi
+androidx.lifecycle.viewmodel.compose.SavedStateHandleSaverKt
+androidx.lifecycle.viewmodel.compose.SavedStateHandleSaverKt$saveable$1$1$1
+androidx.lifecycle.viewmodel.compose.SavedStateHandleSaverKt$saveable$3$1
+androidx.lifecycle.viewmodel.compose.ViewModelKt
+androidx.lifecycle.viewmodel.compose.ViewModelKt__ViewModelKt
+androidx.lifecycle.viewmodel.compose.ViewModelKt__ViewModel_androidKt

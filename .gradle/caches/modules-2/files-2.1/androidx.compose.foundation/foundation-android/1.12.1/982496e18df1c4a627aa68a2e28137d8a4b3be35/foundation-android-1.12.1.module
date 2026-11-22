@@ -1,0 +1,285 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../foundation/1.12.1/foundation-1.12.1.module",
+    "group": "androidx.compose.foundation",
+    "module": "foundation",
+    "version": "1.12.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0",
+      "buildId:": "16239466"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation-experimental",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "androidx.collection",
+          "module": "collection",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.12.1"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.1"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation-layout",
+          "version": {
+            "requires": "1.12.1"
+          },
+          "reason": "foundation is in atomic group androidx.compose.foundation"
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation-lint",
+          "version": {
+            "requires": "1.12.1"
+          },
+          "reason": "foundation is in atomic group androidx.compose.foundation"
+        }
+      ],
+      "files": [
+        {
+          "name": "foundation.aar",
+          "url": "foundation-android-1.12.1.aar",
+          "size": 4441822,
+          "sha512": "cff768bff8500f5a717ad18a528b1b6715a4c01abe4d5c4f416202b59a7949fe76c3080b825d3c1c440ce153272da2177d9a819a0d126fb89de2ecf764b76afb",
+          "sha256": "444749ea7b5a563e530504b9035c87e47ed0fb62b9f7ba00e90af8aa81e6bfb8",
+          "sha1": "782d83fdb0f27e1fd723099da6ef33c45a69711c",
+          "md5": "1f913064a9f59ef83e7b0183f3c1e40b"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation-experimental",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "androidx.collection",
+          "module": "collection",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.12.1"
+          }
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation-layout",
+          "version": {
+            "requires": "1.12.1"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.1"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-text",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-util",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.13.1"
+          }
+        },
+        {
+          "group": "androidx.emoji2",
+          "module": "emoji2",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation-layout",
+          "version": {
+            "requires": "1.12.1"
+          },
+          "reason": "foundation is in atomic group androidx.compose.foundation"
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation-lint",
+          "version": {
+            "requires": "1.12.1"
+          },
+          "reason": "foundation is in atomic group androidx.compose.foundation"
+        }
+      ],
+      "files": [
+        {
+          "name": "foundation.aar",
+          "url": "foundation-android-1.12.1.aar",
+          "size": 4441822,
+          "sha512": "cff768bff8500f5a717ad18a528b1b6715a4c01abe4d5c4f416202b59a7949fe76c3080b825d3c1c440ce153272da2177d9a819a0d126fb89de2ecf764b76afb",
+          "sha256": "444749ea7b5a563e530504b9035c87e47ed0fb62b9f7ba00e90af8aa81e6bfb8",
+          "sha1": "782d83fdb0f27e1fd723099da6ef33c45a69711c",
+          "md5": "1f913064a9f59ef83e7b0183f3c1e40b"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation-layout",
+          "version": {
+            "requires": "1.12.1"
+          },
+          "reason": "foundation is in atomic group androidx.compose.foundation"
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation-lint",
+          "version": {
+            "requires": "1.12.1"
+          },
+          "reason": "foundation is in atomic group androidx.compose.foundation"
+        }
+      ],
+      "files": [
+        {
+          "name": "foundation-android-1.12.1-sources.jar",
+          "url": "foundation-android-1.12.1-sources.jar",
+          "size": 1235526,
+          "sha512": "c04e0b8c86f7a8c52d28662e68f9cfc2ede2f75ca6e587f4a7843e6344ef65ba64b9a69c19169c1bda45a24eb4bb74cb3ab5d3a4be3ce2fec996b3f3738b580f",
+          "sha256": "5b58cea5db2583142e4b4b39dce10cbd75722bd06ab35161f06f987be90a53f1",
+          "sha1": "d2726f843a2dd8eb877a7875feda8ef970baf5fd",
+          "md5": "38afde59bf0f6aa15c80062117388c85"
+        },
+        {
+          "name": "foundation-1.12.1-samples-sources.jar",
+          "url": "foundation-android-1.12.1-samples-sources.jar",
+          "size": 96191,
+          "sha512": "bda1df1932de02e9db99f6d63120bf828f8dac5b9b7c220a362388c2d2716c64265dd877d9aa58325e14af86f4f95edac0506711e27186946bf5476705bf0ebb",
+          "sha256": "96ff8cb9129ff31a70a0ec19fd5a418576e24b8fa612f072e4207c6ef2f628f6",
+          "sha1": "1706524b039dfc9f721a4e8f21cb6838aa16c34c",
+          "md5": "8b77b79446ed47757c27f643322925f4"
+        }
+      ]
+    }
+  ]
+}

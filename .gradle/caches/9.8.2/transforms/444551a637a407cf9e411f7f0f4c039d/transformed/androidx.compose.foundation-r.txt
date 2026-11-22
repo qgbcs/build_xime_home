@@ -1,0 +1,5 @@
+androidx.compose.foundation
+id compose_prefetch_scheduler
+string androidx_compose_foundation_autofill
+string tooltip_description
+string tooltip_label

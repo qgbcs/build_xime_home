@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../okhttp/5.5.1/okhttp-5.5.1.module",
+    "group": "com.squareup.okhttp3",
+    "module": "okhttp",
+    "version": "5.5.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        },
+        {
+          "group": "com.squareup.okio",
+          "module": "okio",
+          "version": {
+            "requires": "3.18.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "okhttp.aar",
+          "url": "okhttp-android-5.5.1.aar",
+          "size": 949648,
+          "sha512": "db3178a6595db915f71924edf24851ef2da342cd97cc42b7829905c6bab7c6c2c1232b03772e69391c261afeac4dd715acbc5768c4a98527dad4865d4920d0d2",
+          "sha256": "ce00fd7751cf7e4f28ba73a0287b3cc0c62b8b83f038e428592eeef189513ee1",
+          "sha1": "8901fb7a84be05aa777639120071a89bb16ab813",
+          "md5": "b5bec35b6c7ea58d2000f7877debb541"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        },
+        {
+          "group": "com.squareup.okio",
+          "module": "okio",
+          "version": {
+            "requires": "3.18.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "androidx.startup",
+          "module": "startup-runtime",
+          "version": {
+            "requires": "1.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "okhttp.aar",
+          "url": "okhttp-android-5.5.1.aar",
+          "size": 949648,
+          "sha512": "db3178a6595db915f71924edf24851ef2da342cd97cc42b7829905c6bab7c6c2c1232b03772e69391c261afeac4dd715acbc5768c4a98527dad4865d4920d0d2",
+          "sha256": "ce00fd7751cf7e4f28ba73a0287b3cc0c62b8b83f038e428592eeef189513ee1",
+          "sha1": "8901fb7a84be05aa777639120071a89bb16ab813",
+          "md5": "b5bec35b6c7ea58d2000f7877debb541"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "okhttp-android-5.5.1-sources.jar",
+          "url": "okhttp-android-5.5.1-sources.jar",
+          "size": 440937,
+          "sha512": "408eeff57e6c91e97e785dbdead12987f2240233a7b20c906af3fd922c1ddc636e2a0f666ce26e58275064f1c1258cb00f217022a1c8f82c85fc699e5f610b07",
+          "sha256": "8d811457934e2f1aeeecae77d124abdd3aed9ca31829fc5d15cc70b1abd13c10",
+          "sha1": "fababe943c14de40c4662ee9c55c8f03ae6820c3",
+          "md5": "1b7257102b0466e538ca2f67a9dd4da1"
+        }
+      ]
+    }
+  ]
+}

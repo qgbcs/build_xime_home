@@ -1,0 +1,52 @@
+androidx.window
+attr activityAction
+attr activityName
+attr alwaysExpand
+attr animationBackgroundColor
+attr clearTop
+attr dragRangeMaxRatio
+attr dragRangeMinRatio
+attr embeddingDividerColor
+attr embeddingDividerType
+attr embeddingDividerWidthDp
+attr finishPrimaryWithPlaceholder
+attr finishPrimaryWithSecondary
+attr finishSecondaryWithPrimary
+attr isDraggingToFullscreenAllowed
+attr placeholderActivityName
+attr primaryActivityName
+attr secondaryActivityAction
+attr secondaryActivityName
+attr splitChangeAnimation
+attr splitCloseAnimation
+attr splitLayoutDirection
+attr splitMaxAspectRatioInLandscape
+attr splitMaxAspectRatioInPortrait
+attr splitMinHeightDp
+attr splitMinSmallestWidthDp
+attr splitMinWidthDp
+attr splitOpenAnimation
+attr splitRatio
+attr stickyPlaceholder
+attr tag
+id adjacent
+id always
+id alwaysAllow
+id alwaysDisallow
+id androidx_window_activity_scope
+id bottomToTop
+id draggable
+id fixed
+id jumpCut
+id locale
+id ltr
+id never
+id rtl
+id systemDefault
+id topToBottom
+styleable ActivityFilter activityAction activityName
+styleable ActivityRule alwaysExpand tag
+styleable DividerAttributes dragRangeMaxRatio dragRangeMinRatio embeddingDividerColor embeddingDividerType embeddingDividerWidthDp isDraggingToFullscreenAllowed
+styleable SplitPairFilter primaryActivityName secondaryActivityAction secondaryActivityName
+styleable SplitPairRule animationBackgroundColor clearTop finishPrimaryWithSecondary finishSecondaryWithPrimary splitChangeAnimation splitCloseAnimation splitLayoutDirection splitMaxAspectRatioInLandscape splitMaxAspectRatioInPortrait splitMinHeightDp splitMinSmallestWidthDp splitMinWidthDp splitOpenAnimation splitRatio tag
+styleable SplitPlaceholderRule animationBackgroundColor finishPrimaryWithPlaceholder placeholderActivityName splitChangeAnimation splitCloseAnimation splitLayoutDirection splitMaxAspectRatioInLandscape splitMaxAspectRatioInPortrait splitMinHeightDp splitMinSmallestWidthDp splitMinWidthDp splitOpenAnimation splitRatio stickyPlaceholder tag
